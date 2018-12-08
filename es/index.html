@@ -41,19 +41,25 @@
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css">
-        <link rel="stylesheet" href="/sdg-translations-demo/assets/css/default.css?v=20181127173718">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet"><link rel="stylesheet" href="/sdg-translations-demo/assets/css/custom.css?v=20181127173718"></head>
+        <link rel="stylesheet" href="/sdg-translations-demo/assets/css/default.css?v=20181208122656">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet"><link rel="stylesheet" href="/sdg-translations-demo/assets/css/custom.css?v=20181208122656"></head>
 <body class="language-es">
 <!-- <div class="container"> -->
 
 <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Saltar al contenido principal</a>
 <div id="disclaimer">
   <div class="container">
-  <div class="alert alert-danger" role="alert">
-    This is a demo of translations from the
-    <a href="https://opendataenterprise.github.io/sdg-translations">SDG Translations</a>
-    project. All data included here is for testing purposes only.
-  </div>
+  <div class="row alert" role="alert"><div class="col-sm-9 col-md-6">
+        Este es un sitio de ensayo utilizado para actualizar y obtener una vista previa de los datos del indicador
+      </div>
+      <div class="col-md-3 hidden-xs hidden-sm">
+        Este sitio web es un trabajo en progreso
+      </div>
+      <div class="col-sm-3 text-right hidden-xs">
+        <a class="btn btn-default btn-xs" href="/sdg-translations-demo/es/admin/">
+          Iniciar sesión / Cerrar sesión
+        </a>
+      </div></div>
 </div>
 
 </div>
@@ -73,7 +79,7 @@
   <i class="language-toggle fa fa-chevron-down"></i>
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
-<ul class="language-options language-toggle"><li><a href="/sdg-translations-demo/">English</a></li><li><a href="/sdg-translations-demo/fr/">Français</a></li><li><a href="/sdg-translations-demo/zh-Hans/">中文</a></li><li><a href="/sdg-translations-demo/ru/">русский</a></li><li><a href="/sdg-translations-demo/ar/">عربى</a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/sdg-translations-demo/">English</a></li><li><a href="/sdg-translations-demo/fr/">Français</a></li><li><a href="/sdg-translations-demo/zh-Hans/">中文</a></li><li><a href="/sdg-translations-demo/ru/">русский</a></li><li><a href="/sdg-translations-demo/ar/">العربية</a></li></ul>
 
     </div></div>
 
@@ -99,7 +105,7 @@
   <i class="language-toggle fa fa-chevron-down"></i>
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
-<ul class="language-options language-toggle"><li><a href="/sdg-translations-demo/">English</a></li><li><a href="/sdg-translations-demo/fr/">Français</a></li><li><a href="/sdg-translations-demo/zh-Hans/">中文</a></li><li><a href="/sdg-translations-demo/ru/">русский</a></li><li><a href="/sdg-translations-demo/ar/">عربى</a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/sdg-translations-demo/">English</a></li><li><a href="/sdg-translations-demo/fr/">Français</a></li><li><a href="/sdg-translations-demo/zh-Hans/">中文</a></li><li><a href="/sdg-translations-demo/ru/">русский</a></li><li><a href="/sdg-translations-demo/ar/">العربية</a></li></ul>
 
         </li></ul>
 
@@ -116,126 +122,129 @@
 
 </header>
 
+<div class="heading us-heading">
+  <div class="container">
+    <h1>Estadisticas Nacionales de USA para los Objetivos de Desarrollo Sostenible de la ONU</h1>
+  </div>
+</div>
+
 <div id="main-content" class="container goal-tiles" role="main">
-
-    <h1>CODE datos para los indicadores de los Objetivos de Desarrollo Sostenible</h1>
-
-    <p>Haga clic en cada objetivo <span style="display:none" id="jump-to-search"><a href="javascript:void(0)">, o busque, </a></span> para las estadísticas CODE para Objetivo de desarrollo sostenible global indicadores.</p><div class="row no-gutters">
+    <p>Haga clic en cada objetivo <span style="display:none" id="jump-to-search"><a href="javascript:void(0)">, o busque, </a></span> para las estadísticas US para Objetivo de desarrollo sostenible global indicadores.</p><div class="row no-gutters">
             <div class="col-xs-4 col-md-2">
                 <a href="./no-poverty/">
-                  <img src="/sdg-translations-demo/assets/img/goals/es/1.png" id="goal-1" alt="Fin de la Pobreza - Gol 1" />
+                  <img src="/sdg-translations-demo/assets/img/goals/es/1.png" id="goal-1" alt="Fin de la Pobreza - Meta 1" />
               </a>
             </div>
         
     
             <div class="col-xs-4 col-md-2">
                 <a href="./zero-hunger/">
-                  <img src="/sdg-translations-demo/assets/img/goals/es/2.png" id="goal-2" alt="Hambre Cero - Gol 2" />
+                  <img src="/sdg-translations-demo/assets/img/goals/es/2.png" id="goal-2" alt="Hambre Cero - Meta 2" />
               </a>
             </div>
         
     
             <div class="col-xs-4 col-md-2">
                 <a href="./good-health-and-well-being/">
-                  <img src="/sdg-translations-demo/assets/img/goals/es/3.png" id="goal-3" alt="Salud y Bienestar - Gol 3" />
+                  <img src="/sdg-translations-demo/assets/img/goals/es/3.png" id="goal-3" alt="Salud y Bienestar - Meta 3" />
               </a>
             </div>
         
     
             <div class="col-xs-4 col-md-2">
                 <a href="./quality-education/">
-                  <img src="/sdg-translations-demo/assets/img/goals/es/4.png" id="goal-4" alt="Educación de Calidad - Gol 4" />
+                  <img src="/sdg-translations-demo/assets/img/goals/es/4.png" id="goal-4" alt="Educación de Calidad - Meta 4" />
               </a>
             </div>
         
     
             <div class="col-xs-4 col-md-2">
                 <a href="./gender-equality/">
-                  <img src="/sdg-translations-demo/assets/img/goals/es/5.png" id="goal-5" alt="Igualdad de Género - Gol 5" />
+                  <img src="/sdg-translations-demo/assets/img/goals/es/5.png" id="goal-5" alt="Igualdad de Género - Meta 5" />
               </a>
             </div>
         
     
             <div class="col-xs-4 col-md-2">
                 <a href="./clean-water-and-sanitation/">
-                  <img src="/sdg-translations-demo/assets/img/goals/es/6.png" id="goal-6" alt="Agua Limpia y Saneamiento - Gol 6" />
+                  <img src="/sdg-translations-demo/assets/img/goals/es/6.png" id="goal-6" alt="Agua Limpia y Saneamiento - Meta 6" />
               </a>
             </div>
         </div>
     <div class="row no-gutters">
             <div class="col-xs-4 col-md-2">
                 <a href="./affordable-and-clean-energy/">
-                  <img src="/sdg-translations-demo/assets/img/goals/es/7.png" id="goal-7" alt="Energía Asequible y No Contaminante - Gol 7" />
+                  <img src="/sdg-translations-demo/assets/img/goals/es/7.png" id="goal-7" alt="Energía Asequible y No Contaminante - Meta 7" />
               </a>
             </div>
         
     
             <div class="col-xs-4 col-md-2">
                 <a href="./decent-jobs-and-economic-growth/">
-                  <img src="/sdg-translations-demo/assets/img/goals/es/8.png" id="goal-8" alt="Trabajo Decente y Crecimiento Económico - Gol 8" />
+                  <img src="/sdg-translations-demo/assets/img/goals/es/8.png" id="goal-8" alt="Trabajo Decente y Crecimiento Económico - Meta 8" />
               </a>
             </div>
         
     
             <div class="col-xs-4 col-md-2">
                 <a href="./industry-innovation-and-infrastructure/">
-                  <img src="/sdg-translations-demo/assets/img/goals/es/9.png" id="goal-9" alt="Industria, Innovación e Infraestructura - Gol 9" />
+                  <img src="/sdg-translations-demo/assets/img/goals/es/9.png" id="goal-9" alt="Industria, Innovación e Infraestructura - Meta 9" />
               </a>
             </div>
         
     
             <div class="col-xs-4 col-md-2">
                 <a href="./reduced-inequalities/">
-                  <img src="/sdg-translations-demo/assets/img/goals/es/10.png" id="goal-10" alt="Reducción de las Desigualdades - Gol 10" />
+                  <img src="/sdg-translations-demo/assets/img/goals/es/10.png" id="goal-10" alt="Reducción de las Desigualdades - Meta 10" />
               </a>
             </div>
         
     
             <div class="col-xs-4 col-md-2">
                 <a href="./sustainable-cities-communities/">
-                  <img src="/sdg-translations-demo/assets/img/goals/es/11.png" id="goal-11" alt="Cuidades y Comunidades Sostenibles - Gol 11" />
+                  <img src="/sdg-translations-demo/assets/img/goals/es/11.png" id="goal-11" alt="Cuidades y Comunidades Sostenibles - Meta 11" />
               </a>
             </div>
         
     
             <div class="col-xs-4 col-md-2">
                 <a href="./responsible-consumption-and-production/">
-                  <img src="/sdg-translations-demo/assets/img/goals/es/12.png" id="goal-12" alt="Producción y Consumo Responsables - Gol 12" />
+                  <img src="/sdg-translations-demo/assets/img/goals/es/12.png" id="goal-12" alt="Producción y Consumo Responsables - Meta 12" />
               </a>
             </div>
         </div>
     <div class="row no-gutters">
             <div class="col-xs-4 col-md-2">
                 <a href="./climate-action/">
-                  <img src="/sdg-translations-demo/assets/img/goals/es/13.png" id="goal-13" alt="Acción por el Clima - Gol 13" />
+                  <img src="/sdg-translations-demo/assets/img/goals/es/13.png" id="goal-13" alt="Acción por el Clima - Meta 13" />
               </a>
             </div>
         
     
             <div class="col-xs-4 col-md-2">
                 <a href="./life-below-water/">
-                  <img src="/sdg-translations-demo/assets/img/goals/es/14.png" id="goal-14" alt="Vida Submarina - Gol 14" />
+                  <img src="/sdg-translations-demo/assets/img/goals/es/14.png" id="goal-14" alt="Vida Submarina - Meta 14" />
               </a>
             </div>
         
     
             <div class="col-xs-4 col-md-2">
                 <a href="./life-on-land/">
-                  <img src="/sdg-translations-demo/assets/img/goals/es/15.png" id="goal-15" alt="Vida de Ecosistemas Terrestres - Gol 15" />
+                  <img src="/sdg-translations-demo/assets/img/goals/es/15.png" id="goal-15" alt="Vida de Ecosistemas Terrestres - Meta 15" />
               </a>
             </div>
         
     
             <div class="col-xs-4 col-md-2">
                 <a href="./peace-and-justice-strong-institutions/">
-                  <img src="/sdg-translations-demo/assets/img/goals/es/16.png" id="goal-16" alt="Paz, Justicia e Instituciones Sólidas - Gol 16" />
+                  <img src="/sdg-translations-demo/assets/img/goals/es/16.png" id="goal-16" alt="Paz, Justicia e Instituciones Sólidas - Meta 16" />
               </a>
             </div>
         
     
             <div class="col-xs-4 col-md-2">
                 <a href="./partnerships-for-the-goals/">
-                  <img src="/sdg-translations-demo/assets/img/goals/es/17.png" id="goal-17" alt="Alianzas para Lograr los Objetivos - Gol 17" />
+                  <img src="/sdg-translations-demo/assets/img/goals/es/17.png" id="goal-17" alt="Alianzas para Lograr los Objetivos - Meta 17" />
               </a>
             </div>
         
@@ -249,10 +258,8 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-9">
-        <a href="mailto:test@example.com">Contáctenos</a> | <a class="twitter-follow-button" href="https://twitter.com/StatsClaudie?ref_src=twsrc%5Etfw" data-show-count="false">@StatsClaudie</a>
-      </div>
-      <div class="col-xs-3 text-right">
-        <a href="/sdg-translations-demo/faq/">FAQ</a> | <a href="/sdg-translations-demo/about/cookies-and-privacy/">Galletas</a>
+        <a href="/sdg-translations-demo/es/contact/">Contáctenos</a> |
+        <a href="/sdg-translations-demo/es/about/cookies-and-privacy/">Galletas</a>
       </div>
     </div>
   </div>
@@ -286,9 +293,9 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 <script src="//cdn.jsdelivr.net/bluebird/3.5.0/bluebird.min.js"></script>
 <script src="//cdn.loop11.com/my/loop11.js" type="text/javascript" async="async"></script>
 <script>
-  var remoteDataBaseUrl = 'https://opendataenterprise.github.io/sdg-translations-demo-data';
+  var remoteDataBaseUrl = 'https://gsa.github.io/sdg-data-usa';
 </script>
-<script src='/sdg-translations-demo/assets/js/sdg.js?v=20181127173718'></script>
+<script src='/sdg-translations-demo/assets/js/sdg.js?v=20181208122656'></script>
 <script>
 $(function() {
     if($('#indicatorData').length) {
@@ -299,7 +306,7 @@ $(function() {
       });
 
       $.ajax({
-        url: 'https://opendataenterprise.github.io/sdg-translations-demo-data/comb/' + domData.id + '.json',
+        url: 'https://gsa.github.io/sdg-data-usa/comb/' + domData.id + '.json',
         success: function(res) {
 
           $('.async-loading').remove();

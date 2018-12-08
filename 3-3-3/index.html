@@ -43,19 +43,25 @@
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css">
-        <link rel="stylesheet" href="/sdg-translations-demo/assets/css/default.css?v=20181127173718">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet"><link rel="stylesheet" href="/sdg-translations-demo/assets/css/custom.css?v=20181127173718"></head>
+        <link rel="stylesheet" href="/sdg-translations-demo/assets/css/default.css?v=20181208122656">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet"><link rel="stylesheet" href="/sdg-translations-demo/assets/css/custom.css?v=20181208122656"></head>
 <body class="language-en">
 <!-- <div class="container"> -->
 
 <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
 <div id="disclaimer">
   <div class="container">
-  <div class="alert alert-danger" role="alert">
-    This is a demo of translations from the
-    <a href="https://opendataenterprise.github.io/sdg-translations">SDG Translations</a>
-    project. All data included here is for testing purposes only.
-  </div>
+  <div class="row alert" role="alert"><div class="col-sm-9 col-md-6">
+        This is a staging site used to update and preview indicator data
+      </div>
+      <div class="col-md-3 hidden-xs hidden-sm">
+        This site is a work in progress
+      </div>
+      <div class="col-sm-3 text-right hidden-xs">
+        <a class="btn btn-default btn-xs" href="/sdg-translations-demo/admin/">
+          Login / Logout
+        </a>
+      </div></div>
 </div>
 
 </div>
@@ -75,7 +81,7 @@
   <i class="language-toggle fa fa-chevron-down"></i>
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
-<ul class="language-options language-toggle"><li><a href="/sdg-translations-demo/es/3-3-3/">Español</a></li><li><a href="/sdg-translations-demo/fr/3-3-3/">Français</a></li><li><a href="/sdg-translations-demo/zh-Hans/3-3-3/">中文</a></li><li><a href="/sdg-translations-demo/ru/3-3-3/">русский</a></li><li><a href="/sdg-translations-demo/ar/3-3-3/">عربى</a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/sdg-translations-demo/es/3-3-3/">Español</a></li><li><a href="/sdg-translations-demo/fr/3-3-3/">Français</a></li><li><a href="/sdg-translations-demo/zh-Hans/3-3-3/">中文</a></li><li><a href="/sdg-translations-demo/ru/3-3-3/">русский</a></li><li><a href="/sdg-translations-demo/ar/3-3-3/">العربية</a></li></ul>
 
     </div></div>
 
@@ -101,7 +107,7 @@
   <i class="language-toggle fa fa-chevron-down"></i>
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
-<ul class="language-options language-toggle"><li><a href="/sdg-translations-demo/es/3-3-3/">Español</a></li><li><a href="/sdg-translations-demo/fr/3-3-3/">Français</a></li><li><a href="/sdg-translations-demo/zh-Hans/3-3-3/">中文</a></li><li><a href="/sdg-translations-demo/ru/3-3-3/">русский</a></li><li><a href="/sdg-translations-demo/ar/3-3-3/">عربى</a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/sdg-translations-demo/es/3-3-3/">Español</a></li><li><a href="/sdg-translations-demo/fr/3-3-3/">Français</a></li><li><a href="/sdg-translations-demo/zh-Hans/3-3-3/">中文</a></li><li><a href="/sdg-translations-demo/ru/3-3-3/">русский</a></li><li><a href="/sdg-translations-demo/ar/3-3-3/">العربية</a></li></ul>
 
         </li></ul>
 
@@ -205,6 +211,59 @@
     <div class="col-xs-12">
       <div id="page-content">
   
+  
+
+  
+
+    
+  
+
+    
+  
+
+    
+  
+
+    
+  
+
+    
+  
+
+    
+  
+
+    
+  
+
+    
+  
+
+    
+  
+
+    
+  
+
+    
+  
+
+    
+  
+
+    
+  
+
+    
+  
+
+    
+  
+
+    
+  
+
+  
 
 </div>
 
@@ -213,12 +272,12 @@
 
   <div class="row">
     <div class="col-xs-12">
-      <h2>Malaria incidence in the UK</h2>
+      <h2>Are there statistically-significant cases of malaria (unrelated to travel) in the US?</h2>
     </div>
   </div>
 
-  <div class="row" id="indicatorData" data-indicatorid='indicator_3-3-3' data-id="3-3-3" data-country="United Kingdom"
-  data-charttitle="Malaria incidence in the UK" data-measurementunit="Incident rate per 100,000 population/Number of cases/Percentage of total cases" data-datasource="Public Health England (PHE)" data-geographicalarea="United Kingdom" data-footnote="" data-showdata="true" data-graphtype="line" data-geocoderegex="" data-showmap="true">
+  <div class="row" id="indicatorData" data-indicatorid='indicator_3-3-3' data-id="3-3-3" data-country="United States"
+  data-charttitle="Are there statistically-significant cases of malaria (unrelated to travel) in the US?" data-measurementunit="" data-datasource="NCHS" data-geographicalarea="United States" data-footnote="" data-showdata="true" data-graphtype="binary" data-geocoderegex="" data-showmap="">
     
     <div class="col-md-3">
       <div id="toolbar">
@@ -244,9 +303,9 @@
   
   <div id="datatables">
     
-    <a href="https://opendataenterprise.github.io/sdg-translations-demo-data/headline/3-3-3.csv" class="btn btn-primary btn-download" download="indicator_3-3-3.csv" tabindex="0" role="button">Download Headline CSV</a>
+    <a href="https://gsa.github.io/sdg-data-usa/headline/3-3-3.csv" class="btn btn-primary btn-download" download="indicator_3-3-3.csv" tabindex="0" role="button">Download Headline CSV</a>
     
-    <a href="https://opendataenterprise.github.io/sdg-translations-demo-data/data/3-3-3.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_3-3-3.csv' tabindex='0' role='button'>Download Source CSV</a>
+    <a href="https://gsa.github.io/sdg-data-usa/data/3-3-3.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_3-3-3.csv' tabindex='0' role='button'>Download Source CSV</a>
     
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
@@ -255,10 +314,6 @@
         
         
         <th scope="col">Year</th>
-        
-        
-        
-        <th scope="col">Units</th>
         
         
         
@@ -275,11 +330,7 @@
           
           
           
-          <td>Incidence per 100,000</td>    
-          
-          
-          
-          <td class="table-value">3.4762023635</td>
+          <td class="table-value">-1</td>
           
           
         </tr>
@@ -291,11 +342,7 @@
           
           
           
-          <td>Incidence per 100,000</td>    
-          
-          
-          
-          <td class="table-value">3.4577833078</td>
+          <td class="table-value">-1</td>
           
           
         </tr>
@@ -307,11 +354,7 @@
           
           
           
-          <td>Incidence per 100,000</td>    
-          
-          
-          
-          <td class="table-value">3.2678815404</td>
+          <td class="table-value">-1</td>
           
           
         </tr>
@@ -323,11 +366,7 @@
           
           
           
-          <td>Incidence per 100,000</td>    
-          
-          
-          
-          <td class="table-value">2.884131912</td>
+          <td class="table-value">-1</td>
           
           
         </tr>
@@ -339,11 +378,7 @@
           
           
           
-          <td>Incidence per 100,000</td>    
-          
-          
-          
-          <td class="table-value">2.7622851464</td>
+          <td class="table-value">-1</td>
           
           
         </tr>
@@ -355,11 +390,7 @@
           
           
           
-          <td>Incidence per 100,000</td>    
-          
-          
-          
-          <td class="table-value">2.9016800877</td>
+          <td class="table-value">-1</td>
           
           
         </tr>
@@ -371,11 +402,7 @@
           
           
           
-          <td>Incidence per 100,000</td>    
-          
-          
-          
-          <td class="table-value">2.8835847042</td>
+          <td class="table-value">-1</td>
           
           
         </tr>
@@ -387,11 +414,7 @@
           
           
           
-          <td>Incidence per 100,000</td>    
-          
-          
-          
-          <td class="table-value">2.5228691072</td>
+          <td class="table-value">-1</td>
           
           
         </tr>
@@ -403,11 +426,7 @@
           
           
           
-          <td>Incidence per 100,000</td>    
-          
-          
-          
-          <td class="table-value">2.2159760812</td>
+          <td class="table-value">-1</td>
           
           
         </tr>
@@ -419,11 +438,7 @@
           
           
           
-          <td>Incidence per 100,000</td>    
-          
-          
-          
-          <td class="table-value">2.4012019437</td>
+          <td class="table-value">-1</td>
           
           
         </tr>
@@ -435,11 +450,7 @@
           
           
           
-          <td>Incidence per 100,000</td>    
-          
-          
-          
-          <td class="table-value">2.8027648933</td>
+          <td class="table-value">-1</td>
           
           
         </tr>
@@ -451,11 +462,7 @@
           
           
           
-          <td>Incidence per 100,000</td>    
-          
-          
-          
-          <td class="table-value">2.6435903718</td>
+          <td class="table-value">-1</td>
           
           
         </tr>
@@ -467,11 +474,7 @@
           
           
           
-          <td>Incidence per 100,000</td>    
-          
-          
-          
-          <td class="table-value">2.161524765</td>
+          <td class="table-value">-1</td>
           
           
         </tr>
@@ -483,11 +486,7 @@
           
           
           
-          <td>Incidence per 100,000</td>    
-          
-          
-          
-          <td class="table-value">2.3414471366</td>
+          <td class="table-value">-1</td>
           
           
         </tr>
@@ -499,11 +498,7 @@
           
           
           
-          <td>Incidence per 100,000</td>    
-          
-          
-          
-          <td class="table-value">2.4552318048</td>
+          <td class="table-value">-1</td>
           
           
         </tr>
@@ -515,11 +510,7 @@
           
           
           
-          <td>Incidence per 100,000</td>    
-          
-          
-          
-          <td class="table-value">2.1502062186</td>
+          <td class="table-value">-1</td>
           
           
         </tr>
@@ -531,571 +522,7 @@
           
           
           
-          <td>Incidence per 100,000</td>    
-          
-          
-          
-          <td class="table-value">2.4646579775</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2017</td>    
-          
-          
-          
-          <td>Incidence per 100,000</td>    
-          
-          
-          
-          <td class="table-value">2.7134975562</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2014</td>    
-          
-          
-          
-          <td>Incidence per 100,000</td>    
-          
-          
-          
-          <td class="table-value">2.449039543</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2015</td>    
-          
-          
-          
-          <td>Incidence per 100,000</td>    
-          
-          
-          
-          <td class="table-value">2.1363834643</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2016</td>    
-          
-          
-          
-          <td>Incidence per 100,000</td>    
-          
-          
-          
-          <td class="table-value">2.4570416055</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2017</td>    
-          
-          
-          
-          <td>Incidence per 100,000</td>    
-          
-          
-          
-          <td class="table-value">2.6922983565</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2014</td>    
-          
-          
-          
-          <td>Incidence per 100,000</td>    
-          
-          
-          
-          <td class="table-value">2.4552318048</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2015</td>    
-          
-          
-          
-          <td>Incidence per 100,000</td>    
-          
-          
-          
-          <td class="table-value">2.1502062186</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2016</td>    
-          
-          
-          
-          <td>Incidence per 100,000</td>    
-          
-          
-          
-          <td class="table-value">2.4646579775</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2017</td>    
-          
-          
-          
-          <td>Incidence per 100,000</td>    
-          
-          
-          
-          <td class="table-value">2.7134975562</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2000</td>    
-          
-          
-          
-          <td>Number of cases</td>    
-          
-          
-          
-          <td class="table-value">2047.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2001</td>    
-          
-          
-          
-          <td>Number of cases</td>    
-          
-          
-          
-          <td class="table-value">2044.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2002</td>    
-          
-          
-          
-          <td>Number of cases</td>    
-          
-          
-          
-          <td class="table-value">1940.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2003</td>    
-          
-          
-          
-          <td>Number of cases</td>    
-          
-          
-          
-          <td class="table-value">1720.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2004</td>    
-          
-          
-          
-          <td>Number of cases</td>    
-          
-          
-          
-          <td class="table-value">1656.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2005</td>    
-          
-          
-          
-          <td>Number of cases</td>    
-          
-          
-          
-          <td class="table-value">1753.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2006</td>    
-          
-          
-          
-          <td>Number of cases</td>    
-          
-          
-          
-          <td class="table-value">1754.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2007</td>    
-          
-          
-          
-          <td>Number of cases</td>    
-          
-          
-          
-          <td class="table-value">1547.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2008</td>    
-          
-          
-          
-          <td>Number of cases</td>    
-          
-          
-          
-          <td class="table-value">1370.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2009</td>    
-          
-          
-          
-          <td>Number of cases</td>    
-          
-          
-          
-          <td class="table-value">1495.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2010</td>    
-          
-          
-          
-          <td>Number of cases</td>    
-          
-          
-          
-          <td class="table-value">1759.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2011</td>    
-          
-          
-          
-          <td>Number of cases</td>    
-          
-          
-          
-          <td class="table-value">1673.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2012</td>    
-          
-          
-          
-          <td>Number of cases</td>    
-          
-          
-          
-          <td class="table-value">1377.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2013</td>    
-          
-          
-          
-          <td>Number of cases</td>    
-          
-          
-          
-          <td class="table-value">1501.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2014</td>    
-          
-          
-          
-          <td>Number of cases</td>    
-          
-          
-          
-          <td class="table-value">1586.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2015</td>    
-          
-          
-          
-          <td>Number of cases</td>    
-          
-          
-          
-          <td class="table-value">1400.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2016</td>    
-          
-          
-          
-          <td>Number of cases</td>    
-          
-          
-          
-          <td class="table-value">1618.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2017</td>    
-          
-          
-          
-          <td>Number of cases</td>    
-          
-          
-          
-          <td class="table-value">1792.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2014</td>    
-          
-          
-          
-          <td>Number of cases</td>    
-          
-          
-          
-          <td class="table-value">1582.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2015</td>    
-          
-          
-          
-          <td>Number of cases</td>    
-          
-          
-          
-          <td class="table-value">1391.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2016</td>    
-          
-          
-          
-          <td>Number of cases</td>    
-          
-          
-          
-          <td class="table-value">1613.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2017</td>    
-          
-          
-          
-          <td>Number of cases</td>    
-          
-          
-          
-          <td class="table-value">1778.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2014</td>    
-          
-          
-          
-          <td>Number of cases</td>    
-          
-          
-          
-          <td class="table-value">1586.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2015</td>    
-          
-          
-          
-          <td>Number of cases</td>    
-          
-          
-          
-          <td class="table-value">1400.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2016</td>    
-          
-          
-          
-          <td>Number of cases</td>    
-          
-          
-          
-          <td class="table-value">1618.0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2017</td>    
-          
-          
-          
-          <td>Number of cases</td>    
-          
-          
-          
-          <td class="table-value">1792.0</td>
+          <td class="table-value">-1</td>
           
           
         </tr>
@@ -1144,7 +571,51 @@
     
     <div class="plot-container">
         
+<script>
+  // Create a variable that will override the chart config in indicatorView.js.
+  var chartConfigOverrides = {
+    // Force the "bar" type instead of the "binary" type which Chart.js doesn't
+    // recognize.
+    type: 'bar',
+    // Assign some callbacks to convert 1/-1 to Yes/No.
+    options: {
+      tooltips: {
+        callbacks: {
+          label: function(tooltipItem, data) {
+            var label = data.datasets[tooltipItem.datasetIndex].label || '';
+            if (tooltipItem.yLabel == 1) {
+              label += ': Yes';
+            }
+            else {
+              label += ': No';
+            }
+            return label;
+          }
+        }
+      },
+      scales: {
+        yAxes: [{
+          ticks: {
+            // Set the minimum to -1 so that the bars will start from the
+            // middle and either go up (for 1) or down (for -1).
+            min: -1,
+            callback: function(value, index, values) {
+                if (value == 1) {
+                  return 'Yes';
+                }
+                if (value == -1) {
+                  return 'No';
+                }
+                return '';
+            }
+          },
+        }]
+      },
+    }
+  };
+</script>
 <canvas></canvas>
+
     </div>
     <div id="plotLegend"></div>
 
@@ -1191,7 +662,7 @@
             <div > <!-- formerly class="collapsible expanded" -->
               <!-- <h3 tabindex='0'>National Metadata</h3> -->
               <article>
-                <p>This table provides metadata for the actual indicator available from CODE statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from CODE statistics, this table should be consulted for information on national methodology and other CODE-specific metadata information.</p>
+                <p>This table provides metadata for the actual indicator available from US statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from US statistics, this table should be consulted for information on national methodology and other US-specific metadata information.</p>
                   <table class="table table-hover">
   
   
@@ -1205,23 +676,9 @@
   
   
   
-  
-  
       
       <tr>
-        <th scope="row">Indicator available </th>
-        <td>
-          
-            Malaria incidence per 100,000
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Indicator description </th>
+        <th scope="row">Actual indicator available </th>
         <td>
           
             
@@ -1233,10 +690,110 @@
   
       
       <tr>
-        <th scope="row">Geographical coverage </th>
+        <th scope="row">Actual indicator available - description </th>
         <td>
           
-            United Kingdom
+            
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Date of national source publication </th>
+        <td>
+          
+            
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Method of computation </th>
+        <td>
+          
+            Number of malaria cases / Population at risk (number of people living in areas where malaria transmission occurs) Method of measurement Complete data on malaria cases reported through surveillance systems are the best source of data but are rarely available for large populations. Reported data on malaria cases generally need to be corrected for extent of health service use, incompleteness of reporting and lack of case confirmation. In high transmission areas with limited health service data but with good data on parasite prevalence the number of cases can be estimated from parasite prevalence.''The denominator is estimated, using risk mapping and population data. Method of estimation WHO compiles data on reported confirmed cases of malaria, submitted by national malaria control programmes and estimates the extent of underreporting.''Where necessary the number of cases are inferred from parasite prevalence surveys.''
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Periodicity </th>
+        <td>
+          
+            
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Scheduled update by national source </th>
+        <td>
+          
+            
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">U.S. method of computation </th>
+        <td>
+          
+            
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+      
+      <tr>
+        <th scope="row">Comments and limitations </th>
+        <td>
+          
+            The US CDC is not able to report.  The only cases in the US are related to travel and there are very few.
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Date metadata updated </th>
+        <td>
+          
+            February, 2018
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Disaggregation geography </th>
+        <td>
+          
+            
           
         </td>
         </tr>
@@ -1248,7 +805,7 @@
         <th scope="row">Unit of measurement </th>
         <td>
           
-            Incident rate per 100,000 population/Number of cases/Percentage of total cases
+            
           
         </td>
         </tr>
@@ -1257,10 +814,10 @@
   
       
       <tr>
-        <th scope="row">Definitions </th>
+        <th scope="row">Disaggregation categories </th>
         <td>
           
-            Incidence of malaria is defined as the number of new cases of malaria per 100,000 people at risk each year.
+            
           
         </td>
         </tr>
@@ -1269,10 +826,10 @@
   
       
       <tr>
-        <th scope="row">Calculations </th>
+        <th scope="row">International and national references </th>
         <td>
           
-            (New cases of malaria / Population) * 100,000 | (Malaria deaths / Population) * 100,000 | (New cases of malaria by species / Population) * 100,000
+            
           
         </td>
         </tr>
@@ -1281,10 +838,10 @@
   
       
       <tr>
-        <th scope="row">Other information </th>
+        <th scope="row">Time period </th>
         <td>
           
-            Data follows the UN specification for this indicator. This indicator has not been identified in collaboration with topic experts.
+            
           
         </td>
         </tr>
@@ -1293,92 +850,15 @@
   
       
       <tr>
-        <th scope="row">Data last updated </th>
+        <th scope="row">Scheduled update by SDG team </th>
         <td>
           
             
-            
-            
-            
-
-            
-
           
         </td>
         </tr>
         
       
-  
-      
-      
-  
-      
-      <tr>
-        <th scope="row">Metadata last updated </th>
-        <td>
-          
-            
-            
-            
-            
-
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
   
   
@@ -1436,19 +916,7 @@
         <th scope="row">Indicator name </th>
         <td>
           
-            3.3.3 Malaria incidence per 1,000 population
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Indicator number </th>
-        <td>
-          
-            3.3.3
+            Malaria incidence per 1,000 population
           
         </td>
         </tr>
@@ -1460,19 +928,7 @@
         <th scope="row">Target name </th>
         <td>
           
-            3.3 By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Target number </th>
-        <td>
-          
-            3.3
+            By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases.
           
         </td>
         </tr>
@@ -1484,7 +940,7 @@
         <th scope="row">Global indicator description </th>
         <td>
           
-            
+            Number of malaria cases per 1000 persons per year.
           
         </td>
         </tr>
@@ -1505,10 +961,10 @@
   
       
       <tr>
-        <th scope="row">UN custodian agency </th>
+        <th scope="row">UN custodial agency </th>
         <td>
           
-            World Health Organisation (WHO)
+            WHO
           
         </td>
         </tr>
@@ -1526,8 +982,8 @@
             
 
             
-              <a href="https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf" target="_blank">
-                United Nations Sustainable Development Goals Metadata (PDF 431 KB) <span class="visuallyhidden">opens in a new window</span>
+              <a href="http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf" target="_blank">
+                Link <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1539,45 +995,6 @@
   
       
       
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
   
   
@@ -1649,9 +1066,20 @@
     
     <div class="col-md-6">
       
-        <h4>Source 1</h4>
-      
       <table class="table table-hover">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -1692,7 +1120,20 @@
         <th scope="row">Organisation </th>
         <td>
           
-            Public Health England (PHE)
+            NCHS
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+      
+      <tr>
+        <th scope="row">Agency Staff Name </th>
+        <td>
+          
+            
           
         </td>
         </tr>
@@ -1701,10 +1142,10 @@
   
       
       <tr>
-        <th scope="row">Periodicity </th>
+        <th scope="row">Agency Survey Dataset </th>
         <td>
           
-            Annual
+            NCHS
           
         </td>
         </tr>
@@ -1713,10 +1154,10 @@
   
       
       <tr>
-        <th scope="row">Earliest available data </th>
+        <th scope="row">Notes </th>
         <td>
           
-            2000
+            
           
         </td>
         </tr>
@@ -1725,10 +1166,10 @@
   
       
       <tr>
-        <th scope="row">Geographical coverage </th>
+        <th scope="row">Title </th>
         <td>
           
-            United Kingdom
+            
           
         </td>
         </tr>
@@ -1746,8 +1187,8 @@
             
 
             
-              <a href="https://www.gov.uk/government/publications/imported-malaria-in-the-uk-statistics" target="_blank">
-                Imported malaria cases and deaths in the UK: 2000 to 2017 <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://www.cdc.gov/malaria/" target="_blank">
+                https://www.cdc.gov/malaria/ <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1760,1304 +1201,14 @@
       
       
   
-      
-      <tr>
-        <th scope="row">Release date </th>
-        <td>
-          
-            06/07/2018
-          
-        </td>
-        </tr>
-        
-      
   
-      
-      <tr>
-        <th scope="row">Next release </th>
-        <td>
-          
-            06/07/2018
-          
-        </td>
-        </tr>
-        
-      
   
-      
-      <tr>
-        <th scope="row">Statistical classification </th>
-        <td>
-          
-            Official Statistic
-          
-        </td>
-        </tr>
-        
-      
   
-      
-      <tr>
-        <th scope="row">Contact details </th>
-        <td>
-          
-            enquiries@phe.gov.uk
-          
-        </td>
-        </tr>
-        
-      
   
-      
-      <tr>
-        <th scope="row">Other information </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
   
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
-
-    </div>
-    
-   
-    
-    <div class="col-md-6">
-      
-        <h4>Source 2</h4>
-      
-      <table class="table table-hover">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-      <tr>
-        <th scope="row">Organisation </th>
-        <td>
-          
-            Office for National Statistics (ONS)
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Periodicity </th>
-        <td>
-          
-            Annual
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Earliest available data </th>
-        <td>
-          
-            1898
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Geographical coverage </th>
-        <td>
-          
-            United Kingdom
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Link to data source </th>
-        <td>
-          
-            
-            
-            
-            
-
-            
-              <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland" target="_blank">
-                Population Estimates for UK, England and Wales, Scotland and Northern Ireland <span class="visuallyhidden">opens in a new window</span>
-              </a>
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-  
-      
-      <tr>
-        <th scope="row">Release date </th>
-        <td>
-          
-            28/06/2018
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Next release </th>
-        <td>
-          
-            01/06/2019
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Statistical classification </th>
-        <td>
-          
-            National Statistic
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Contact details </th>
-        <td>
-          
-            pop.info@ons.gsi.gov.uk
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Other information </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
-
-    </div>
-    
-   
-    
-    <div class="col-md-6">
-      
-        <h4>Source 3</h4>
-      
-      <table class="table table-hover">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-      <tr>
-        <th scope="row">Organisation </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Periodicity </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Earliest available data </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Geographical coverage </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Link to data source </th>
-        <td>
-          
-            
-            
-            
-            
-
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-  
-      
-      <tr>
-        <th scope="row">Release date </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Next release </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Statistical classification </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Contact details </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Other information </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
-
-    </div>
-    
-   
-    
-    <div class="col-md-6">
-      
-        <h4>Source 4</h4>
-      
-      <table class="table table-hover">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-      <tr>
-        <th scope="row">Organisation </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Periodicity </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Earliest available data </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Geographical coverage </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Link to data source </th>
-        <td>
-          
-            
-            
-            
-            
-
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-  
-      
-      <tr>
-        <th scope="row">Release date </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Next release </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Statistical classification </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Contact details </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Other information </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
-
-    </div>
-    
-   
-    
-    <div class="col-md-6">
-      
-        <h4>Source 5</h4>
-      
-      <table class="table table-hover">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-      <tr>
-        <th scope="row">Organisation </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Periodicity </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Earliest available data </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Geographical coverage </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Link to data source </th>
-        <td>
-          
-            
-            
-            
-            
-
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-  
-      
-      <tr>
-        <th scope="row">Release date </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Next release </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Statistical classification </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Contact details </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Other information </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
-
-    </div>
-    
-   
-    
-    <div class="col-md-6">
-      
-        <h4>Source 6</h4>
-      
-      <table class="table table-hover">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-      <tr>
-        <th scope="row">Organisation </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Periodicity </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Earliest available data </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Geographical coverage </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Link to data source </th>
-        <td>
-          
-            
-            
-            
-            
-
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-  
-      
-      <tr>
-        <th scope="row">Release date </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Next release </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Statistical classification </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Contact details </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      <tr>
-        <th scope="row">Other information </th>
-        <td>
-          
-            
-          
-        </td>
-        </tr>
-        
-      
   
 </table>
 
@@ -3070,8 +1221,8 @@
           
           <div role="tabpanel" class="tab-pane" id="edit">
             <div class="edit-container">
-              <a class="btn btn-primary" href="http://prose.io/#opendataenterprise/sdg-translations-demo-data/edit/develop/data/indicator_3-3-3.csv">Edit Data</a>
-              <a class="btn btn-primary" href="http://prose.io/#opendataenterprise/sdg-translations-demo-data/edit/develop/meta/3-3-3.md">Edit Metadata</a>
+              <a class="btn btn-primary" href="http://prose.io/#gsa/sdg-data-usa/edit/develop/data-wide/indicator_3-3-3.csv">Edit Data</a>
+              <a class="btn btn-primary" href="http://prose.io/#gsa/sdg-data-usa/edit/develop/meta/3-3-3.md">Edit Metadata</a>
             </div>
           </div>
           
@@ -3085,10 +1236,8 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-9">
-        <a href="mailto:test@example.com">Contact us</a> | <a class="twitter-follow-button" href="https://twitter.com/StatsClaudie?ref_src=twsrc%5Etfw" data-show-count="false">@StatsClaudie</a>
-      </div>
-      <div class="col-xs-3 text-right">
-        <a href="/sdg-translations-demo/faq/">FAQ</a> | <a href="/sdg-translations-demo/about/cookies-and-privacy/">Cookies</a>
+        <a href="/sdg-translations-demo/contact/">Contact us</a> |
+        <a href="/sdg-translations-demo/about/cookies-and-privacy/">Cookies</a>
       </div>
     </div>
   </div>
@@ -3122,9 +1271,9 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 <script src="//cdn.jsdelivr.net/bluebird/3.5.0/bluebird.min.js"></script>
 <script src="//cdn.loop11.com/my/loop11.js" type="text/javascript" async="async"></script>
 <script>
-  var remoteDataBaseUrl = 'https://opendataenterprise.github.io/sdg-translations-demo-data';
+  var remoteDataBaseUrl = 'https://gsa.github.io/sdg-data-usa';
 </script>
-<script src='/sdg-translations-demo/assets/js/sdg.js?v=20181127173718'></script>
+<script src='/sdg-translations-demo/assets/js/sdg.js?v=20181208122656'></script>
 <script>
 $(function() {
     if($('#indicatorData').length) {
@@ -3135,7 +1284,7 @@ $(function() {
       });
 
       $.ajax({
-        url: 'https://opendataenterprise.github.io/sdg-translations-demo-data/comb/' + domData.id + '.json',
+        url: 'https://gsa.github.io/sdg-data-usa/comb/' + domData.id + '.json',
         success: function(res) {
 
           $('.async-loading').remove();
