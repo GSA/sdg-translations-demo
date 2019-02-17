@@ -8,6 +8,7 @@ verify_ssl = true
 [packages]
 gitpython = "*"
 pyyaml = "*"
+google-cloud-translate = "*"
 
 [requires]
 python_version = "3.6"
