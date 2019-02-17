@@ -38,7 +38,7 @@ for abbrev in demos:
     with open(config_file, 'r') as stream:
         yamldata = (yaml.load(stream))
     # Set a new baseurl to match this project's name.
-    yamldata['baseurl'] = '/open-sdg-demos/' + abbrev
+    yamldata['baseurl'] = '/sdg-translation-demo/' + abbrev
     # Point to the latest sdg-translations data.
     for item in yamldata['jekyll_get_data']:
         if item['data'] == 'translations':
