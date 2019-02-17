@@ -48,6 +48,10 @@ for abbrev in demos:
     # Write the update file.
     with open(config_file, 'w') as outfile:
         yaml.dump(yamldata, outfile, default_flow_style=False)
+    # Copy over any extra files.
+    extra_folder = os.path.join('extra_files', abbrev)
+    if (os.path.isdir(extra_folder)):
+        subprocess.call('cp -r ' + extra_folder + '/* ' + site_folder, shell=True)
     # Create any missing language files.
     for language in languages:
         if language == 'en':
