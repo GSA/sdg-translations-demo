@@ -41,7 +41,7 @@
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css">
-        <link rel="stylesheet" href="/sdg-translation-demo/uk/assets/css/default.css?v=20190217173743">
+        <link rel="stylesheet" href="/sdg-translation-demo/uk/assets/css/default.css?v=20190217175352">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -79,7 +79,7 @@
   <i class="language-toggle fa fa-chevron-down"></i>
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
-<ul class="language-options language-toggle"><li><a href="/sdg-translation-demo/uk/">English</a></li><li><a href="/sdg-translation-demo/uk/es/">Español</a></li><li><a href="/sdg-translation-demo/uk/fr/">Français</a></li><li><a href="/sdg-translation-demo/uk/ru/">русский</a></li><li><a href="/sdg-translation-demo/uk/ar/">العربية</a></li><li><a href="/sdg-translation-demo/uk/am/"></a></li><li><a href="/sdg-translation-demo/uk/de/"></a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/sdg-translation-demo/uk/">English</a></li><li><a href="/sdg-translation-demo/uk/es/">Español</a></li><li><a href="/sdg-translation-demo/uk/fr/">Français</a></li><li><a href="/sdg-translation-demo/uk/ru/">русский</a></li><li><a href="/sdg-translation-demo/uk/ar/">العربية</a></li><li><a href="/sdg-translation-demo/uk/am/">ՀԱՅԵՐԵՆ</a></li><li><a href="/sdg-translation-demo/uk/de/">Deutsche</a></li></ul>
 
     </div></div>
 
@@ -109,7 +109,7 @@
   <i class="language-toggle fa fa-chevron-down"></i>
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
-<ul class="language-options language-toggle"><li><a href="/sdg-translation-demo/uk/">English</a></li><li><a href="/sdg-translation-demo/uk/es/">Español</a></li><li><a href="/sdg-translation-demo/uk/fr/">Français</a></li><li><a href="/sdg-translation-demo/uk/ru/">русский</a></li><li><a href="/sdg-translation-demo/uk/ar/">العربية</a></li><li><a href="/sdg-translation-demo/uk/am/"></a></li><li><a href="/sdg-translation-demo/uk/de/"></a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/sdg-translation-demo/uk/">English</a></li><li><a href="/sdg-translation-demo/uk/es/">Español</a></li><li><a href="/sdg-translation-demo/uk/fr/">Français</a></li><li><a href="/sdg-translation-demo/uk/ru/">русский</a></li><li><a href="/sdg-translation-demo/uk/ar/">العربية</a></li><li><a href="/sdg-translation-demo/uk/am/">ՀԱՅԵՐԵՆ</a></li><li><a href="/sdg-translation-demo/uk/de/">Deutsche</a></li></ul>
 
         </li></ul>
 
@@ -130,7 +130,7 @@
 
     <h1>UK 可持续发展目标指标的数据</h1>
 
-    <p>点击每一个目标查询或自行搜索各个国家的可持续发展目标全球指标统计。</p><div class="row no-gutters">
+    <p>点击每一个目标查询或自行<span style="display:none" id="jump-to-search"><a href="javascript:void(0)">搜</a></span>索各个国家的可持续发展目标全球指标统计。</p><div class="row no-gutters">
             <div class="col-xs-4 col-md-2">
                 <a href="./no-poverty/">
                   <img src="/sdg-translation-demo/uk/assets/img/goals/zh-Hans/1.png" id="goal-1" alt="无贫穷 - 目标 1" />
@@ -308,7 +308,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 <script>
   var remoteDataBaseUrl = 'https://ONSdigital.github.io/sdg-data';
 </script>
-<script src='/sdg-translation-demo/uk/assets/js/sdg.js?v=20190217173743'></script>
+<script src='/sdg-translation-demo/uk/assets/js/sdg.js?v=20190217175352'></script>
 <script>
 $(function() {
     if($('#indicatorData').length) {

@@ -42,7 +42,7 @@
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css">
-        <link rel="stylesheet" href="/sdg-translation-demo/uk/assets/css/default.css?v=20190217173743">
+        <link rel="stylesheet" href="/sdg-translation-demo/uk/assets/css/default.css?v=20190217175352">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -54,12 +54,12 @@
 <body class="language-de">
 <!-- <div class="container"> -->
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0"></a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0"> Zum Hauptinhalt springen</a>
 <div id="disclaimer">
   <div class="container">
   <div class="alert alert-danger" role="alert">
-    <strong class="phase-tag"></strong>
-    
+    <strong class="phase-tag">Alpha-Version</strong>
+    Diese Seite befindet sich im Entwicklungsstadium.Wir freuen uns über Ihre Kommentare.
   </div>
 </div>
 
@@ -69,44 +69,56 @@
   <div class="container">
 
     <a class="navbar-brand" href="/sdg-translation-demo/uk/de/" id="home">
-      <img src="/sdg-translation-demo/uk/assets/img/SDG_logo.png" alt=" - " />
+      <img src="/sdg-translation-demo/uk/assets/img/SDG_logo.png" alt="Ziele für Nachhaltige Entwicklung - " />
     </a>
 
   <div class='hidden visible-xs float-right'>
     <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
       <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
   <i class="fa fa-globe"></i>
-  <span class="language-toggle-text"></span>
+  <span class="language-toggle-text">Deutsche</span>
   <i class="language-toggle fa fa-chevron-down"></i>
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
-<ul class="language-options language-toggle"><li><a href="/sdg-translation-demo/uk/climate-action/"></a></li><li><a href="/sdg-translation-demo/uk/es/climate-action/"></a></li><li><a href="/sdg-translation-demo/uk/fr/climate-action/"></a></li><li><a href="/sdg-translation-demo/uk/ru/climate-action/"></a></li><li><a href="/sdg-translation-demo/uk/ar/climate-action/"></a></li><li><a href="/sdg-translation-demo/uk/zh-Hans/climate-action/"></a></li><li><a href="/sdg-translation-demo/uk/am/climate-action/"></a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/sdg-translation-demo/uk/climate-action/">English</a></li><li><a href="/sdg-translation-demo/uk/es/climate-action/">Español</a></li><li><a href="/sdg-translation-demo/uk/fr/climate-action/">Français</a></li><li><a href="/sdg-translation-demo/uk/ru/climate-action/">русский</a></li><li><a href="/sdg-translation-demo/uk/ar/climate-action/">العربية</a></li><li><a href="/sdg-translation-demo/uk/zh-Hans/climate-action/">中文</a></li><li><a href="/sdg-translation-demo/uk/am/climate-action/">ՀԱՅԵՐԵՆ</a></li></ul>
 
     </div></div>
 
     <nav class="navbar navbar-default" id="main-nav">
 
       <ul class="top-level">
-        <li><span data-target="menu"></span></li>
-        <li><span data-target="search"></span></li>
+        <li><span data-target="menu">Menü</span></li>
+        <li><span data-target="search">Suche</span></li>
       </ul>
 
-      <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li>
+      <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
+            <a href="/sdg-translation-demo/uk/de/">Ziele</a>
+          </li><li class="nav-link ">
+            <a href="/sdg-translation-demo/uk/de/reporting-status/">Berichtsstatus</a>
+          </li><li class="nav-link ">
+            <a href="/sdg-translation-demo/uk/de/about/">Über uns</a>
+          </li><li class="nav-link ">
+            <a href="/sdg-translation-demo/uk/de/publications/">Veröffentlichungen</a>
+          </li><li class="nav-link ">
+            <a href="/sdg-translation-demo/uk/de/guidance/">Technische Hinweise</a>
+          </li><li class="nav-link ">
+            <a href="/sdg-translation-demo/uk/de/faq/">FAQ</a>
+          </li><li>
           <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
   <i class="fa fa-globe"></i>
-  <span class="language-toggle-text"></span>
+  <span class="language-toggle-text">Deutsche</span>
   <i class="language-toggle fa fa-chevron-down"></i>
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
-<ul class="language-options language-toggle"><li><a href="/sdg-translation-demo/uk/climate-action/"></a></li><li><a href="/sdg-translation-demo/uk/es/climate-action/"></a></li><li><a href="/sdg-translation-demo/uk/fr/climate-action/"></a></li><li><a href="/sdg-translation-demo/uk/ru/climate-action/"></a></li><li><a href="/sdg-translation-demo/uk/ar/climate-action/"></a></li><li><a href="/sdg-translation-demo/uk/zh-Hans/climate-action/"></a></li><li><a href="/sdg-translation-demo/uk/am/climate-action/"></a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/sdg-translation-demo/uk/climate-action/">English</a></li><li><a href="/sdg-translation-demo/uk/es/climate-action/">Español</a></li><li><a href="/sdg-translation-demo/uk/fr/climate-action/">Français</a></li><li><a href="/sdg-translation-demo/uk/ru/climate-action/">русский</a></li><li><a href="/sdg-translation-demo/uk/ar/climate-action/">العربية</a></li><li><a href="/sdg-translation-demo/uk/zh-Hans/climate-action/">中文</a></li><li><a href="/sdg-translation-demo/uk/am/climate-action/">ՀԱՅԵՐԵՆ</a></li></ul>
 
         </li></ul>
 
       <div id="search" class="menu-target">
   <label for="indicator_search">
-    <i class="fa fa-search" aria-hidden="true"></i><span>:</span>
+    <i class="fa fa-search" aria-hidden="true"></i><span>Suche:</span>
   </label>
-  <input id="indicator_search" title="" placeholder="" data-url="/sdg-translation-demo/uk/de/indicators.json" data-pageurl="/sdg-translation-demo/uk/de/search/?q=" />
+  <input id="indicator_search" title="Indikatorensuche" placeholder="Indikatorensuche" data-url="/sdg-translation-demo/uk/de/indicators.json" data-pageurl="/sdg-translation-demo/uk/de/search/?q=" />
 </div>
 
 
@@ -122,11 +134,11 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2">
-        <img src="/sdg-translation-demo/uk/assets/img/goals/de/13.png" alt=" -  13" />
+        <img src="/sdg-translation-demo/uk/assets/img/goals/de/13.png" alt="Maßnahmen zum Klimaschutz - Ziel 13" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg"> 13: </span>
+          <span class="hidden-sm hidden-md hidden-lg">Ziel 13: </span>Umgehend Maßnahmen zur Bekämpfung des Klimawandels und seiner Auswirkungen ergreifen
         </h1>
       </div>
     </div>
@@ -138,9 +150,9 @@
   
 
   <ol class="breadcrumb">
-  <li><a href="/sdg-translation-demo/uk/de/"></a></li>
+  <li><a href="/sdg-translation-demo/uk/de/">Home</a></li>
   
-      <li class="active"> 13</li>
+      <li class="active">Ziel 13</li>
   
 </ol>
 
@@ -150,7 +162,7 @@
 
     <div class="indicator-cards row no-gutters">
         <div class="col-md-6 col-lg-3">
-          <a href="/sdg-translation-demo/uk/de/13-1-1"><span>13.1.1<span class="status success"></span></span> </a>
+          <a href="/sdg-translation-demo/uk/de/13-1-1"><span>13.1.1<span class="status success">Daten verfügbar</span></span> Anzahl der infolge von Katastrophen getöteten, vermissten und direkt betroffenen Personen, je 100.000 Einwohner</a>
         </div>
     
     
@@ -158,7 +170,7 @@
 
     
         <div class="col-md-6 col-lg-3">
-          <a href="/sdg-translation-demo/uk/de/13-1-2"><span>13.1.2<span class="status success"></span></span> </a>
+          <a href="/sdg-translation-demo/uk/de/13-1-2"><span>13.1.2<span class="status success">Daten verfügbar</span></span> Anzahl der Staaten, die nationale Strategien zur Reduzierung des Katastrophenrisikos in Einklang mit dem Sendai-Rahmenwerk zur Katastrophenvorsorge 2015-2030 verabschiedet und umgesetzt haben</a>
         </div>
     
     
@@ -166,7 +178,7 @@
 
     
         <div class="col-md-6 col-lg-3">
-          <a href="/sdg-translation-demo/uk/de/13-1-3"><span>13.1.3<span class="status success"></span></span> </a>
+          <a href="/sdg-translation-demo/uk/de/13-1-3"><span>13.1.3<span class="status success">Daten verfügbar</span></span> Anteil der lokalen Regierungen, die lokale Strategien zur Reduzierung des Katastrophenrisikos in Einklang mit den nationalen Strategien zur Katastrophenvorsorge verabschiedet und umgesetzt haben</a>
         </div>
     
     
@@ -174,7 +186,7 @@
 
     
         <div class="col-md-6 col-lg-3">
-          <a href="/sdg-translation-demo/uk/de/13-2-1"><span>13.2.1<span class="status success"></span></span> </a>
+          <a href="/sdg-translation-demo/uk/de/13-2-1"><span>13.2.1<span class="status success">Daten verfügbar</span></span> Anzahl der Staaten, die die Ausarbeitung oder Umsetzung einer/s integrierten Politik/Strategie/Plans verkündet haben, welche/r ihre Fähigkeit zur Anpassung an die negativen Auswirkungen des Klimawandels erhöht und die Widerstandsfähigkeit gegenüber Klimaänderungen als auch eine rückläufige Entwicklung der Treibhausgasemissionen fördert ohne die Nahrungsmittelproduktion zu gefährden (einschließlich eines nationalen Anpassungsplans, national festgelegten Beitrags, nationaler Kommunikation, zweijährlichen Aktualisierungsberichts oder anderer)</a>
         </div>
     </div>
     
@@ -182,7 +194,7 @@
 
     <div class="indicator-cards row no-gutters">
         <div class="col-md-6 col-lg-3">
-          <a href="/sdg-translation-demo/uk/de/13-3-1"><span>13.3.1<span class="status success"></span></span> </a>
+          <a href="/sdg-translation-demo/uk/de/13-3-1"><span>13.3.1<span class="status success">Daten verfügbar</span></span> Anzahl der Staaten, die die Minderung, Anpassung, Reduzierung der Auswirkungen und Frühwarnsysteme in den primären, sekundären und tertiären Lehrplänen integriert haben</a>
         </div>
     
     
@@ -190,7 +202,7 @@
 
     
         <div class="col-md-6 col-lg-3">
-          <a href="/sdg-translation-demo/uk/de/13-3-2"><span>13.3.2<span class="status success"></span></span> </a>
+          <a href="/sdg-translation-demo/uk/de/13-3-2"><span>13.3.2<span class="status success">Daten verfügbar</span></span> Anzahl der Staaten, die die Stärkung des institutionellen, systemischen und individuellen Kapazitätsaufbaus zur Umsetzung von Anpassung, Minderung und Technologietransfer und Entwicklungsmaßnahmen verkündet haben</a>
         </div>
     
     
@@ -198,7 +210,7 @@
 
     
         <div class="col-md-6 col-lg-3">
-          <a href="/sdg-translation-demo/uk/de/13-a-1"><span>13.a.1<span class="status success"></span></span> </a>
+          <a href="/sdg-translation-demo/uk/de/13-a-1"><span>13.a.1<span class="status success">Daten verfügbar</span></span> Mobilisierter Betrag an US-Dollar pro Jahr zwischen 2020 und 2025, anrechenbar auf die Zusage von 100 Milliarden US-Dollar</a>
         </div>
     
     
@@ -206,7 +218,7 @@
 
     
         <div class="col-md-6 col-lg-3">
-          <a href="/sdg-translation-demo/uk/de/13-b-1"><span>13.b.1<span class="status danger"></span></span> </a>
+          <a href="/sdg-translation-demo/uk/de/13-b-1"><span>13.b.1<span class="status danger">Datenquellenanalyse</span></span> Anzahl der am wenigsten entwickelten Länder und kleinen Inselentwicklungsstaaten, die besondere Unterstützung erhalten und der Betrag der Unterstützung (Finanzmittel, Technologie und capacity-building umfassend) für Mechanismen zum Aufbau von Kapazitäten für eine wirksame klimawandelbezogene Planung und Verwaltung, mit Fokus auf Frauen, Jugendliche und lokale und marginalisierte Gemeinschaften</a>
         </div>
     </div>
     
@@ -218,7 +230,7 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-9">
-        <a href="mailto:sustainabledevelopment@ons.gov.uk"></a>
+        <a href="mailto:sustainabledevelopment@ons.gov.uk">Kontakt</a>
         
           | <a class="twitter-follow-button" href="https://twitter.com/StatsClaudie" data-show-count="false">
               @StatsClaudie
@@ -226,7 +238,7 @@
         
       </div>
       <div class="col-xs-3 text-right">
-        <a href="/sdg-translation-demo/uk/faq/"></a> | <a href="/sdg-translation-demo/uk/about/cookies-and-privacy/"></a>
+        <a href="/sdg-translation-demo/uk/faq/">FAQ</a> | <a href="/sdg-translation-demo/uk/about/cookies-and-privacy/">Cookies</a>
       </div>
     </div>
   </div>
@@ -267,7 +279,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 <script>
   var remoteDataBaseUrl = 'https://ONSdigital.github.io/sdg-data';
 </script>
-<script src='/sdg-translation-demo/uk/assets/js/sdg.js?v=20190217173743'></script>
+<script src='/sdg-translation-demo/uk/assets/js/sdg.js?v=20190217175352'></script>
 <script>
 $(function() {
     if($('#indicatorData').length) {

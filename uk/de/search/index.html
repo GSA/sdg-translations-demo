@@ -42,7 +42,7 @@
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css">
-        <link rel="stylesheet" href="/sdg-translation-demo/uk/assets/css/default.css?v=20190217173743">
+        <link rel="stylesheet" href="/sdg-translation-demo/uk/assets/css/default.css?v=20190217175352">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -54,12 +54,12 @@
 <body class="language-de">
 <!-- <div class="container"> -->
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0"></a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0"> Zum Hauptinhalt springen</a>
 <div id="disclaimer">
   <div class="container">
   <div class="alert alert-danger" role="alert">
-    <strong class="phase-tag"></strong>
-    
+    <strong class="phase-tag">Alpha-Version</strong>
+    Diese Seite befindet sich im Entwicklungsstadium.Wir freuen uns über Ihre Kommentare.
   </div>
 </div>
 
@@ -69,44 +69,56 @@
   <div class="container">
 
     <a class="navbar-brand" href="/sdg-translation-demo/uk/de/" id="home">
-      <img src="/sdg-translation-demo/uk/assets/img/SDG_logo.png" alt=" - " />
+      <img src="/sdg-translation-demo/uk/assets/img/SDG_logo.png" alt="Ziele für Nachhaltige Entwicklung - " />
     </a>
 
   <div class='hidden visible-xs float-right'>
     <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
       <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
   <i class="fa fa-globe"></i>
-  <span class="language-toggle-text"></span>
+  <span class="language-toggle-text">Deutsche</span>
   <i class="language-toggle fa fa-chevron-down"></i>
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
-<ul class="language-options language-toggle"><li><a href="/sdg-translation-demo/uk/search/"></a></li><li><a href="/sdg-translation-demo/uk/es/search/"></a></li><li><a href="/sdg-translation-demo/uk/fr/search/"></a></li><li><a href="/sdg-translation-demo/uk/ru/search/"></a></li><li><a href="/sdg-translation-demo/uk/ar/search/"></a></li><li><a href="/sdg-translation-demo/uk/zh-Hans/search/"></a></li><li><a href="/sdg-translation-demo/uk/am/search/"></a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/sdg-translation-demo/uk/search/">English</a></li><li><a href="/sdg-translation-demo/uk/es/search/">Español</a></li><li><a href="/sdg-translation-demo/uk/fr/search/">Français</a></li><li><a href="/sdg-translation-demo/uk/ru/search/">русский</a></li><li><a href="/sdg-translation-demo/uk/ar/search/">العربية</a></li><li><a href="/sdg-translation-demo/uk/zh-Hans/search/">中文</a></li><li><a href="/sdg-translation-demo/uk/am/search/">ՀԱՅԵՐԵՆ</a></li></ul>
 
     </div></div>
 
     <nav class="navbar navbar-default" id="main-nav">
 
       <ul class="top-level">
-        <li><span data-target="menu"></span></li>
-        <li><span data-target="search"></span></li>
+        <li><span data-target="menu">Menü</span></li>
+        <li><span data-target="search">Suche</span></li>
       </ul>
 
-      <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li>
+      <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
+            <a href="/sdg-translation-demo/uk/de/">Ziele</a>
+          </li><li class="nav-link ">
+            <a href="/sdg-translation-demo/uk/de/reporting-status/">Berichtsstatus</a>
+          </li><li class="nav-link ">
+            <a href="/sdg-translation-demo/uk/de/about/">Über uns</a>
+          </li><li class="nav-link ">
+            <a href="/sdg-translation-demo/uk/de/publications/">Veröffentlichungen</a>
+          </li><li class="nav-link ">
+            <a href="/sdg-translation-demo/uk/de/guidance/">Technische Hinweise</a>
+          </li><li class="nav-link ">
+            <a href="/sdg-translation-demo/uk/de/faq/">FAQ</a>
+          </li><li>
           <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
   <i class="fa fa-globe"></i>
-  <span class="language-toggle-text"></span>
+  <span class="language-toggle-text">Deutsche</span>
   <i class="language-toggle fa fa-chevron-down"></i>
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
-<ul class="language-options language-toggle"><li><a href="/sdg-translation-demo/uk/search/"></a></li><li><a href="/sdg-translation-demo/uk/es/search/"></a></li><li><a href="/sdg-translation-demo/uk/fr/search/"></a></li><li><a href="/sdg-translation-demo/uk/ru/search/"></a></li><li><a href="/sdg-translation-demo/uk/ar/search/"></a></li><li><a href="/sdg-translation-demo/uk/zh-Hans/search/"></a></li><li><a href="/sdg-translation-demo/uk/am/search/"></a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/sdg-translation-demo/uk/search/">English</a></li><li><a href="/sdg-translation-demo/uk/es/search/">Español</a></li><li><a href="/sdg-translation-demo/uk/fr/search/">Français</a></li><li><a href="/sdg-translation-demo/uk/ru/search/">русский</a></li><li><a href="/sdg-translation-demo/uk/ar/search/">العربية</a></li><li><a href="/sdg-translation-demo/uk/zh-Hans/search/">中文</a></li><li><a href="/sdg-translation-demo/uk/am/search/">ՀԱՅԵՐԵՆ</a></li></ul>
 
         </li></ul>
 
       <div id="search" class="menu-target">
   <label for="indicator_search">
-    <i class="fa fa-search" aria-hidden="true"></i><span>:</span>
+    <i class="fa fa-search" aria-hidden="true"></i><span>Suche:</span>
   </label>
-  <input id="indicator_search" title="" placeholder="" data-url="/sdg-translation-demo/uk/de/indicators.json" data-pageurl="/sdg-translation-demo/uk/de/search/?q=" />
+  <input id="indicator_search" title="Indikatorensuche" placeholder="Indikatorensuche" data-url="/sdg-translation-demo/uk/de/indicators.json" data-pageurl="/sdg-translation-demo/uk/de/search/?q=" />
 </div>
 
 
@@ -116,9 +128,9 @@
 </header>
 
 <div id="main-content" class="container search-results" role="main">
-  <h1 style="display:none"> '<span id="search-term"></span>'</h1>
+  <h1 style="display:none">Ergebnisse zu '<span id="search-term"></span>'</h1>
   <div class="loader">
-  <img src="/sdg-translation-demo/uk/assets/img/loading.gif" alt="" />
+  <img src="/sdg-translation-demo/uk/assets/img/loading.gif" alt="Ergebnisse werden geladen" />
 </div>
 
   <div class="results" data-imgpath="/sdg-translation-demo/uk/assets/img/goals/de/">
@@ -128,7 +140,7 @@
 <script type="text/template" class="results">
 
   <% if(resultsCount) { %>
-    <p><%= resultsCount %> indicator<% if(resultsCount != 1) { %>s<% } %>  <%= searchResults.length %> <% if(searchResults.length != 1) { %>s<% } %></p>
+    <p><%= resultsCount %> indicator<% if(resultsCount != 1) { %>s<% } %> gefunden unter <%= searchResults.length %> ziel<% if(searchResults.length != 1) { %>s<% } %></p>
 
     <% _.each(searchResults, function(goal){ %>
       <div class="row">
@@ -149,7 +161,7 @@
     <% }); %>
 
   <% } else { %>
-    <p></p>
+    <p>Keine Ergebnisse</p>
   <% } %>
 
 </script>
@@ -158,7 +170,7 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-9">
-        <a href="mailto:sustainabledevelopment@ons.gov.uk"></a>
+        <a href="mailto:sustainabledevelopment@ons.gov.uk">Kontakt</a>
         
           | <a class="twitter-follow-button" href="https://twitter.com/StatsClaudie" data-show-count="false">
               @StatsClaudie
@@ -166,7 +178,7 @@
         
       </div>
       <div class="col-xs-3 text-right">
-        <a href="/sdg-translation-demo/uk/faq/"></a> | <a href="/sdg-translation-demo/uk/about/cookies-and-privacy/"></a>
+        <a href="/sdg-translation-demo/uk/faq/">FAQ</a> | <a href="/sdg-translation-demo/uk/about/cookies-and-privacy/">Cookies</a>
       </div>
     </div>
   </div>
@@ -207,7 +219,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 <script>
   var remoteDataBaseUrl = 'https://ONSdigital.github.io/sdg-data';
 </script>
-<script src='/sdg-translation-demo/uk/assets/js/sdg.js?v=20190217173743'></script>
+<script src='/sdg-translation-demo/uk/assets/js/sdg.js?v=20190217175352'></script>
 <script>
 $(function() {
     if($('#indicatorData').length) {
