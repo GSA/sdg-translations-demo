@@ -3,28 +3,33 @@ version: 2
 jobs:
   deploy:
     docker:
-      - image: circleci/ruby:2.5.1
+      - image: circleci/python:3.6.1
     working_directory: ~/repo
     steps:
       - checkout
+      - run: sudo chown -R circleci:circleci /usr/local/bin
+      - run: sudo chown -R circleci:circleci /usr/local/lib/python3.6/site-packages
       - restore_cache:
-          key: test-dependencies-{{ checksum "Gemfile" }}
+          key: deps1-{{ checksum "Pipfile.lock" }}
       - run:
-          name: Install Ruby dependencies
-          command: bundle check --path=vendor/bundle || bundle install --path=vendor/bundle
+          command: |
+            sudo pip install pipenv
+            pipenv install
       - save_cache:
-          key: test-dependencies-{{ checksum "Gemfile" }}
+          key: deps1-{{ checksum "Pipfile.lock" }}
           paths:
-            - vendor/bundle
+            - ".venv"
+            - "/usr/local/bin"
+            - "/usr/local/lib/python3.6/site-packages"
       - run:
-          name: Build the Jekyll site
-          command: bundle exec jekyll build
+          name: Build the demos
+          command: pipenv run python build_demos.py
       - add_ssh_keys:
           fingerprints:
             - "5f:cb:30:b3:a3:0c:c0:77:18:a9:38:81:2a:f2:0d:4c"
       - run:
           name: Deploy to Github
-          command: bash scripts/deploy/circleci/deploy.sh
+          command: bash deploy_demos.sh
 workflows:
   version: 2
   deploy:
@@ -32,4 +37,4 @@ workflows:
       - deploy:
           filters:
             branches:
-              only: develop
+              only: master
