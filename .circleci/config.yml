@@ -1,0 +1,40 @@
+# Python CircleCI 2.0 configuration file
+version: 2
+jobs:
+  deploy:
+    docker:
+      - image: circleci/python:3.6.1
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run: sudo chown -R circleci:circleci /usr/local/bin
+      - run: sudo chown -R circleci:circleci /usr/local/lib/python3.6/site-packages
+      - restore_cache:
+          key: deps1-{{ checksum "Pipfile.lock" }}
+      - run:
+          command: |
+            sudo pip install pipenv
+            pipenv install
+      - save_cache:
+          key: deps1-{{ checksum "Pipfile.lock" }}
+          paths:
+            - ".venv"
+            - "/usr/local/bin"
+            - "/usr/local/lib/python3.6/site-packages"
+      - run:
+          name: Build the demos
+          command: pipenv run python build_demos.py
+      - add_ssh_keys:
+          fingerprints:
+            - "5f:cb:30:b3:a3:0c:c0:77:18:a9:38:81:2a:f2:0d:4c"
+      - run:
+          name: Deploy to Github
+          command: bash deploy_demos.sh
+workflows:
+  version: 2
+  deploy:
+    jobs:
+      - deploy:
+          filters:
+            branches:
+              only: master
