@@ -1,7 +1,7 @@
 # Python CircleCI 2.0 configuration file
 version: 2
 jobs:
-  deploy:
+  prepare:
     docker:
       - image: circleci/python:3.6.1
     working_directory: ~/repo
@@ -22,18 +22,53 @@ jobs:
             - "/usr/local/bin"
             - "/usr/local/lib/python3.6/site-packages"
       - run:
+          name: Prepare the demos
+          command: pipenv run python prepare.py
+      - persist_to_workspace:
+          root: ~/repo
+          paths:
+            - repos
+  build:
+    docker:
+      - image: circleci/ruby:2.5.1
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - attach_workspace:
+          at: ~/repo
+      - run:
           name: Build the demos
-          command: pipenv run python build_demos.py
+          command: bash build.sh
+      - persist_to_workspace:
+          root: ~/repo
+          paths:
+            - builds
+  deploy:
+    docker:
+      - image: circleci/python:3.6.1
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - attach_workspace:
+          at: ~/repo
       - add_ssh_keys:
           fingerprints:
             - "5f:cb:30:b3:a3:0c:c0:77:18:a9:38:81:2a:f2:0d:4c"
       - run:
           name: Deploy to Github
-          command: bash deploy_demos.sh
+          command: bash deploy.sh
 workflows:
   version: 2
-  deploy:
+  publish:
     jobs:
+      - prepare:
+          filters:
+            branches:
+              only: master
+      - build:
+          filters:
+            branches:
+              only: master
       - deploy:
           filters:
             branches:
