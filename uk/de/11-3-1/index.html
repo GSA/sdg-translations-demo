@@ -34,13 +34,13 @@
         
 
         <!--[if IE 9]>
-        <script src="/sdg-indicators/assets/js/lib/classList.js"></script>
+        <script src="/sdg-translation-demo/uk/assets/js/lib/classList.js"></script>
         <![endif]-->
 
         <!-- Favicons ================================================== -->
         <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/sdg-indicators/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/sdg-indicators/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        <link rel="shortcut icon" type="image/ico" href="/sdg-translation-demo/uk/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/sdg-translation-demo/uk/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
         http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
         -->
 
@@ -50,7 +50,7 @@
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20190217172740">
+        <link rel="stylesheet" href="/sdg-translation-demo/uk/assets/css/default.css?v=20190217173743">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -76,12 +76,21 @@
 <header role="banner">
   <div class="container">
 
-    <a class="navbar-brand" href="/sdg-indicators/de/" id="home">
-      <img src="/sdg-indicators/assets/img/SDG_logo.png" alt=" - " />
+    <a class="navbar-brand" href="/sdg-translation-demo/uk/de/" id="home">
+      <img src="/sdg-translation-demo/uk/assets/img/SDG_logo.png" alt=" - " />
     </a>
 
   <div class='hidden visible-xs float-right'>
-    <ul id='accessibility-nav' class='contrast-switcher'></ul></div>
+    <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
+      <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
+  <i class="fa fa-globe"></i>
+  <span class="language-toggle-text"></span>
+  <i class="language-toggle fa fa-chevron-down"></i>
+  <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
+</a>
+<ul class="language-options language-toggle"><li><a href="/sdg-translation-demo/uk/11-3-1/"></a></li><li><a href="/sdg-translation-demo/uk/es/11-3-1/"></a></li><li><a href="/sdg-translation-demo/uk/fr/11-3-1/"></a></li><li><a href="/sdg-translation-demo/uk/ru/11-3-1/"></a></li><li><a href="/sdg-translation-demo/uk/ar/11-3-1/"></a></li><li><a href="/sdg-translation-demo/uk/zh-Hans/11-3-1/"></a></li><li><a href="/sdg-translation-demo/uk/am/11-3-1/"></a></li></ul>
+
+    </div></div>
 
     <nav class="navbar navbar-default" id="main-nav">
 
@@ -90,13 +99,22 @@
         <li><span data-target="search"></span></li>
       </ul>
 
-      <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"></ul>
+      <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li>
+          <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
+  <i class="fa fa-globe"></i>
+  <span class="language-toggle-text"></span>
+  <i class="language-toggle fa fa-chevron-down"></i>
+  <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
+</a>
+<ul class="language-options language-toggle"><li><a href="/sdg-translation-demo/uk/11-3-1/"></a></li><li><a href="/sdg-translation-demo/uk/es/11-3-1/"></a></li><li><a href="/sdg-translation-demo/uk/fr/11-3-1/"></a></li><li><a href="/sdg-translation-demo/uk/ru/11-3-1/"></a></li><li><a href="/sdg-translation-demo/uk/ar/11-3-1/"></a></li><li><a href="/sdg-translation-demo/uk/zh-Hans/11-3-1/"></a></li><li><a href="/sdg-translation-demo/uk/am/11-3-1/"></a></li></ul>
+
+        </li></ul>
 
       <div id="search" class="menu-target">
   <label for="indicator_search">
     <i class="fa fa-search" aria-hidden="true"></i><span>:</span>
   </label>
-  <input id="indicator_search" title="" placeholder="" data-url="/sdg-indicators/de/indicators.json" data-pageurl="/sdg-indicators/de/search/?q=" />
+  <input id="indicator_search" title="" placeholder="" data-url="/sdg-translation-demo/uk/de/indicators.json" data-pageurl="/sdg-translation-demo/uk/de/search/?q=" />
 </div>
 
 
@@ -150,13 +168,13 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2">
-        <a href="/sdg-indicators/de/sustainable-cities-communities" title="">
-          <img src="/sdg-indicators/assets/img/goals/de/11.png" alt=" -  11" />
+        <a href="/sdg-translation-demo/uk/de/sustainable-cities-communities" title="">
+          <img src="/sdg-translation-demo/uk/assets/img/goals/de/11.png" alt=" -  11" />
         </a>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <a href="/sdg-indicators/de/sustainable-cities-communities">
+          <a href="/sdg-translation-demo/uk/de/sustainable-cities-communities">
             <span class="hidden-sm hidden-md hidden-lg"> 11: </span>
           </a>
         </h1>
@@ -168,9 +186,9 @@
 
 <div id="main-content" class="container goal-11">
   <ol class="breadcrumb">
-  <li><a href="/sdg-indicators/de/"></a></li>
+  <li><a href="/sdg-translation-demo/uk/de/"></a></li>
   
-      <li><a href="/sdg-indicators/de/sustainable-cities-communities" title="Make cities and human settlements inclusive, safe, resilient and sustainable"> 11</a></li>
+      <li><a href="/sdg-translation-demo/uk/de/sustainable-cities-communities" title="Make cities and human settlements inclusive, safe, resilient and sustainable"> 11</a></li>
       <li class="active"> 11.3.1</li>
   
 </ol>
@@ -203,7 +221,7 @@ here</a>. We are currently working on a way to better visually communicate these
         </span>
         <p></p>
         <div id="fields">
-          <p class="async-loading" data-img="/sdg-indicators/assets/img/loading-small.gif"></p>
+          <p class="async-loading" data-img="/sdg-translation-demo/uk/assets/img/loading-small.gif"></p>
         </div>
       </div>
       <div id="units"></div>
@@ -268,7 +286,7 @@ here</a>. We are currently working on a way to better visually communicate these
       <section>
 
         
-        <p class="async-loading" data-img="/sdg-indicators/assets/img/loading-small.gif"></p>
+        <p class="async-loading" data-img="/sdg-translation-demo/uk/assets/img/loading-small.gif"></p>
         <div class="async-loaded" style="display:none">
           <ul class="nav nav-tabs data-view" role="tablist">
             <li role="presentation" class="nav-item active">
@@ -336,7 +354,7 @@ here</a>. We are currently working on a way to better visually communicate these
             </div>
             <div role="tabpanel" class="tab-pane" id="mapview" class="map">
               <div id="map">
-                <img src="/sdg-indicators/assets/img/loading.gif" alt="" />
+                <img src="/sdg-translation-demo/uk/assets/img/loading.gif" alt="" />
               </div>
             </div>
             
@@ -1824,7 +1842,7 @@ here</a>. We are currently working on a way to better visually communicate these
         
       </div>
       <div class="col-xs-3 text-right">
-        <a href="/sdg-indicators/faq/"></a> | <a href="/sdg-indicators/about/cookies-and-privacy/"></a>
+        <a href="/sdg-translation-demo/uk/faq/"></a> | <a href="/sdg-translation-demo/uk/about/cookies-and-privacy/"></a>
       </div>
     </div>
   </div>
@@ -1865,7 +1883,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 <script>
   var remoteDataBaseUrl = 'https://ONSdigital.github.io/sdg-data';
 </script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20190217172740'></script>
+<script src='/sdg-translation-demo/uk/assets/js/sdg.js?v=20190217173743'></script>
 <script>
 $(function() {
     if($('#indicatorData').length) {

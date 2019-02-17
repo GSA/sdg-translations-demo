@@ -26,13 +26,13 @@
         
 
         <!--[if IE 9]>
-        <script src="/sdg-indicators/assets/js/lib/classList.js"></script>
+        <script src="/sdg-translation-demo/uk/assets/js/lib/classList.js"></script>
         <![endif]-->
 
         <!-- Favicons ================================================== -->
         <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/sdg-indicators/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/sdg-indicators/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        <link rel="shortcut icon" type="image/ico" href="/sdg-translation-demo/uk/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/sdg-translation-demo/uk/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
         http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
         -->
 
@@ -42,7 +42,7 @@
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20190217172740">
+        <link rel="stylesheet" href="/sdg-translation-demo/uk/assets/css/default.css?v=20190217173743">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -68,12 +68,21 @@
 <header role="banner">
   <div class="container">
 
-    <a class="navbar-brand" href="/sdg-indicators/zh-Hans/" id="home">
-      <img src="/sdg-indicators/assets/img/SDG_logo.png" alt="可持续发展目标 - 变革世界的17个目标" />
+    <a class="navbar-brand" href="/sdg-translation-demo/uk/zh-Hans/" id="home">
+      <img src="/sdg-translation-demo/uk/assets/img/SDG_logo.png" alt="可持续发展目标 - 变革世界的17个目标" />
     </a>
 
   <div class='hidden visible-xs float-right'>
-    <ul id='accessibility-nav' class='contrast-switcher'></ul></div>
+    <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
+      <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
+  <i class="fa fa-globe"></i>
+  <span class="language-toggle-text">中文</span>
+  <i class="language-toggle fa fa-chevron-down"></i>
+  <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
+</a>
+<ul class="language-options language-toggle"><li><a href="/sdg-translation-demo/uk/quality-education/">English</a></li><li><a href="/sdg-translation-demo/uk/es/quality-education/">Español</a></li><li><a href="/sdg-translation-demo/uk/fr/quality-education/">Français</a></li><li><a href="/sdg-translation-demo/uk/ru/quality-education/">русский</a></li><li><a href="/sdg-translation-demo/uk/ar/quality-education/">العربية</a></li><li><a href="/sdg-translation-demo/uk/am/quality-education/"></a></li><li><a href="/sdg-translation-demo/uk/de/quality-education/"></a></li></ul>
+
+    </div></div>
 
     <nav class="navbar navbar-default" id="main-nav">
 
@@ -83,24 +92,33 @@
       </ul>
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-            <a href="/sdg-indicators/zh-Hans/">目标</a>
+            <a href="/sdg-translation-demo/uk/zh-Hans/">目标</a>
           </li><li class="nav-link ">
-            <a href="/sdg-indicators/zh-Hans/reporting-status/">上报状况</a>
+            <a href="/sdg-translation-demo/uk/zh-Hans/reporting-status/">上报状况</a>
           </li><li class="nav-link ">
-            <a href="/sdg-indicators/zh-Hans/about/">关于</a>
+            <a href="/sdg-translation-demo/uk/zh-Hans/about/">关于</a>
           </li><li class="nav-link ">
-            <a href="/sdg-indicators/zh-Hans/publications/">出版物</a>
+            <a href="/sdg-translation-demo/uk/zh-Hans/publications/">出版物</a>
           </li><li class="nav-link ">
-            <a href="/sdg-indicators/zh-Hans/guidance/">指引</a>
+            <a href="/sdg-translation-demo/uk/zh-Hans/guidance/">指引</a>
           </li><li class="nav-link ">
-            <a href="/sdg-indicators/zh-Hans/faq/">常见问题解答</a>
-          </li></ul>
+            <a href="/sdg-translation-demo/uk/zh-Hans/faq/">常见问题解答</a>
+          </li><li>
+          <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
+  <i class="fa fa-globe"></i>
+  <span class="language-toggle-text">中文</span>
+  <i class="language-toggle fa fa-chevron-down"></i>
+  <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
+</a>
+<ul class="language-options language-toggle"><li><a href="/sdg-translation-demo/uk/quality-education/">English</a></li><li><a href="/sdg-translation-demo/uk/es/quality-education/">Español</a></li><li><a href="/sdg-translation-demo/uk/fr/quality-education/">Français</a></li><li><a href="/sdg-translation-demo/uk/ru/quality-education/">русский</a></li><li><a href="/sdg-translation-demo/uk/ar/quality-education/">العربية</a></li><li><a href="/sdg-translation-demo/uk/am/quality-education/"></a></li><li><a href="/sdg-translation-demo/uk/de/quality-education/"></a></li></ul>
+
+        </li></ul>
 
       <div id="search" class="menu-target">
   <label for="indicator_search">
     <i class="fa fa-search" aria-hidden="true"></i><span>搜索:</span>
   </label>
-  <input id="indicator_search" title="指标搜索" placeholder="指标搜索" data-url="/sdg-indicators/zh-Hans/indicators.json" data-pageurl="/sdg-indicators/zh-Hans/search/?q=" />
+  <input id="indicator_search" title="指标搜索" placeholder="指标搜索" data-url="/sdg-translation-demo/uk/zh-Hans/indicators.json" data-pageurl="/sdg-translation-demo/uk/zh-Hans/search/?q=" />
 </div>
 
 
@@ -116,7 +134,7 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2">
-        <img src="/sdg-indicators/assets/img/goals/zh-Hans/4.png" alt="优质教育 - 目标 4" />
+        <img src="/sdg-translation-demo/uk/assets/img/goals/zh-Hans/4.png" alt="优质教育 - 目标 4" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
@@ -132,7 +150,7 @@
   
 
   <ol class="breadcrumb">
-  <li><a href="/sdg-indicators/zh-Hans/">首页</a></li>
+  <li><a href="/sdg-translation-demo/uk/zh-Hans/">首页</a></li>
   
       <li class="active">目标 4</li>
   
@@ -144,7 +162,7 @@
 
     <div class="indicator-cards row no-gutters">
         <div class="col-md-6 col-lg-3">
-          <a href="/sdg-indicators/zh-Hans/4-1-1"><span>4.1.1<span class="status success">已在线上上报</span></span> (a) 在2/3年级、(b) 小学结束时、(c) 初中结束时获得起码的(一) 阅读和(二) 数学能力的儿童和青年的比例,按性别分列</a>
+          <a href="/sdg-translation-demo/uk/zh-Hans/4-1-1"><span>4.1.1<span class="status success">已在线上上报</span></span> (a) 在2/3年级、(b) 小学结束时、(c) 初中结束时获得起码的(一) 阅读和(二) 数学能力的儿童和青年的比例,按性别分列</a>
         </div>
     
     
@@ -152,7 +170,7 @@
 
     
         <div class="col-md-6 col-lg-3">
-          <a href="/sdg-indicators/zh-Hans/4-2-1"><span>4.2.1<span class="status success">已在线上上报</span></span> 在保健、学习和社会心理健康方面发育正常的5岁以下儿童的比例,按性别分列</a>
+          <a href="/sdg-translation-demo/uk/zh-Hans/4-2-1"><span>4.2.1<span class="status success">已在线上上报</span></span> 在保健、学习和社会心理健康方面发育正常的5岁以下儿童的比例,按性别分列</a>
         </div>
     
     
@@ -160,7 +178,7 @@
 
     
         <div class="col-md-6 col-lg-3">
-          <a href="/sdg-indicators/zh-Hans/4-2-2"><span>4.2.2<span class="status success">已在线上上报</span></span> 有组织学习(小学入学正规年龄的一年前)的参与率,按性别分列</a>
+          <a href="/sdg-translation-demo/uk/zh-Hans/4-2-2"><span>4.2.2<span class="status success">已在线上上报</span></span> 有组织学习(小学入学正规年龄的一年前)的参与率,按性别分列</a>
         </div>
     
     
@@ -168,39 +186,7 @@
 
     
         <div class="col-md-6 col-lg-3">
-          <a href="/sdg-indicators/zh-Hans/4-3-1"><span>4.3.1<span class="status success">已在线上上报</span></span> 过去12个月青年和成年人正规和非正规教育和培训的参与率,按性别分列</a>
-        </div>
-    </div>
-    
-    
-
-    <div class="indicator-cards row no-gutters">
-        <div class="col-md-6 col-lg-3">
-          <a href="/sdg-indicators/zh-Hans/4-4-1"><span>4.4.1<span class="status success">已在线上上报</span></span> 掌握信通技术技能的青年和成年人的比例,按技能类型分列</a>
-        </div>
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3">
-          <a href="/sdg-indicators/zh-Hans/4-5-1"><span>4.5.1<span class="status success">已在线上上报</span></span> 所有可以分类的教育指标的均等指数(女/男、城市/农村、财富五分位最低/最高,以及具备有关数据的其他方面,如残疾状况、土著人民和受冲突影响等)</a>
-        </div>
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3">
-          <a href="/sdg-indicators/zh-Hans/4-6-1"><span>4.6.1<span class="status success">已在线上上报</span></span> 某一年龄组中获得既定水平的实用(a) 识字和(b) 识数能力的人口比例,按性别分列</a>
-        </div>
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3">
-          <a href="/sdg-indicators/zh-Hans/4-7-1"><span>4.7.1<span class="status success">已在线上上报</span></span> (一) 全球公民教育和(二) 可持续发展教育,包括两性平等和人权,在多大程度上在(a) 国家教育政策、(b) 课程、(c) 教师培训和(d) 学生评估方面进入主流</a>
+          <a href="/sdg-translation-demo/uk/zh-Hans/4-3-1"><span>4.3.1<span class="status success">已在线上上报</span></span> 过去12个月青年和成年人正规和非正规教育和培训的参与率,按性别分列</a>
         </div>
     </div>
     
@@ -208,7 +194,7 @@
 
     <div class="indicator-cards row no-gutters">
         <div class="col-md-6 col-lg-3">
-          <a href="/sdg-indicators/zh-Hans/4-a-1"><span>4.a.1<span class="status danger">探索数据源</span></span> 能获得以下资源的学校比例:(a) 电;(b) 教学用因特网;(c) 教学用电脑;(d) 为残疾学生提供的经调整的基础设施和材料;(e) 饮用水;(f) 男女分开的基本卫生设施;(g) 基本洗手设施(按水卫项目指标定义)</a>
+          <a href="/sdg-translation-demo/uk/zh-Hans/4-4-1"><span>4.4.1<span class="status success">已在线上上报</span></span> 掌握信通技术技能的青年和成年人的比例,按技能类型分列</a>
         </div>
     
     
@@ -216,7 +202,7 @@
 
     
         <div class="col-md-6 col-lg-3">
-          <a href="/sdg-indicators/zh-Hans/4-b-1"><span>4.b.1<span class="status success">已在线上上报</span></span> 按部门和学习类型分列的奖学金官方发展援助数额</a>
+          <a href="/sdg-translation-demo/uk/zh-Hans/4-5-1"><span>4.5.1<span class="status success">已在线上上报</span></span> 所有可以分类的教育指标的均等指数(女/男、城市/农村、财富五分位最低/最高,以及具备有关数据的其他方面,如残疾状况、土著人民和受冲突影响等)</a>
         </div>
     
     
@@ -224,7 +210,39 @@
 
     
         <div class="col-md-6 col-lg-3">
-          <a href="/sdg-indicators/zh-Hans/4-c-1"><span>4.c.1<span class="status success">已在线上上报</span></span> 至少接受过有关国家相应水平教学所规定起码水平的有组织任前或在职师资培训(如教学法培训)的(a) 学前、(b) 小学、(c) 初中和(d) 高中教育中教师的比例</a>
+          <a href="/sdg-translation-demo/uk/zh-Hans/4-6-1"><span>4.6.1<span class="status success">已在线上上报</span></span> 某一年龄组中获得既定水平的实用(a) 识字和(b) 识数能力的人口比例,按性别分列</a>
+        </div>
+    
+    
+    
+
+    
+        <div class="col-md-6 col-lg-3">
+          <a href="/sdg-translation-demo/uk/zh-Hans/4-7-1"><span>4.7.1<span class="status success">已在线上上报</span></span> (一) 全球公民教育和(二) 可持续发展教育,包括两性平等和人权,在多大程度上在(a) 国家教育政策、(b) 课程、(c) 教师培训和(d) 学生评估方面进入主流</a>
+        </div>
+    </div>
+    
+    
+
+    <div class="indicator-cards row no-gutters">
+        <div class="col-md-6 col-lg-3">
+          <a href="/sdg-translation-demo/uk/zh-Hans/4-a-1"><span>4.a.1<span class="status danger">探索数据源</span></span> 能获得以下资源的学校比例:(a) 电;(b) 教学用因特网;(c) 教学用电脑;(d) 为残疾学生提供的经调整的基础设施和材料;(e) 饮用水;(f) 男女分开的基本卫生设施;(g) 基本洗手设施(按水卫项目指标定义)</a>
+        </div>
+    
+    
+    
+
+    
+        <div class="col-md-6 col-lg-3">
+          <a href="/sdg-translation-demo/uk/zh-Hans/4-b-1"><span>4.b.1<span class="status success">已在线上上报</span></span> 按部门和学习类型分列的奖学金官方发展援助数额</a>
+        </div>
+    
+    
+    
+
+    
+        <div class="col-md-6 col-lg-3">
+          <a href="/sdg-translation-demo/uk/zh-Hans/4-c-1"><span>4.c.1<span class="status success">已在线上上报</span></span> 至少接受过有关国家相应水平教学所规定起码水平的有组织任前或在职师资培训(如教学法培训)的(a) 学前、(b) 小学、(c) 初中和(d) 高中教育中教师的比例</a>
         </div>
     
     
@@ -246,7 +264,7 @@
         
       </div>
       <div class="col-xs-3 text-right">
-        <a href="/sdg-indicators/faq/">常见问题解答</a> | <a href="/sdg-indicators/about/cookies-and-privacy/">Cookies</a>
+        <a href="/sdg-translation-demo/uk/faq/">常见问题解答</a> | <a href="/sdg-translation-demo/uk/about/cookies-and-privacy/">Cookies</a>
       </div>
     </div>
   </div>
@@ -287,7 +305,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 <script>
   var remoteDataBaseUrl = 'https://ONSdigital.github.io/sdg-data';
 </script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20190217172740'></script>
+<script src='/sdg-translation-demo/uk/assets/js/sdg.js?v=20190217173743'></script>
 <script>
 $(function() {
     if($('#indicatorData').length) {
