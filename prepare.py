@@ -45,6 +45,9 @@ for abbrev in demos:
             item['json'] = 'https://gsa.github.io/sdg-translations/translations.json'
     # Enable all languages.
     yamldata['languages'] = languages
+    # Write the update file.
+    with open(config_file, 'w') as outfile:
+        yaml.dump(yamldata, outfile)
     # Create any missing language files.
     for language in languages:
         if language == 'en':
