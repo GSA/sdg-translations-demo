@@ -42,12 +42,12 @@ for abbrev in demos:
     # Point to the latest sdg-translations data.
     for item in yamldata['jekyll_get_data']:
         if item['data'] == 'translations':
-            item['json'] = 'https://gsa.github.io/sdg-translations/translations.json'
+            item['json'] = 'https://open-sdg.github.io/sdg-translations/translations.json'
     # Enable all languages.
     yamldata['languages'] = languages
     # Write the update file.
     with open(config_file, 'w') as outfile:
-        yaml.dump(yamldata, outfile)
+        yaml.dump(yamldata, outfile, default_flow_style=False)
     # Create any missing language files.
     for language in languages:
         if language == 'en':
