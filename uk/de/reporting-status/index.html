@@ -1,0 +1,916 @@
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <script>var translations = {};</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <!-- Basic Page Needs
+        ================================================== -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- Mobile Specific Metas
+        ================================================== -->
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Title and meta description
+        ================================================== -->
+        
+        <title>U.K. Indicators For The Sustainable Development Goals</title>
+        <meta name="description" content="">
+        <meta property="og:description" content="">
+        
+        <meta name="robots" content="noindex, nofollow">
+        
+        <link rel="canonical" href="/">
+
+        
+
+        <!--[if IE 9]>
+        <script src="/sdg-indicators/assets/js/lib/classList.js"></script>
+        <![endif]-->
+
+        <!-- Favicons ================================================== -->
+        <!-- 128x128 -->
+        <link rel="shortcut icon" type="image/ico" href="/sdg-indicators/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/sdg-indicators/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
+        -->
+
+        
+
+        
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20190217172740">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+          integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+          crossorigin=""/>
+        <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css" />
+        <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' />
+        <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css"></head>
+<body class="language-de">
+<!-- <div class="container"> -->
+
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0"></a>
+<div id="disclaimer">
+  <div class="container">
+  <div class="alert alert-danger" role="alert">
+    <strong class="phase-tag"></strong>
+    
+  </div>
+</div>
+
+</div>
+
+<header role="banner">
+  <div class="container">
+
+    <a class="navbar-brand" href="/sdg-indicators/de/" id="home">
+      <img src="/sdg-indicators/assets/img/SDG_logo.png" alt=" - " />
+    </a>
+
+  <div class='hidden visible-xs float-right'>
+    <ul id='accessibility-nav' class='contrast-switcher'></ul></div>
+
+    <nav class="navbar navbar-default" id="main-nav">
+
+      <ul class="top-level">
+        <li><span data-target="menu"></span></li>
+        <li><span data-target="search"></span></li>
+      </ul>
+
+      <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"></ul>
+
+      <div id="search" class="menu-target">
+  <label for="indicator_search">
+    <i class="fa fa-search" aria-hidden="true"></i><span>:</span>
+  </label>
+  <input id="indicator_search" title="" placeholder="" data-url="/sdg-indicators/de/indicators.json" data-pageurl="/sdg-indicators/de/search/?q=" />
+</div>
+
+
+    </nav>
+  </div>
+
+</header>
+
+<div id="main-content" class="container reportingstatus" data-url="/sdg-indicators/indicators.json">
+
+  <h1></h1>
+
+  
+  
+  
+  
+
+  <div class="goal goal-overall" data-goalid="">
+      <div class="details">
+        <h2 class="status-goal">
+           <span class="total"><span>244</span> </span>
+        </h2>
+        <div class="summary">
+          <div class="statuses">
+            <div>
+              <span class="status success">164</span><strong></strong><span class="value"></span>
+            </div>
+            <div>
+              <span class="status danger">80</span><strong></strong><span class="value"></span>
+            </div>
+            <br style="clear:both;" />
+          </div>
+        </div>
+        <div class="goal-stats">
+          <!-- please keep this 'funky' markup; it has an impact on the display of the bar components -->
+          <span class="success"></span
+          ><span class="danger"></span>
+        </div>
+      </div>
+    <!--</li>-->
+    <br style="clear:both;" />
+  </div>
+
+  <h2>Status by Goal</h2>
+        
+        
+        
+
+        <!--<li>-->
+        <div class="goal" data-goalid="1">
+          <div class="frame">
+            <a href="/sdg-indicators/de/no-poverty/">
+              <img src="/sdg-indicators/assets/img/goals/de/1.png" alt=" -  1" width="100" height="100" />
+            </a>
+          </div>
+          <div class="details">
+            <h3 class="status-goal">
+              <a href="/sdg-indicators/de/no-poverty/"></a>
+              <span class="total">14<span></span> </span>
+            </h3>
+            <div class="summary">
+              <div class="statuses">
+                <div>
+                  <span class="status success">8</span><strong></strong><span class="value"></span>
+                </div>
+                <div>
+                  <span class="status danger">6</span><strong></strong><span class="value"></span>
+                </div>
+                <br style="clear:both;" />
+              </div>
+            </div>
+            <div class="goal-stats">
+              <!-- please keep this 'funky' markup; it has an impact on the display of the bar components -->
+              <span class="success"></span
+              ><span class="danger"></span>
+            </div>
+            <div class="divider">
+            </div>
+          </div>
+        <!--</li>-->
+        <br style="clear:both;" />
+      </div>
+      
+        
+        
+        
+
+        <!--<li>-->
+        <div class="goal" data-goalid="2">
+          <div class="frame">
+            <a href="/sdg-indicators/de/zero-hunger/">
+              <img src="/sdg-indicators/assets/img/goals/de/2.png" alt=" -  2" width="100" height="100" />
+            </a>
+          </div>
+          <div class="details">
+            <h3 class="status-goal">
+              <a href="/sdg-indicators/de/zero-hunger/"></a>
+              <span class="total">13<span></span> </span>
+            </h3>
+            <div class="summary">
+              <div class="statuses">
+                <div>
+                  <span class="status success">9</span><strong></strong><span class="value"></span>
+                </div>
+                <div>
+                  <span class="status danger">4</span><strong></strong><span class="value"></span>
+                </div>
+                <br style="clear:both;" />
+              </div>
+            </div>
+            <div class="goal-stats">
+              <!-- please keep this 'funky' markup; it has an impact on the display of the bar components -->
+              <span class="success"></span
+              ><span class="danger"></span>
+            </div>
+            <div class="divider">
+            </div>
+          </div>
+        <!--</li>-->
+        <br style="clear:both;" />
+      </div>
+      
+        
+        
+        
+
+        <!--<li>-->
+        <div class="goal" data-goalid="3">
+          <div class="frame">
+            <a href="/sdg-indicators/de/good-health-and-well-being/">
+              <img src="/sdg-indicators/assets/img/goals/de/3.png" alt=" -  3" width="100" height="100" />
+            </a>
+          </div>
+          <div class="details">
+            <h3 class="status-goal">
+              <a href="/sdg-indicators/de/good-health-and-well-being/"></a>
+              <span class="total">27<span></span> </span>
+            </h3>
+            <div class="summary">
+              <div class="statuses">
+                <div>
+                  <span class="status success">21</span><strong></strong><span class="value"></span>
+                </div>
+                <div>
+                  <span class="status danger">6</span><strong></strong><span class="value"></span>
+                </div>
+                <br style="clear:both;" />
+              </div>
+            </div>
+            <div class="goal-stats">
+              <!-- please keep this 'funky' markup; it has an impact on the display of the bar components -->
+              <span class="success"></span
+              ><span class="danger"></span>
+            </div>
+            <div class="divider">
+            </div>
+          </div>
+        <!--</li>-->
+        <br style="clear:both;" />
+      </div>
+      
+        
+        
+        
+
+        <!--<li>-->
+        <div class="goal" data-goalid="4">
+          <div class="frame">
+            <a href="/sdg-indicators/de/quality-education/">
+              <img src="/sdg-indicators/assets/img/goals/de/4.png" alt=" -  4" width="100" height="100" />
+            </a>
+          </div>
+          <div class="details">
+            <h3 class="status-goal">
+              <a href="/sdg-indicators/de/quality-education/"></a>
+              <span class="total">11<span></span> </span>
+            </h3>
+            <div class="summary">
+              <div class="statuses">
+                <div>
+                  <span class="status success">10</span><strong></strong><span class="value"></span>
+                </div>
+                <div>
+                  <span class="status danger">1</span><strong></strong><span class="value"></span>
+                </div>
+                <br style="clear:both;" />
+              </div>
+            </div>
+            <div class="goal-stats">
+              <!-- please keep this 'funky' markup; it has an impact on the display of the bar components -->
+              <span class="success"></span
+              ><span class="danger"></span>
+            </div>
+            <div class="divider">
+            </div>
+          </div>
+        <!--</li>-->
+        <br style="clear:both;" />
+      </div>
+      
+        
+        
+        
+
+        <!--<li>-->
+        <div class="goal" data-goalid="5">
+          <div class="frame">
+            <a href="/sdg-indicators/de/gender-equality/">
+              <img src="/sdg-indicators/assets/img/goals/de/5.png" alt=" -  5" width="100" height="100" />
+            </a>
+          </div>
+          <div class="details">
+            <h3 class="status-goal">
+              <a href="/sdg-indicators/de/gender-equality/"></a>
+              <span class="total">14<span></span> </span>
+            </h3>
+            <div class="summary">
+              <div class="statuses">
+                <div>
+                  <span class="status success">13</span><strong></strong><span class="value"></span>
+                </div>
+                <div>
+                  <span class="status danger">1</span><strong></strong><span class="value"></span>
+                </div>
+                <br style="clear:both;" />
+              </div>
+            </div>
+            <div class="goal-stats">
+              <!-- please keep this 'funky' markup; it has an impact on the display of the bar components -->
+              <span class="success"></span
+              ><span class="danger"></span>
+            </div>
+            <div class="divider">
+            </div>
+          </div>
+        <!--</li>-->
+        <br style="clear:both;" />
+      </div>
+      
+        
+        
+        
+
+        <!--<li>-->
+        <div class="goal" data-goalid="6">
+          <div class="frame">
+            <a href="/sdg-indicators/de/clean-water-and-sanitation/">
+              <img src="/sdg-indicators/assets/img/goals/de/6.png" alt=" -  6" width="100" height="100" />
+            </a>
+          </div>
+          <div class="details">
+            <h3 class="status-goal">
+              <a href="/sdg-indicators/de/clean-water-and-sanitation/"></a>
+              <span class="total">11<span></span> </span>
+            </h3>
+            <div class="summary">
+              <div class="statuses">
+                <div>
+                  <span class="status success">4</span><strong></strong><span class="value"></span>
+                </div>
+                <div>
+                  <span class="status danger">7</span><strong></strong><span class="value"></span>
+                </div>
+                <br style="clear:both;" />
+              </div>
+            </div>
+            <div class="goal-stats">
+              <!-- please keep this 'funky' markup; it has an impact on the display of the bar components -->
+              <span class="success"></span
+              ><span class="danger"></span>
+            </div>
+            <div class="divider">
+            </div>
+          </div>
+        <!--</li>-->
+        <br style="clear:both;" />
+      </div>
+      
+        
+        
+        
+
+        <!--<li>-->
+        <div class="goal" data-goalid="7">
+          <div class="frame">
+            <a href="/sdg-indicators/de/affordable-and-clean-energy/">
+              <img src="/sdg-indicators/assets/img/goals/de/7.png" alt=" -  7" width="100" height="100" />
+            </a>
+          </div>
+          <div class="details">
+            <h3 class="status-goal">
+              <a href="/sdg-indicators/de/affordable-and-clean-energy/"></a>
+              <span class="total">6<span></span> </span>
+            </h3>
+            <div class="summary">
+              <div class="statuses">
+                <div>
+                  <span class="status success">6</span><strong></strong><span class="value"></span>
+                </div>
+                <div>
+                  <span class="status danger">0</span><strong></strong><span class="value"></span>
+                </div>
+                <br style="clear:both;" />
+              </div>
+            </div>
+            <div class="goal-stats">
+              <!-- please keep this 'funky' markup; it has an impact on the display of the bar components -->
+              <span class="success"></span
+              ><span class="danger"></span>
+            </div>
+            <div class="divider">
+            </div>
+          </div>
+        <!--</li>-->
+        <br style="clear:both;" />
+      </div>
+      
+        
+        
+        
+
+        <!--<li>-->
+        <div class="goal" data-goalid="8">
+          <div class="frame">
+            <a href="/sdg-indicators/de/decent-jobs-and-economic-growth/">
+              <img src="/sdg-indicators/assets/img/goals/de/8.png" alt=" -  8" width="100" height="100" />
+            </a>
+          </div>
+          <div class="details">
+            <h3 class="status-goal">
+              <a href="/sdg-indicators/de/decent-jobs-and-economic-growth/"></a>
+              <span class="total">17<span></span> </span>
+            </h3>
+            <div class="summary">
+              <div class="statuses">
+                <div>
+                  <span class="status success">15</span><strong></strong><span class="value"></span>
+                </div>
+                <div>
+                  <span class="status danger">2</span><strong></strong><span class="value"></span>
+                </div>
+                <br style="clear:both;" />
+              </div>
+            </div>
+            <div class="goal-stats">
+              <!-- please keep this 'funky' markup; it has an impact on the display of the bar components -->
+              <span class="success"></span
+              ><span class="danger"></span>
+            </div>
+            <div class="divider">
+            </div>
+          </div>
+        <!--</li>-->
+        <br style="clear:both;" />
+      </div>
+      
+        
+        
+        
+
+        <!--<li>-->
+        <div class="goal" data-goalid="9">
+          <div class="frame">
+            <a href="/sdg-indicators/de/industry-innovation-and-infrastructure/">
+              <img src="/sdg-indicators/assets/img/goals/de/9.png" alt=" -  9" width="100" height="100" />
+            </a>
+          </div>
+          <div class="details">
+            <h3 class="status-goal">
+              <a href="/sdg-indicators/de/industry-innovation-and-infrastructure/"></a>
+              <span class="total">12<span></span> </span>
+            </h3>
+            <div class="summary">
+              <div class="statuses">
+                <div>
+                  <span class="status success">10</span><strong></strong><span class="value"></span>
+                </div>
+                <div>
+                  <span class="status danger">2</span><strong></strong><span class="value"></span>
+                </div>
+                <br style="clear:both;" />
+              </div>
+            </div>
+            <div class="goal-stats">
+              <!-- please keep this 'funky' markup; it has an impact on the display of the bar components -->
+              <span class="success"></span
+              ><span class="danger"></span>
+            </div>
+            <div class="divider">
+            </div>
+          </div>
+        <!--</li>-->
+        <br style="clear:both;" />
+      </div>
+      
+        
+        
+        
+
+        <!--<li>-->
+        <div class="goal" data-goalid="10">
+          <div class="frame">
+            <a href="/sdg-indicators/de/reduced-inequalities/">
+              <img src="/sdg-indicators/assets/img/goals/de/10.png" alt=" -  10" width="100" height="100" />
+            </a>
+          </div>
+          <div class="details">
+            <h3 class="status-goal">
+              <a href="/sdg-indicators/de/reduced-inequalities/"></a>
+              <span class="total">11<span></span> </span>
+            </h3>
+            <div class="summary">
+              <div class="statuses">
+                <div>
+                  <span class="status success">7</span><strong></strong><span class="value"></span>
+                </div>
+                <div>
+                  <span class="status danger">4</span><strong></strong><span class="value"></span>
+                </div>
+                <br style="clear:both;" />
+              </div>
+            </div>
+            <div class="goal-stats">
+              <!-- please keep this 'funky' markup; it has an impact on the display of the bar components -->
+              <span class="success"></span
+              ><span class="danger"></span>
+            </div>
+            <div class="divider">
+            </div>
+          </div>
+        <!--</li>-->
+        <br style="clear:both;" />
+      </div>
+      
+        
+        
+        
+
+        <!--<li>-->
+        <div class="goal" data-goalid="11">
+          <div class="frame">
+            <a href="/sdg-indicators/de/sustainable-cities-communities/">
+              <img src="/sdg-indicators/assets/img/goals/de/11.png" alt=" -  11" width="100" height="100" />
+            </a>
+          </div>
+          <div class="details">
+            <h3 class="status-goal">
+              <a href="/sdg-indicators/de/sustainable-cities-communities/"></a>
+              <span class="total">15<span></span> </span>
+            </h3>
+            <div class="summary">
+              <div class="statuses">
+                <div>
+                  <span class="status success">10</span><strong></strong><span class="value"></span>
+                </div>
+                <div>
+                  <span class="status danger">5</span><strong></strong><span class="value"></span>
+                </div>
+                <br style="clear:both;" />
+              </div>
+            </div>
+            <div class="goal-stats">
+              <!-- please keep this 'funky' markup; it has an impact on the display of the bar components -->
+              <span class="success"></span
+              ><span class="danger"></span>
+            </div>
+            <div class="divider">
+            </div>
+          </div>
+        <!--</li>-->
+        <br style="clear:both;" />
+      </div>
+      
+        
+        
+        
+
+        <!--<li>-->
+        <div class="goal" data-goalid="12">
+          <div class="frame">
+            <a href="/sdg-indicators/de/responsible-consumption-and-production/">
+              <img src="/sdg-indicators/assets/img/goals/de/12.png" alt=" -  12" width="100" height="100" />
+            </a>
+          </div>
+          <div class="details">
+            <h3 class="status-goal">
+              <a href="/sdg-indicators/de/responsible-consumption-and-production/"></a>
+              <span class="total">13<span></span> </span>
+            </h3>
+            <div class="summary">
+              <div class="statuses">
+                <div>
+                  <span class="status success">7</span><strong></strong><span class="value"></span>
+                </div>
+                <div>
+                  <span class="status danger">6</span><strong></strong><span class="value"></span>
+                </div>
+                <br style="clear:both;" />
+              </div>
+            </div>
+            <div class="goal-stats">
+              <!-- please keep this 'funky' markup; it has an impact on the display of the bar components -->
+              <span class="success"></span
+              ><span class="danger"></span>
+            </div>
+            <div class="divider">
+            </div>
+          </div>
+        <!--</li>-->
+        <br style="clear:both;" />
+      </div>
+      
+        
+        
+        
+
+        <!--<li>-->
+        <div class="goal" data-goalid="13">
+          <div class="frame">
+            <a href="/sdg-indicators/de/climate-action/">
+              <img src="/sdg-indicators/assets/img/goals/de/13.png" alt=" -  13" width="100" height="100" />
+            </a>
+          </div>
+          <div class="details">
+            <h3 class="status-goal">
+              <a href="/sdg-indicators/de/climate-action/"></a>
+              <span class="total">8<span></span> </span>
+            </h3>
+            <div class="summary">
+              <div class="statuses">
+                <div>
+                  <span class="status success">7</span><strong></strong><span class="value"></span>
+                </div>
+                <div>
+                  <span class="status danger">1</span><strong></strong><span class="value"></span>
+                </div>
+                <br style="clear:both;" />
+              </div>
+            </div>
+            <div class="goal-stats">
+              <!-- please keep this 'funky' markup; it has an impact on the display of the bar components -->
+              <span class="success"></span
+              ><span class="danger"></span>
+            </div>
+            <div class="divider">
+            </div>
+          </div>
+        <!--</li>-->
+        <br style="clear:both;" />
+      </div>
+      
+        
+        
+        
+
+        <!--<li>-->
+        <div class="goal" data-goalid="14">
+          <div class="frame">
+            <a href="/sdg-indicators/de/life-below-water/">
+              <img src="/sdg-indicators/assets/img/goals/de/14.png" alt=" -  14" width="100" height="100" />
+            </a>
+          </div>
+          <div class="details">
+            <h3 class="status-goal">
+              <a href="/sdg-indicators/de/life-below-water/"></a>
+              <span class="total">10<span></span> </span>
+            </h3>
+            <div class="summary">
+              <div class="statuses">
+                <div>
+                  <span class="status success">3</span><strong></strong><span class="value"></span>
+                </div>
+                <div>
+                  <span class="status danger">7</span><strong></strong><span class="value"></span>
+                </div>
+                <br style="clear:both;" />
+              </div>
+            </div>
+            <div class="goal-stats">
+              <!-- please keep this 'funky' markup; it has an impact on the display of the bar components -->
+              <span class="success"></span
+              ><span class="danger"></span>
+            </div>
+            <div class="divider">
+            </div>
+          </div>
+        <!--</li>-->
+        <br style="clear:both;" />
+      </div>
+      
+        
+        
+        
+
+        <!--<li>-->
+        <div class="goal" data-goalid="15">
+          <div class="frame">
+            <a href="/sdg-indicators/de/life-on-land/">
+              <img src="/sdg-indicators/assets/img/goals/de/15.png" alt=" -  15" width="100" height="100" />
+            </a>
+          </div>
+          <div class="details">
+            <h3 class="status-goal">
+              <a href="/sdg-indicators/de/life-on-land/"></a>
+              <span class="total">14<span></span> </span>
+            </h3>
+            <div class="summary">
+              <div class="statuses">
+                <div>
+                  <span class="status success">10</span><strong></strong><span class="value"></span>
+                </div>
+                <div>
+                  <span class="status danger">4</span><strong></strong><span class="value"></span>
+                </div>
+                <br style="clear:both;" />
+              </div>
+            </div>
+            <div class="goal-stats">
+              <!-- please keep this 'funky' markup; it has an impact on the display of the bar components -->
+              <span class="success"></span
+              ><span class="danger"></span>
+            </div>
+            <div class="divider">
+            </div>
+          </div>
+        <!--</li>-->
+        <br style="clear:both;" />
+      </div>
+      
+        
+        
+        
+
+        <!--<li>-->
+        <div class="goal" data-goalid="16">
+          <div class="frame">
+            <a href="/sdg-indicators/de/peace-and-justice-strong-institutions/">
+              <img src="/sdg-indicators/assets/img/goals/de/16.png" alt=" -  16" width="100" height="100" />
+            </a>
+          </div>
+          <div class="details">
+            <h3 class="status-goal">
+              <a href="/sdg-indicators/de/peace-and-justice-strong-institutions/"></a>
+              <span class="total">23<span></span> </span>
+            </h3>
+            <div class="summary">
+              <div class="statuses">
+                <div>
+                  <span class="status success">12</span><strong></strong><span class="value"></span>
+                </div>
+                <div>
+                  <span class="status danger">11</span><strong></strong><span class="value"></span>
+                </div>
+                <br style="clear:both;" />
+              </div>
+            </div>
+            <div class="goal-stats">
+              <!-- please keep this 'funky' markup; it has an impact on the display of the bar components -->
+              <span class="success"></span
+              ><span class="danger"></span>
+            </div>
+            <div class="divider">
+            </div>
+          </div>
+        <!--</li>-->
+        <br style="clear:both;" />
+      </div>
+      
+        
+        
+        
+
+        <!--<li>-->
+        <div class="goal" data-goalid="17">
+          <div class="frame">
+            <a href="/sdg-indicators/de/partnerships-for-the-goals/">
+              <img src="/sdg-indicators/assets/img/goals/de/17.png" alt=" -  17" width="100" height="100" />
+            </a>
+          </div>
+          <div class="details">
+            <h3 class="status-goal">
+              <a href="/sdg-indicators/de/partnerships-for-the-goals/"></a>
+              <span class="total">25<span></span> </span>
+            </h3>
+            <div class="summary">
+              <div class="statuses">
+                <div>
+                  <span class="status success">12</span><strong></strong><span class="value"></span>
+                </div>
+                <div>
+                  <span class="status danger">13</span><strong></strong><span class="value"></span>
+                </div>
+                <br style="clear:both;" />
+              </div>
+            </div>
+            <div class="goal-stats">
+              <!-- please keep this 'funky' markup; it has an impact on the display of the bar components -->
+              <span class="success"></span
+              ><span class="danger"></span>
+            </div>
+            <div class="divider">
+            </div>
+          </div>
+        <!--</li>-->
+        <br style="clear:both;" />
+      </div>
+      
+    <!--</ul>-->
+
+  <!--<p>Coming in Spring 2017, this page will provide a dashboard summarising the status of data discovery, statistical production, and national reporting of statistics for the Sustainable Development Goals global indicators.</p>
+-->
+
+
+</div>
+<footer role="contentinfo">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-9">
+        <a href="mailto:sustainabledevelopment@ons.gov.uk"></a>
+        
+          | <a class="twitter-follow-button" href="https://twitter.com/StatsClaudie" data-show-count="false">
+              @StatsClaudie
+            </a>
+        
+      </div>
+      <div class="col-xs-3 text-right">
+        <a href="/sdg-indicators/faq/"></a> | <a href="/sdg-indicators/about/cookies-and-privacy/"></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
+<!-- <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"></script> -->
+<!-- Google Analytics -->
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+
+
+</script>
+
+<!-- /.container </div> -->
+<script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
+<script src="//cdn.datatables.net/fixedcolumns/3.2.3/js/dataTables.fixedColumns.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.bundle.min.js"></script>
+<script src="//cdn.jsdelivr.net/bluebird/3.5.0/bluebird.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet.zoomshowhide@0.1.0/dist/leaflet-zoom-show-hide.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/1.4.0/chroma.min.js"></script>
+<script src="https://cdn.rawgit.com/nezasa/iso8601-js-period/master/iso8601.min.js"></script>
+<script src="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.min.js"></script>
+<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+<script src="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.js"></script>
+<script>
+  var remoteDataBaseUrl = 'https://ONSdigital.github.io/sdg-data';
+</script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20190217172740'></script>
+<script>
+$(function() {
+    if($('#indicatorData').length) {
+      var domData = $('#indicatorData').data();
+
+      $('.async-loading').each(function(i, obj) {
+          $(obj).append($('<img />').attr('src', $(obj).data('img')));
+      });
+
+      $.ajax({
+        url: 'https://ONSdigital.github.io/sdg-data/comb/' + domData.id + '.json',
+        success: function(res) {
+
+          $('.async-loading').remove();
+          $('.async-loaded').show();
+
+          var model = new indicatorModel({
+            data: res.data,
+            edgesData: res.edges,
+            geoCodeRegEx: domData.geocoderegex,
+            showMap: domData.showmap,
+            country: domData.country,
+            indicatorId: domData.indicatorid,
+            shortIndicatorId: domData.id,
+            chartTitle: domData.charttitle,
+            measurementUnit: domData.measurementunit,
+            dataSource: domData.datasource,
+            geographicalArea: domData.geographicalarea,
+            showData: domData.showdata,
+            footnote: domData.footnote,
+            graphType: domData.graphtype
+          }),
+          view  = new indicatorView(model, {
+            rootElement: '#indicatorData',
+            legendElement: '#plotLegend',
+            maxChartHeight: 600,
+            tableColumnDefs: [
+              { maxCharCount: 25 }, // nowrap
+              { maxCharCount: 35, width: 200 },
+              { maxCharCount: Infinity, width: 250 }
+            ]
+          }),
+          controller = new indicatorController(model, view);
+          controller.initialise();
+        }
+      });
+    }
+
+    var switcher = new accessibilitySwitcher();
+
+
+});
+</script>
+
+</body>
+</html>
+

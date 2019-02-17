@@ -1,0 +1,1811 @@
+[{
+    "goal": {
+      "id": "1",
+      "title": "القضاء على الفقر بجميع أشكاله في كل مكان",
+      "indicators": [{
+          "id": "1-b-1",
+          "title": "نسبة الإنفاق الحكومي المتكرر والرأسمالي المخصص للقطعات التى تفيد المرأة والفقراء والفئات الضعيفة على نحو غير متناسب",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/1-b-1",
+          "status": "notstarted"
+        },{
+          "id": "1-1-1",
+          "title": "نسبة السكان الذين يعيشون دون خط الفقر الدولي، بحسب الجنس، والعمر، والوضع الوظيفي، والموقع الجغرافي (حضري/ريفي)",
+          "description": "The indicator Proportion of population below the international poverty line is defined as the percentage of the population living on  less than $1.90 a day at 2011 international prices. The 'international poverty line' is currently set at $1.90 a day at 2011  international prices.",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/1-1-1",
+          "status": "complete"
+        },{
+          "id": "1-2-2",
+          "title": "نسبة الرجال والنساء والأطفال من جميع الاعمار الذين يعانون الفقر بجميع ابعاده وفقا للتعريفات الوطنية",
+          "description": "The percentage of people who are living in households which are deemed at risk of poverty in the national context. Monitoring national poverty is important for country-specific development agendas. National poverty lines are used to make more accurate estimates of poverty consistent with the country’s specific economic and social circumstances, and are not intended for international comparisons of poverty rates.",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/1-2-2",
+          "status": "complete"
+        },{
+          "id": "1-a-3",
+          "title": "المجموع الإجمالي للمنح والتدفقات الوافدة التي لا تستتبع اقتراض ديون، والتي تخصص مباشرة لبرامج الحد من الفقر محسوبا كنسبة من الناتج المحلي الإجمال",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/1-a-3",
+          "status": "notstarted"
+        },{
+          "id": "1-a-1",
+          "title": "نسبة الموارد المولدة محليا التي تخصصها الحكومة مباشرة لبرامج الحد من الفقر",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/1-a-1",
+          "status": "notstarted"
+        },{
+          "id": "1-2-1",
+          "title": "نسبة السكان الذين يعيشون دون خط الفقر الوطني، بحسب الجنس والعمر",
+          "description": "The percentage of people who are living in households which are deemed at risk of poverty in the national context. Monitoring national poverty is important for country-specific development agendas. National poverty lines are used to make more accurate estimates of poverty consistent with the country’s specific economic and social circumstances, and are not intended for international comparisons of poverty rates.",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/1-2-1",
+          "status": "complete"
+        },{
+          "id": "1-5-1",
+          "title": "عدد الأشخاص المتوفين والمفقودين ومن تضرروا مباشرة بسبب الكوارث من بين كل 100,000 شخص",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/1-5-1",
+          "status": "complete"
+        },{
+          "id": "1-5-2",
+          "title": "الخسائر الاقتصادية التي تعزى مباشرة إلى الكوارث مقابل الناتج المحلي الإجمالي العالمي",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/1-5-2",
+          "status": "notstarted"
+        },{
+          "id": "1-4-2",
+          "title": "نسبة مجموع السكان البالغين الذين لديهم حقوق ،ً مضمونة لحيازة الأرض، و (أ) لديهم مستندات معترف بها قانونا و (ب) يعتبرون حقوقهم في الأرض مضمونة، بحسب الجنس ونوع الحيازة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/1-4-2",
+          "status": "complete"
+        },{
+          "id": "1-5-4",
+          "title": "نسبة الحكومات المحلية التي تعتمد وتنفذ استراتيجيات مع الاستراتيجيات الوطنية محلية للحد من مخاطر الكوارث تمشيا للحد من مخاطر الكوارث",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/1-5-4",
+          "status": "complete"
+        },{
+          "id": "1-a-2",
+          "title": "نسبة الإنفاق الحكومي على الخدمات الاساسية (التعليم والصحة والضمان الاجتماعي)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/1-a-2",
+          "status": "complete"
+        },{
+          "id": "1-5-3",
+          "title": "عدد البلدان التي تعتمد وتنفذ استراتيجيات وطنية للحد من مخاطر الكوارث تمشيا مع إطار سنداي للحد من مخاطر الكوارث للفترة 2015-2030",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/1-5-3",
+          "status": "complete"
+        },{
+          "id": "1-4-1",
+          "title": "ةنسبة السكان الذين يعيشون في أسر معيشية يمكنها الحصول على الخدمات الأساسية",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/1-4-1",
+          "status": "notstarted"
+        },{
+          "id": "1-3-1",
+          "title": "نسبة السكان الذين تشملهم حدود دنيا/نظم للحماية الاجتماعية، بحسب الجنس، وبحسب الفئات السكانية، كالأطفال، والعاطلين عن العمل، والمسنين، والأشخاص ذوي الإعاقة، والحوامل، والأطفال حديثي الولادة، وضحايا إصابات العمل، والفقراء، والضعفاء",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/1-3-1",
+          "status": "notstarted"
+        }]
+    }
+  },{
+    "goal": {
+      "id": "2",
+      "title": "القضاء على الجوع وتحقيق الأمن الغذائي وتحسين التغذية وتعزيز الزراعة المستدامة ",
+      "indicators": [{
+          "id": "2-2-1",
+          "title": "معدل انتشار توقّف النمو (الطول بالنسبة للعمر <-2 نقطة من الانحراف المعياري عن متوسط معايير نمو الطفل لمنظمة الصحة العالمية) بين الأطفال دون سن الخامسة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/2-2-1",
+          "status": "notstarted"
+        },{
+          "id": "2-4-1",
+          "title": "نسبة المساحة الزراعية المخصصة للزراعة المنتجة والمستدامة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/2-4-1",
+          "status": "notstarted"
+        },{
+          "id": "2-5-2",
+          "title": "نسـبة السـلالات المحلية التي تصـنف على أنها معرضة للخطر، أو غير معرضـة للخطر، أو تقف عند مسـتوى غير معروف لخطر انقراضها",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/2-5-2",
+          "status": "complete"
+        },{
+          "id": "2-1-1",
+          "title": "معدل انتشار نقص التغذية",
+          "description": "Median total energy intake (kcal/day)",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/2-1-1",
+          "status": "complete"
+        },{
+          "id": "2-3-2",
+          "title": "متوسـط دخل صغار منتجي الأغذية، بحسـب الجنس والوضع من حيث الانتماء إلى الشعوب الأصلية",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/2-3-2",
+          "status": "complete"
+        },{
+          "id": "2-2-2",
+          "title": "معدل انتشار ســوء التغذية (الوزن بالنســبة للطول > 2+ أو < 2 -نقطة من الانحراف المعياري عن متوسط معايير نمو الطفل لمنظمة الصــحة العالمية) بين الأطفال دون سـن الخامسة، مصنفين حسب النوع (الهزال وزيادة الوزن)",
+          "description": "Percentage of 4-5 year old children categorised as underweight, overweight or obese based on body mass index (BMI) classifications",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/2-2-2",
+          "status": "complete"
+        },{
+          "id": "2-b-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/2-b-1",
+          "status": "notstarted"
+        },{
+          "id": "2-a-2",
+          "title": "مجموع التدفقات الرسمية (المسـاعدة الإنمائية الرسمية مضـافا إليها تدفقات رسمية أخرى) إلى القطاع الزراعي",
+          "description": "The Net total of Official Development Assistance from the United Kingdom to the agricultural sector around the world.",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/2-a-2",
+          "status": "complete"
+        },{
+          "id": "2-1-2",
+          "title": "معدل انتشار انعدام الأمن الغذائي المتوسـط أو الشـديد وسط السكان، استنادا إلى مقياس المعاناة من انعدام الأمن الغذائي",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/2-1-2",
+          "status": "complete"
+        },{
+          "id": "2-c-1",
+          "title": "مؤشر مفارقات أسعار الأغذية",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/2-c-1",
+          "status": "notstarted"
+        },{
+          "id": "2-5-1",
+          "title": "عـدد الموارد الجينية النباتيـة والحيوانية للأغـذية والزراعة المودعة في مرافق للحفظ على المدى المتوسط أو الطويل",
+          "description": "The Enrichment Index is a proxy measure of genetic diversity based upon the assumption that genetic diversity increases (to a greater or lesser extent) with originality of accessions, which is estimated based on: the number of species collected;  the number of accessions collected; the number of countries collected from; and the area from which collection took place.",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/2-5-1",
+          "status": "complete"
+        },{
+          "id": "2-3-1",
+          "title": "حجم الإنتاج لكل وحـدة عمـل حسـب فئـات حجم المؤسسة الزراعية/الرعوية/الحرجية",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/2-3-1",
+          "status": "complete"
+        },{
+          "id": "2-a-1",
+          "title": "مؤشر التوجه في المجال الزراعي للنفقات الحكومية",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/2-a-1",
+          "status": "complete"
+        }]
+    }
+  },{
+    "goal": {
+      "id": "3",
+      "title": "ضمان حياة صحية وتعزيز الرفاهية للجميع في جميع الأعمار",
+      "indicators": [{
+          "id": "3-3-5",
+          "title": "عدد الأشـخاص الذين يسـتلزمون تدخلات لمكافحة الأمراض المدارية المهملة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/3-3-5",
+          "status": "notstarted"
+        },{
+          "id": "3-8-1",
+          "title": "تغطية توافر الخدمات الصحية الأساسية (المعرَّفة باعتبارها متوسط التغطية التي توفر الخدمات الأساسية المستندة إالى الإجراءات الكاشفة التي تشمل الصحة الإنجابية، وصحة الأمهات، والمواليد الجدد، والأطفال، والأمراض المعدية، والأمراض غير المعدية، والقدرة على توفير الخدمات، وإمكانية الوصول إاليها لدى السكان عموماً والأشد حرماناً خصوصاً)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/3-8-1",
+          "status": "notstarted"
+        },{
+          "id": "3-4-1",
+          "title": "معدل الوفيات الناجمة عن أمراض القلب والأوعية الدموية والسرطان وداء السكري والأمراض التنفسية المزمنة",
+          "description": "Probability of dying between the ages of 30 and 70 years from cardiovascular diseases, cancer, diabetes or chronic respiratory diseases, defined as the per cent of 30-year-old-people who would die before their 70th birthday from cardiovascular disease, cancer, diabetes, or chronic respiratory disease, assuming that s/he would experience current mortality rates at every age and s/he would not die from any other cause of death.",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/3-4-1",
+          "status": "complete"
+        },{
+          "id": "3-1-2",
+          "title": "نسبة الولادات التي يشرف عليها أخصائيون صحّيون مَهَرة",
+          "description": "Percentage of women giving birth in a medical facility according to age and residential geography",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/3-1-2",
+          "status": "complete"
+        },{
+          "id": "3-3-3",
+          "title": "دد حالات الإصابة بالملاريا لكل 1,000 شخص",
+          "description": "",
+          "keywords": "Population",
+          "href": "/sdg-indicators/ar/3-3-3",
+          "status": "complete"
+        },{
+          "id": "3-d-1",
+          "title": "القـدرة على تنفيـذ اللوائح الصـحيـة الـدوليـة، والجـاهزيـة لمواجهة حالات الطوارئ الصحية",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/3-d-1",
+          "status": "notstarted"
+        },{
+          "id": "3-9-1",
+          "title": "معدل الوفيات المنسـوبة إلى الأســر المعيشــية وتلوث الهواء المحيط",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/3-9-1",
+          "status": "complete"
+        },{
+          "id": "3-b-2",
+          "title": "مجموع صـافي المساعدة الإنمائية الرسمية المقدمة إلى القطاعات الصحية الأساسية والبحوث الطبية",
+          "description": "Total ODA flows to developing countries quantify the public effort that donors provide to developing countries for medical research and basic health.",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/3-b-2",
+          "status": "complete"
+        },{
+          "id": "3-7-1",
+          "title": "نسبة النساء اللاتي في سن الإنجاب (49-15 سنة) واللاتي لُبّيت حاجتُهن إالى تنظيم الأسرة بطرق حديثة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/3-7-1",
+          "status": "notstarted"
+        },{
+          "id": "3-7-2",
+          "title": "معدل الولادات لدى المراهقات (10-14 سنة؛ و 15-19 سنة) لكل 1,000 امرأة في تلك الفئة العمرية",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/3-7-2",
+          "status": "complete"
+        },{
+          "id": "3-9-2",
+          "title": "معدل الوفيات المنسـوب إلى المياه غير المأمونة، وخدمات الصـرف الصحي غير المأمونة والافتقار إلى المرافق الصـحية (التعرض لخدمات غير مأمونة في توفير المياه وخدمات الصـرف الصـحي والنظافة الصحية للجميع)",
+          "description": "The indicator expresses the number of deaths from inadequate water, sanitation and hygiene (with focus on WASH services) which could be prevented by improving those services and practices. It is based on both the WASH service provision in the country, as well as the related health outcomes, and therefore provides important information on the actual disease caused by the risks measured in 6.1, 6.2 and 6.3.",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/3-9-2",
+          "status": "complete"
+        },{
+          "id": "3-6-1",
+          "title": "معدلات الوفيات الناجمة عن الإصابات جراء حوادث المرور على الطرق",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/3-6-1",
+          "status": "complete"
+        },{
+          "id": "3-4-2",
+          "title": "معدل وفيات الانتحار",
+          "description": "Suicide mortality rates in the United Kingdom",
+          "keywords": "Population",
+          "href": "/sdg-indicators/ar/3-4-2",
+          "status": "complete"
+        },{
+          "id": "3-8-2",
+          "title": "نسبة السكان الذين تصرف أسرهم المعيشية نفقات كبيرة على الصـحة محسـوبة كحصـة من مجموع إنفاق الأسـر المعيشـية أو دخلها",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/3-8-2",
+          "status": "complete"
+        },{
+          "id": "3-a-1",
+          "title": "معدل الانتشار الموحد السن لاستعمال التبغ حالياً لدى الأشخاص الذين تبلغ أعمارهم 15 سنة فأكثر",
+          "description": "A measure of people who are current cigarette smokers in relation to all persons aged 18 years and older.",
+          "keywords": "Population",
+          "href": "/sdg-indicators/ar/3-a-1",
+          "status": "complete"
+        },{
+          "id": "3-3-4",
+          "title": "عدد الإصـابات بأمراض التهاب الكبد الوبائي باء لكل 100,000 من السكان",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/3-3-4",
+          "status": "complete"
+        },{
+          "id": "3-b-1",
+          "title": "نسـبة السـكان المسـتهدفين المســتفيدين من جميع اللقاحات المشمولة بالبرنامج الوطني لبلدهم",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/3-b-1",
+          "status": "complete"
+        },{
+          "id": "3-3-2",
+          "title": "معدل انتشار داء السل لكل 100,000 شخص",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/3-3-2",
+          "status": "complete"
+        },{
+          "id": "3-1-1",
+          "title": "نسبة الوفيات النفاسية",
+          "description": "Maternal mortality per 100,000 maternities",
+          "keywords": "Births, Health",
+          "href": "/sdg-indicators/ar/3-1-1",
+          "status": "complete"
+        },{
+          "id": "3-3-1",
+          "title": "عدد الإصـابات الجديدة بفيروس نقص المناعة البشـرية لكل 1,000 شـخص غير مصاب من السكان بحسـب الجنس والعمر والفئات الرئيسية من السكان",
+          "description": "Number of new HIV infections per 100,000 person-years among the uninfected population. The incidence rate is the number of new cases per population at risk in a given time period.",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/3-3-1",
+          "status": "complete"
+        },{
+          "id": "3-9-3",
+          "title": "معدل الوفيات المنسوب إلى التسمم غير المتعمد",
+          "description": "",
+          "keywords": "Population",
+          "href": "/sdg-indicators/ar/3-9-3",
+          "status": "complete"
+        },{
+          "id": "3-c-1",
+          "title": "معدل كثافة الأخصائيين الصحيين وتوزيعهم",
+          "description": "Density of physicians, nursing and midwifery personnel, dentistry personnel, and pharmaceutical personnel per 1,000 persons.",
+          "keywords": "Labour Force, Population",
+          "href": "/sdg-indicators/ar/3-c-1",
+          "status": "complete"
+        },{
+          "id": "3-b-3",
+          "title": "نســبة المرافق الصـحية المتاحة فيها مجموعة أساسـية من الأدوية الضرورية التي تفي بالغرض بكلفة ميسورة على الدوام",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/3-b-3",
+          "status": "notstarted"
+        },{
+          "id": "3-2-1",
+          "title": "معدل وفيات الأطفال دون سن الخامسة",
+          "description": "The average number of expected deaths before the age of 5 per 1,000 live births for a specific year.",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/3-2-1",
+          "status": "complete"
+        },{
+          "id": "3-5-1",
+          "title": "نطاق تغطية التـدخلات العلاجية (الخدمات الدوائية والنفسانية وخدمات إعـادة التأهيـل والرعاية اللاحقـة) لمعالجة الاضطرابات الناشئة عن تعاطي المواد المخدرة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/3-5-1",
+          "status": "notstarted"
+        },{
+          "id": "3-5-2",
+          "title": "الاستعمال الضار للكحول، محدداً وفقاً للظروف الوطنية في إطار استهلاك الفرد الواحد من الكحول (سن 15 سنة فأكثر) في سنة تقويمية، باللترات من الكحول الصافي",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/3-5-2",
+          "status": "complete"
+        },{
+          "id": "3-2-2",
+          "title": "معدل وفيات المواليد",
+          "description": "Probability that a child born in a specific year or period will die during the first 28 completed days of life if subject to age-specific mortality rates of that period, expressed per 1000 live births. Neonatal deaths (deaths among live births during the first 28 completed days of life) may be subdivided into early neonatal deaths, occurring during the first 7 days of life, and late neonatal deaths, occurring after the 7th day but before the 28th completed day of life.",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/3-2-2",
+          "status": "complete"
+        }]
+    }
+  },{
+    "goal": {
+      "id": "4",
+      "title": "ضمان التعليم الجيد الشامل والمنصف وتعزيز فرص التعلم مدى الحياة للجميع",
+      "indicators": [{
+          "id": "4-4-1",
+          "title": "نسـبة الشـباب والبالغين الذين تتوافر لديهم مهارات تكنولوجيا المعلومات والاتصالات، بحسب نوع المهار",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/4-4-1",
+          "status": "complete"
+        },{
+          "id": "4-b-1",
+          "title": "حجم تدفقات المسـاعدة الإنمائية الرسمية لتقديم المنح الدراسية، بحسب القطاع ونوع الدراسة",
+          "description": "Volume of official development assistance (ODA) flows for post-secondary education, including advanced technical and managerial training, and higher education",
+          "keywords": "ODA",
+          "href": "/sdg-indicators/ar/4-b-1",
+          "status": "complete"
+        },{
+          "id": "4-a-1",
+          "title": "نسـبة المدارس التي تحصـل على (أ) الطاقة الكهربائية؛ و(ب) شــبكة الإنترنت لأغراض تعليمية؛ و (ج) أجهزة حاسـوبية لأغراض التعليم؛ و (د) بنى تحتية ومواد ملائمة لاحتياجات الطلاب ذوي الإعاقة؛ و (هـــ) مياه الشـرب الأسـاسـية؛ و (و) مرافق صـحية أسـاسية غير مختلطة؛ و (ز) مرافق أسـاسـية لغسـل الأيدي (وفق التعاريف الواردة في مؤشــر توفير المياه وخدمات الصـرف الصحي والنظافة الصحية للجميع)",
+          "description": "Volume of official development assistance flows for scholarships",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/4-a-1",
+          "status": "notstarted"
+        },{
+          "id": "4-2-1",
+          "title": "نســـــبة الأطفال دون الخامسة الذين هم ماضـون على المسار الصـحيح من حيث النمو في مجالات الصحة، والتعلم، والرفاه النفسي والاجتماعي، بحسب الجنس",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/4-2-1",
+          "status": "complete"
+        },{
+          "id": "4-1-1",
+          "title": "نســبة الأطفال والشــباب (أ) في الصــف الثاني/الثالث؛  و (ب) في نهـايـة المرحلـة الابتـدائيـة؛ و (ج) في نهـايـة المرحلـة الأولى من التعليم الثـــانوي، الـذين يحققون على الأقـــل الحـــد الأدنى من مستوى الكفاءة في ’1 ’القراءة، و’2 ’الرياضيات، بحسب الجنس",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/4-1-1",
+          "status": "complete"
+        },{
+          "id": "4-7-1",
+          "title": "مدى تعميم ‘1 ‘تعليم المواطنة العالمية و ‘2‘ التعليم من أجل التنمية المسـتدامة، بما في ذلك المساواة بين الجنسين وحقوق الإنسان، وذلك على جميع الصعد في (أ) السياسات التعليمية على الصعيد الوطني و؛ (ب) المناهج الدراسية ؛ و (ج) تدريب المعلمين؛ و(د) تقييم الطلاب",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/4-7-1",
+          "status": "complete"
+        },{
+          "id": "4-2-2",
+          "title": "معدل المشاركة في التعلُّم المنظَّم (قبل سنة واحدة من سن الالتحاق الرسمي بالتعليم الابتدائي)، بحسب الجنس",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/4-2-2",
+          "status": "complete"
+        },{
+          "id": "4-6-1",
+          "title": "نسـبة السـكان في فئة عمرية معينة الذين يحققون على الأقل مسـتوى ثابتا من الكفاءة في المهارات الوظيفية المتصـلة بما يلي: (أ) الأمية و (ب) الحساب، بحسب الجنس",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/4-6-1",
+          "status": "complete"
+        },{
+          "id": "4-c-1",
+          "title": "نسـبة المعلمين في (أ) مرحلة ما قبل التعليم الابتدائي؛ و(ب) التعليم الابتدائي؛ و (ج) التعليم الإعدادي؛ و (د) التعليم الثانوي، الذين حصلوا على الأقل على الحد الأدنى من التدريب المنظَّم للمعلمين (كالتدريـب التربوي)، قبل الخـدمـة أو في أثنـاء الخدمة، اللازم للتدريس على المستوى المناسب في بلد معين",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/4-c-1",
+          "status": "complete"
+        },{
+          "id": "4-5-1",
+          "title": "مؤشرات التكافؤ (أنثى/ذكر، وريفي/حضري، وأدنى/أعلى خمس السكان ثراء، وفئات أخرى مثل ذوي الإعاقة وأفراد الشعوب الأصـلية، والمتضـررين من النزاعات، متى توافرت البيانات عن ذلك) لجميع مؤشرات التعليم المندرجة في هذه القائمة، التي يمكن تصنيفها",
+          "description": "",
+          "keywords": "Education, Parity index, Gender",
+          "href": "/sdg-indicators/ar/4-5-1",
+          "status": "complete"
+        },{
+          "id": "4-3-1",
+          "title": "معـدل مشـاركـة الشــبـاب والكبـار في التعليم الرسمي ً وغير الرسمي السـابقـة، والتـدريــب خلال الاثني عشـر شـهرا بحسب الجنس",
+          "description": "",
+          "keywords": "Education",
+          "href": "/sdg-indicators/ar/4-3-1",
+          "status": "complete"
+        }]
+    }
+  },{
+    "goal": {
+      "id": "5",
+      "title": "تحقيق المساواة بين الجنسين وتمكين جميع النساء والفتيات ",
+      "indicators": [{
+          "id": "5-5-2",
+          "title": "نسبة النساء في المناصب الإدارية",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/5-5-2",
+          "status": "complete"
+        },{
+          "id": "5-c-1",
+          "title": "نسـبة البلدان التي لديها نظم لتخصيص وتتبع المخصصات العامة المرصودة للمساواة بين الجنسين وتمكين المرأة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/5-c-1",
+          "status": "complete"
+        },{
+          "id": "5-4-1",
+          "title": "نسبة الوقت المخصص للأعمال المنزلية وأعمال الرعاية غير المدفوهة الأجر، بحسب الجنس والعمر والمكان",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/5-4-1",
+          "status": "complete"
+        },{
+          "id": "5-6-2",
+          "title": "عـدد البلدان التي لديها قوانين وأنظمـة تكفـل حصـول النساء والرجال الذين في سن 15 سنة فأكثر على خدمات الرعاية والمعلومات والتثقيف في مجال الصحة الجنسـية والإنجابية على نحو كامل وعلى قدم المساواة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/5-6-2",
+          "status": "complete"
+        },{
+          "id": "5-6-1",
+          "title": "نســبة النسـاء اللاتي تتراوح أعمارهن بين 15 سـنة و49 ســنة واللاتي يتخذن بأنفسهن قرارات مسـتنيرة بشـأن العلاقات الجنسـية، واسـتخدام وسـائل منع الحمل، والرعاية المتعلقة بالصحة الإنجابية",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/5-6-1",
+          "status": "notstarted"
+        },{
+          "id": "5-a-2",
+          "title": "نسـبة البلدان التي يكفل فيها الإطار القانوني (بما في ذلك القانون العرفي) للمرأة المساواة في الحقوق في ملكية الأراضي و/أو السيطرة عليها",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/5-a-2",
+          "status": "complete"
+        },{
+          "id": "5-a-1",
+          "title": "(أ) نســبة مجموع المزارعين الذين يمتلكون أراض زراعية أو لديهم حقوق مضمونة في الأراضي الزراعية، بحسـب الجنس؛ و (ب) حصة المرأة بين الملاّك أو أصحاب الحقوق في الأراضي الزراعية، بحسب نوع الحيازة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/5-a-1",
+          "status": "complete"
+        },{
+          "id": "5-2-2",
+          "title": "نسبة النساء والفتيات في الخامسة عشرة وما فوق اللاتي تعرضن لعنف جنسي من أشخاص غير العشير، خلال الاثني عشر شهراً السابقة، بحسب العمر ومكان حدوث العنف",
+          "description": "Percentage of women experiencing domestic abuse, family abuse (non-physical abuse, threats, force, sexual assault or stalking), sexual assault or stalking in the previous twelve months among adults aged 16 to 59.",
+          "keywords": "Crime",
+          "href": "/sdg-indicators/ar/5-2-2",
+          "status": "complete"
+        },{
+          "id": "5-3-1",
+          "title": "نسبة النساء اللاتي تتراوح أعمارهن بين و 20 سن 24 ة، واللاتي تزوجن أو ارتبطن بقرين قبل بلوغ سن الخامسة عشـرة وقبل بلوغ سن الثامنة عشر",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/5-3-1",
+          "status": "complete"
+        },{
+          "id": "5-5-1",
+          "title": "نسـبة المقاعد التي تشغلها النساء في (أ) البرلمانات الوطنية، و (ب) الحكومات المحلية",
+          "description": "Percentage of seats held in Parliament by members who are women",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/5-5-1",
+          "status": "complete"
+        },{
+          "id": "5-b-1",
+          "title": "نســبة الأفراد الذين يملكون الهاتف المحمول، حســب نوع الجنس",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/5-b-1",
+          "status": "complete"
+        },{
+          "id": "5-2-1",
+          "title": "نسبة النساء المعاشـرات والفتيات في الخامسة عشــرة وما فوق، اللاتي تعرضن لعنف بدني أو جنسي أو نفسي من عشير حالي أو سـابق، خلال الاثني عشـر شـهراً السـابقة، مصـنفة بحسـب شكل العنف والعمر",
+          "description": "Percentage of partner abuse (non-physical abuse, threats, force, sexual assault or stalking) in the previous twelve months among women aged 16 to 59.",
+          "keywords": "Crime",
+          "href": "/sdg-indicators/ar/5-2-1",
+          "status": "complete"
+        },{
+          "id": "5-1-1",
+          "title": "مـا إذا كـان ثمـة أطر قـانونيـة قـائمـة، أم لا، من أجـل تعزيز وإنفاذ ورصد المساواة وعدم التمييز على أساس الجنس",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/5-1-1",
+          "status": "complete"
+        },{
+          "id": "5-3-2",
+          "title": "نسـبة الفتيات والنساء اللاتي تتراوح أعمارهن بين 15و49 عاماً، واللاتي خضعن لعملية تشـويه/بتر الأعضاء التناسلية، بحسب العمر",
+          "description": "Number of newly recorded cases of female genital mutilation/cutting per 1,000,000 population",
+          "keywords": "Population",
+          "href": "/sdg-indicators/ar/5-3-2",
+          "status": "complete"
+        }]
+    }
+  },{
+    "goal": {
+      "id": "6",
+      "title": "ضمان التوافر والإدارة المستدامة للمياه والصرف الصحي للجميع",
+      "indicators": [{
+          "id": "6-5-2",
+          "title": "نسبة مناطق أحواض المياه العابرة للحدود التي لها ترتيبات تنفيذية تتعلق بالتعاون في مجال المياه",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/6-5-2",
+          "status": "complete"
+        },{
+          "id": "6-6-1",
+          "title": "نسبة التغير في نطاق النظم الإيكولوجية المتصلة بالمياه خلال فترة من الزمن",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/6-6-1",
+          "status": "notstarted"
+        },{
+          "id": "6-4-1",
+          "title": "التغير في كفاءة استخدام المياه على مدى فترة من الزمن",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/6-4-1",
+          "status": "notstarted"
+        },{
+          "id": "6-3-1",
+          "title": "نسبة مياه الصرف الصحي المعالجة بطريقة آمنة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/6-3-1",
+          "status": "notstarted"
+        },{
+          "id": "6-3-2",
+          "title": "نسبة الكتل المائية الآتية من مياه محيطة ذات نوعية جيدة",
+          "description": "The purpose of the Water Framework Directive is to establish a framework for the protection of inland surface waters, estuaries, coastal waters and groundwater. The framework for delivering the Directive is through River Basin Management Planning.  The UK has been split into several River Basin Districts. Each River Basin District has been characterised into smaller management units known as Water Bodies. The surface Water Bodies may be rivers, lakes, estuary or coastal. Surface water status is measured by both its ecological and chemical status. It is assessed against the scale of high, good, moderate, poor and bad. The results published each year relate to data reported in that year under the Water Framework Directive.",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/6-3-2",
+          "status": "complete"
+        },{
+          "id": "6-b-1",
+          "title": "نسـبة الوحدات الإدارية المحلية التي لديها سـياسات وإجراءات تنفيذية راسـخة في ما يتعلق بمشــاركة المجتمعات المحلية في إدارة خدمات المياه والصرف الصحي",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/6-b-1",
+          "status": "notstarted"
+        },{
+          "id": "6-2-1",
+          "title": "نسبة السـكان الذين يســتفيدون (أ) من الإدارة الســليمة لخدمات الصـرف الصحي و (ب) مرافق غسـل اليدين بالصابون والمياه",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/6-2-1",
+          "status": "notstarted"
+        },{
+          "id": "6-5-1",
+          "title": "درجة تنفيذ الإدارة المتكاملة للموارد المائية (صفر-100)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/6-5-1",
+          "status": "complete"
+        },{
+          "id": "6-4-2",
+          "title": "حجم الضغط الذي تتعرض له المياه: سحب المياه العذبة كنسبة من موارد المياه العذبة المتاحة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/6-4-2",
+          "status": "notstarted"
+        },{
+          "id": "6-a-1",
+          "title": "مقدار المساعدة الإنمائية الرسمية المتصلة بالمياه والصرف الصحي التي تعد جزءاً من خطة إنفاق تتولى الحكومة تنسيقها",
+          "description": "The amount of water and sanitation-related Official Development Assistance (ODA) is a quantifiable measurement as a proxy for “international cooperation and capacity development support” in financial terms. It is essential to be able to assess ODA in proportion with how much of it is included in the government budget to gain a better understanding of whether donors are aligned with national governments while highlighting total water and sanitation ODA disbursements to developing countries over time.",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/6-a-1",
+          "status": "complete"
+        },{
+          "id": "6-1-1",
+          "title": "نسبة السكان الذين يستفيدون من خدمات مياه الشرب التي تدار بطريقة مأمونة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/6-1-1",
+          "status": "notstarted"
+        }]
+    }
+  },{
+    "goal": {
+      "id": "7",
+      "title": "ضمان الوصول إالى الطاقة الحديثة والموثوقة والمستدامة والحديثة للجميع",
+      "indicators": [{
+          "id": "7-1-2",
+          "title": "نسبة السكان الذي يعتمدون أساسياً على الوقود التكنولوجيا النظيفين",
+          "description": "Percentage of the population with access to clean fuels and technologies for cooking",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/7-1-2",
+          "status": "complete"
+        },{
+          "id": "7-a-1",
+          "title": "التـدفقـات الماليـة الدوليـة الموجهـة إلى البلـدان النـاميـة لدعم أنشـطة البحث والتطوير في مجالات الطاقة النظيفة وإنتاج الطاقة المتجددة، بما في ذلك النظم الهجينة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/7-a-1",
+          "status": "complete"
+        },{
+          "id": "7-b-1",
+          "title": "الاســتثمارات في مجال كفاءة الطاقة كنسـبة من الناتج المحلي الإجمالي ومبلغ الاستثمار المباشر الأجنبي، في شكل تحويلات مالية، من أجـل توفير الهياكـل الأسـاسـية والتكنولوجيا اللازمة لأغراض التنمية المستدامة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/7-b-1",
+          "status": "complete"
+        },{
+          "id": "7-1-1",
+          "title": "نسبة السكان المستفيدين من خدمات الكهرباء",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/7-1-1",
+          "status": "complete"
+        },{
+          "id": "7-2-1",
+          "title": "حصة الطاقة المتجددة في مجموع الاسـتهلاك النهائي للطاقة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/7-2-1",
+          "status": "complete"
+        },{
+          "id": "7-3-1",
+          "title": "كثـافة الطـاقة التي تقـاس من حيـث الطـاقة الأوليـة والنـاتج المحلي الإجمال",
+          "description": "Units of direct energy used per unit of GVA (CVM), as an indicator of energy efficiency by sector. The Chained Volume Measures are created from the short term measures of output. The majority of indicators in the short term measures are measuring changes in output as a proxy for changes in GVA. At the reference year (currently 2015) the values are set equal to current price GVA values.",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/7-3-1",
+          "status": "complete"
+        }]
+    }
+  },{
+    "goal": {
+      "id": "8",
+      "title": "تعزيز النمو الاقتصادي المستدام والشامل والعمالة الكاملة والمنتجة والعمل اللائق للجميع ",
+      "indicators": [{
+          "id": "8-10-1",
+          "title": "(أ) عدد فروع المصارف التجارية لكل 100,000 شخص بالغ، و (ب) عدد أجهزة الصرف الآلي لكل 100,000 شخص بالغ",
+          "description": "International Monetary Fund, Financial Access Survey",
+          "keywords": "None",
+          "href": "/sdg-indicators/ar/8-10-1",
+          "status": "complete"
+        },{
+          "id": "8-2-1",
+          "title": "معدل النمو السنوي في الناتج المحلي الإجمالي لكل شخص عامل",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/8-2-1",
+          "status": "complete"
+        },{
+          "id": "8-b-1",
+          "title": "وجود استراتيجية وطنية مكتملة وموضوعة قيد التنفيذ تتعلق بتشغيل الشباب، سواء بوصفها استراتيجية قائمة بذاتها أو عنصراً من استراتيجية وطنية للتشغيل",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/8-b-1",
+          "status": "complete"
+        },{
+          "id": "8-5-2",
+          "title": "معـدل البطالة، بحسـب الجنس والعمر والأشـخـاص ذوي الإعاقة",
+          "description": "The unemployment rate is a useful measure of the underutilization of the labour supply. It reflects the inability of an economy to generate employment for those persons who want to work but are not doing so, even though they are available for employment and actively seeking work. It is thus seen as an indicator of the efficiency and effectiveness of an economy to absorb its labour force and of the performance of the labour market. Short-term time series of the unemployment rate can be used to signal changes in the business cycle; upward movements in the indicator often coincide with recessionary periods or in some cases with the beginning of an expansionary period as persons previously not in the labour market begin to test conditions through an active job search.",
+          "keywords": "Labour Force",
+          "href": "/sdg-indicators/ar/8-5-2",
+          "status": "complete"
+        },{
+          "id": "8-6-1",
+          "title": "نسـبة الشـباب (الذين تتراوح أعمارهم بين 15 سـنة و 24 سنة) خارج دائرة التعليم والعمالة والتدريب",
+          "description": "Percentage of youth (aged 16-24 years) not in education, employment or training",
+          "keywords": "Labour Force",
+          "href": "/sdg-indicators/ar/8-6-1",
+          "status": "complete"
+        },{
+          "id": "8-7-1",
+          "title": "نسـبة الأطفال الذين تتراوح أعمارهم بين 5 سـنوات و 17 سـنة والمنخرطين في ســوق عمل الأطفال وعددهم، بحســب الجنس والعمر",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/8-7-1",
+          "status": "notstarted"
+        },{
+          "id": "8-10-2",
+          "title": "نسـبة البالغين ( 15 سـنة فأكثر) الذين لهم حساب مصـرفي أو حسـاب في مؤسـسة مالية أخرى أو لدى مقدم خدمات مالية متنقلة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/8-10-2",
+          "status": "complete"
+        },{
+          "id": "8-9-1",
+          "title": "الناتج المحلي الإجمالي للسـياحة المباشـرة كنسـبة من مجموع الناتج المحلي الإجمالي ومن معدل النمو",
+          "description": "",
+          "keywords": "GDP, Tourism",
+          "href": "/sdg-indicators/ar/8-9-1",
+          "status": "complete"
+        },{
+          "id": "8-4-1",
+          "title": "الأثر المادي ونصـيب الفرد من الأثر المادي ونصـيب الناتج المحلي الإجمالي من الأثر المادي",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/8-4-1",
+          "status": "complete"
+        },{
+          "id": "8-9-2",
+          "title": "نسبة الوظائف في قطاعات السياحة المستدامة من مجموع الوظائف في قطاع السياحة",
+          "description": "Number of people employed in tourism related industries in Great Britain",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/8-9-2",
+          "status": "complete"
+        },{
+          "id": "8-3-1",
+          "title": "نســبة العمالة غير الرسمية في غير العمالة الزراعية، بحسب الجنس",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/8-3-1",
+          "status": "complete"
+        },{
+          "id": "8-1-1",
+          "title": "معدل النمو السـنوي للناتج المحلي الإجمالي الحقيقي للفرد الواحد",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/8-1-1",
+          "status": "complete"
+        },{
+          "id": "8-4-2",
+          "title": "الاسـتهلاك المادي المحلي ونصـيب الفرد من الاسـتهلاك المادي المحلي ونسـبة الاستهلاك المادي المحلي إلى الناتج المحلي الإجمال",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/8-4-2",
+          "status": "complete"
+        },{
+          "id": "8-a-1",
+          "title": "المعونة المقدمة من أجل الالتزامات والمدفوعات المتصلة بالتجارة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/8-a-1",
+          "status": "complete"
+        },{
+          "id": "8-8-2",
+          "title": "مسـتوى امتثال البلـدان لحقوق العمـل (حريـة تكوين الجمعيات والمفاوضة الجماعية) اســـتناداً إلى نصـوص منظمة العمل الدولية والتشريعات الوطنية، بحسب الجنس ووضع المهاجرين",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/8-8-2",
+          "status": "notstarted"
+        },{
+          "id": "8-8-1",
+          "title": "التواتر في معدلات إصابات العمل المميتة وغير المميتة، بحسب نوع جنس المهاجرين ووضعهم",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/8-8-1",
+          "status": "complete"
+        },{
+          "id": "8-5-1",
+          "title": "متوسـط الدخل في الساعة للنساء والرجال العاملين، بحسب الوظيفة والعمر والأشخاص ذوي الإعاقة",
+          "description": "",
+          "keywords": "Employment, Earnings",
+          "href": "/sdg-indicators/ar/8-5-1",
+          "status": "complete"
+        }]
+    }
+  },{
+    "goal": {
+      "id": "9",
+      "title": "بناء هياكل أساسية مرنة، وتعزيز التصنيع الشامل والمستدام وتعزيز الابتكار",
+      "indicators": [{
+          "id": "9-2-1",
+          "title": "القيمة المضـافة التصـنيعية كنسـبة من الناتج المحلي الإجمالي للفرد",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/9-2-1",
+          "status": "complete"
+        },{
+          "id": "9-3-1",
+          "title": "نسـبة الصناعات الصـغيرة الحجم من مجموع القيمة المضافة من الصناعات",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/9-3-1",
+          "status": "complete"
+        },{
+          "id": "9-5-2",
+          "title": "العاملون في مجال البحـث (بمكـافئ الـدوام الكـامـل) لكـل مليون نسمة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/9-5-2",
+          "status": "complete"
+        },{
+          "id": "9-c-1",
+          "title": "نسبة السكان المشمولين بشبكة الهاتف المحمول، بحسب التكنولوجيا",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/9-c-1",
+          "status": "notstarted"
+        },{
+          "id": "9-2-2",
+          "title": "العمالة في الصناعة التحويلية كنسبة من مجموع العمالة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/9-2-2",
+          "status": "complete"
+        },{
+          "id": "9-5-1",
+          "title": "الإنفاق على البحث والتطوير كنسـبة من الناتج المحلي الإجمال",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/9-5-1",
+          "status": "complete"
+        },{
+          "id": "9-a-1",
+          "title": "مجموع الدعم الدولي (المساعدة الإنمائية الرسمية بالإضافة إلى التدفقات الرسمية الأخرى) إلى الهياكل الأساسية",
+          "description": "Net total Official Development Assistance (ODA) and Other Official Flows under the following DAC codes: Transport and Storage (210),  Communications (220),  Energy Generation, Distribution and Efficiency (230),  Banking and Financial Services (240) and  Business and Other Services (250).",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/9-a-1",
+          "status": "complete"
+        },{
+          "id": "9-b-1",
+          "title": "نسـبة القيمة المضافة للصناعة التكنولوجية المتوسـطة والمتقدمة من مجموع القيمة المضافة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/9-b-1",
+          "status": "complete"
+        },{
+          "id": "9-1-1",
+          "title": "نسـبة سـكان الريف الذين يعيشـون على بعد كيلومترين من طريق صالحة للاستعمال في جميع الفصول",
+          "description": "",
+          "keywords": "Geography Accelerator Project",
+          "href": "/sdg-indicators/ar/9-1-1",
+          "status": "complete"
+        },{
+          "id": "9-1-2",
+          "title": "عدد الركاب وحجم الشحنات، بحسب وسيلة النقل",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/9-1-2",
+          "status": "complete"
+        },{
+          "id": "9-4-1",
+          "title": "انبعاثات ثاني أكسـيد الكربون لكل وحدة من القيمـة المضافة",
+          "description": "Units of CO<sub>2</sub> emitted used per unit of GVA (CVM), as an indicator of energy efficiency by sector. The Chained Volume Measures are created from the short term measures of output. The majority of indicators in the short term measures are measuring changes in output as a proxy for changes in GVA. At the reference year (currently 2015) the values are set equal to current price GVA values.",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/9-4-1",
+          "status": "complete"
+        },{
+          "id": "9-3-2",
+          "title": "نسـبة الصـناعات الصغيرة الحجم التي لها قرض أو خط ائتمان",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/9-3-2",
+          "status": "notstarted"
+        }]
+    }
+  },{
+    "goal": {
+      "id": "10",
+      "title": "انخفاض عدم المساواة داخل وبين البلدان",
+      "indicators": [{
+          "id": "10-7-2",
+          "title": "عدد البلدان التي نفذت سياسات هجرة متسمة بحسن الإدارة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/10-7-2",
+          "status": "notstarted"
+        },{
+          "id": "10-2-1",
+          "title": "نسبة السكان الذين يعيشون دون 50 في المائة من متوسط الدخل، بحسب الجنس والعمر والأشخاص ذوي الإعاقة",
+          "description": "This indicator is a measure of relative income poverty at the national level. It measures how far individuals are from the median standard of living, approximating a measure of social exclusion. Persons living in relative poverty often experience many other forms of social and economic disadvantage through unemployment, poor housing, inadequate health care and barriers in accessing education and economic, social, political and cultural activities, which can result from social stigmatisation.",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/10-2-1",
+          "status": "complete"
+        },{
+          "id": "10-a-1",
+          "title": "نسبة بنود التعريفات الجمركية المطبقة على الواردات من والبلدان النامية المتمتعة بالإعفاء الكامل من الرسوم أقل البلدان نموا الجمركية",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/10-a-1",
+          "status": "notstarted"
+        },{
+          "id": "10-3-1",
+          "title": "نسبة السكان الذين أبلغوا عن تعرضهم شخصيا لممارسات تمييزية أو تحرش خلال الاثني عشر شهرا السابقة لأسباب يحظر القانون الدولي لحقوق الإنسان التمييز على أساسها",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/10-3-1",
+          "status": "complete"
+        },{
+          "id": "10-7-1",
+          "title": "تكاليف التوظيف التي يتحملها الموظف كنسبة من الإيرادات السنوية في بلد المقصد\",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/10-7-1",
+          "status": "notstarted"
+        },{
+          "id": "10-1-1",
+          "title": "معدلات نمو نصيب الفرد من إنفاق الأسر المعيشية أو إيراداتها ضمن أدنى 40 في المائة من السكان ومجموع السكان",
+          "description": "",
+          "keywords": "inequality",
+          "href": "/sdg-indicators/ar/10-1-1",
+          "status": "complete"
+        },{
+          "id": "10-5-1",
+          "title": "مؤشرات السلامة المالية",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/10-5-1",
+          "status": "notstarted"
+        },{
+          "id": "10-c-1",
+          "title": "تكاليف التحويلات المالية كنسبة من المبالغ المحولة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/10-c-1",
+          "status": "complete"
+        },{
+          "id": "10-b-1",
+          "title": "مجموع تدفقات الموارد المخصصة للتنمية، بحسب البلدان المستفيدة والبلدان المانحة وأنواع التدفقات (على سبيل المثال المساعدة الإنمائية الرسمية، والاستثمار الأجنبي المباشر، والتدفقات الأخرى)",
+          "description": "The Net total of Official Development Assistance from the United Kingdom around the world.",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/10-b-1",
+          "status": "complete"
+        },{
+          "id": "10-6-1",
+          "title": "نسبة عضوية البلدان النامية وحقوقها في التصويت في المنظمات الدولية",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/10-6-1",
+          "status": "complete"
+        },{
+          "id": "10-4-1",
+          "title": "حصة العمل في الناتج المحلي الإجمالي، بما في ذلك الأجور ومدفوعات الحماية الاجتماعية",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/10-4-1",
+          "status": "complete"
+        }]
+    }
+  },{
+    "goal": {
+      "id": "11",
+      "title": "جعل المدن والمستوطنات البشرية شاملة وآمنة ومرنة ومستدامة",
+      "indicators": [{
+          "id": "11-b-2",
+          "title": "نسبة الحكومات المحلية التي تعتمد وتنفذ استراتيجيات محلية للحد من مخاطرالكوارث تمشيا مع الاستراتيجيات الوطنية للحد من مخاطر الكوارث",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/11-b-2",
+          "status": "complete"
+        },{
+          "id": "11-6-1",
+          "title": "نسبة النفايات الصلبة للمدن، التي ُتجمع بانتظام ويجري تفريغها نهائياً على نحو كاف، من مجموع النفايات الصلبة للمدن، بحسب المدينة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/11-6-1",
+          "status": "notstarted"
+        },{
+          "id": "11-5-2",
+          "title": "الخسائر الاقتصادية المباشرة المتصلة بالناتج المحلي الإجمالي العالمي والأضرار التي لحقت بالهياكل الأساسية الحيوية وعدد الأعطال التي لحقت بالخدمات الأساسية بسبب الكوارث",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/11-5-2",
+          "status": "notstarted"
+        },{
+          "id": "11-6-2",
+          "title": "المتوسط السنوي لمستويات الجسيمات (على سبيل المثال الجيسمات من الفئة 2.5 والجسيمات من الفئة 10) في المدن (المرجَّح حسب السكان)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/11-6-2",
+          "status": "complete"
+        },{
+          "id": "11-2-1",
+          "title": "نسبة السكان الذين تتوافر لهم وسائل النقل العام المناسبة، بحسب العمر والجنس والأشخاص ذوي الإعاقة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/11-2-1",
+          "status": "notstarted"
+        },{
+          "id": "11-b-1",
+          "title": "عدد البلدان التي تعتمد وتنفذ استراتيجيات وطنية للحد من مخاطرالكوارث تمشيا مع إطار سنداي للحد من مخاطر الكوارث للفترة 2015-2030",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/11-b-1",
+          "status": "complete"
+        },{
+          "id": "11-c-1",
+          "title": "نسبة الدعم المالي المخصص المقدم إلى أقل البلدان نموا لتشييد وتجديد المباني المستدامة والقادرة على الصمود والمتسمة بالكفاءة في استخدام الموارد باستخدام مواد محلية",
+          "description": "The net development aid that the UK gives internationally to aid construction and urban development and management",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/11-c-1",
+          "status": "complete"
+        },{
+          "id": "11-7-1",
+          "title": "متوسط حصة المنطقة السكنية بالمدن التي تمثل فضاء مفتوحا للاستخدام العام للجميع، بحسب العمر والجنس والأشخاص ذوي الإعاقة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/11-7-1",
+          "status": "complete"
+        },{
+          "id": "11-7-2",
+          "title": "نسبة ضحايا التحرش البدني أو الجنسي بحسب العمر، والجنس، ووضع الأشخاص ذوي الإعاقة، ومكان حدوثه خلال الاثني عشر شهرا السابقة",
+          "description": "Percentage of persons who have experienced indecent exposure or unwanted sexual touching in the previous twelve months",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/11-7-2",
+          "status": "complete"
+        },{
+          "id": "11-3-2",
+          "title": "نسبة المدن التي لديها هيكل يتيح مشاركة المجتمع المدني على نحو مباشر في تخطيط المناطق الحضرية، ويعمل بانتظام ويُدار بطريقة ديمقراطية",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/11-3-2",
+          "status": "notstarted"
+        },{
+          "id": "11-3-1",
+          "title": "نسبة معدل استهلاك الأراضي إلى معدل النمو السكان",
+          "description": "Ratio of land consumption rate to population growth rate",
+          "keywords": "experimental",
+          "href": "/sdg-indicators/ar/11-3-1",
+          "status": "complete"
+        },{
+          "id": "11-a-1",
+          "title": "نسبة السكان الذين يعيشون في المدن التي تنفذ خططاً إنمائية مدنية وإقليمية، وتدمج التوقعات السكانية والاحتياجات من الموارد، بحسب حجم المدينة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/11-a-1",
+          "status": "notstarted"
+        },{
+          "id": "11-5-1",
+          "title": "عدد الأشخاص المتوفين والمفقودين ومن تأثروا مباشرة بسبب الكوارث من بين كل 100,000 شخص من السكان",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/11-5-1",
+          "status": "complete"
+        },{
+          "id": "11-1-1",
+          "title": "نسبة السكان الحضريين الذين يعيشون في أحياء فقيرة أو مستوطنات غير رسمية أو مساكن غير لائقة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/11-1-1",
+          "status": "complete"
+        },{
+          "id": "11-4-1",
+          "title": "نصيب الفرد من مجموع النفقات (في القطاعين العام والخاص) التي تُنفق لصون وحماية وحفظ جميع اصناف التراث الثقافي والطبيعي، بحسب نوع التراث (ثقافي وطبيعي ومختلط، وما يعتبره مركز التراث العالمي تراثاً) ومستوى الحكم (وطني وإقليمي، ومحلي/بلدي)، ونوع الإنفاق (إنفاق تشغيلي/استثمار) ونوع التمويل المقدم من القطاع الخاص (تبرعات عينية، وتمويل من القطاع الخاص غير الربحي وبرامج الرعاية)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/11-4-1",
+          "status": "complete"
+        }]
+    }
+  },{
+    "goal": {
+      "id": "12",
+      "title": "ضمان أنماط الاستهلاك والإنتاج المستدامة",
+      "indicators": [{
+          "id": "12-5-1",
+          "title": "معدل إعادة التدوير على الصعيد الوطني، وعدد أطنان المواد المعاد تدويرها",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/12-5-1",
+          "status": "complete"
+        },{
+          "id": "12-a-1",
+          "title": "كمية الدعم المقدم إلى البلدان النامية في مجالي البحث والتطوير من أجل إرساء أنماط الاستهلاك والإنتاج المستدامة والتكنولوجيا السليمة بيئيا",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/12-a-1",
+          "status": "notstarted"
+        },{
+          "id": "12-6-1",
+          "title": "عدد الشركات التي تنشر تقارير تتعلق بالاستدامة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/12-6-1",
+          "status": "notstarted"
+        },{
+          "id": "12-3-1",
+          "title": "مؤشر الخسائر الغذائية العالمية",
+          "description": "Food loss in Kg per capita.",
+          "keywords": "food loss, sustainable production.",
+          "href": "/sdg-indicators/ar/12-3-1",
+          "status": "complete"
+        },{
+          "id": "12-7-1",
+          "title": "عدد البلدان التي تنفذ السياسات وخطط العمل المتعلقة بالشراء العمومي المستدام",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/12-7-1",
+          "status": "complete"
+        },{
+          "id": "12-2-2",
+          "title": "الاستهلاك المادي المحلي ونصيب الفرد من الاستهلاك المادي المحلي ونسبة الاستهلاك المادي المحلي إلى الناتج المحلي الإجمال",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/12-2-2",
+          "status": "complete"
+        },{
+          "id": "12-8-1",
+          "title": "مدى تعميم مراعاة ’1’ تعليم المواطنة العالمية و ’2’ التعليم من أجل التنمية المستدامة (بما في ذلك التثقيف بشأن تغير المناخ) في (أ) السياسات التربوية الوطنية، و (ب) المناهج الدراسية و (ج) تدريب المعلمين و (د) تقييم الطلاب",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/12-8-1",
+          "status": "complete"
+        },{
+          "id": "12-4-1",
+          "title": "عدد الأطراف في الاتفاقات البيئية الدولية المتعددة الأطراف المتعلقة بنفايات المواد الخطرة وغيرها من المواد الكيميائية، التي تفي بتعهداتها التزاماتها في نقل المعلومات على النحو الذي يتطلبه كل اتفاق ذي صلة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/12-4-1",
+          "status": "notstarted"
+        },{
+          "id": "12-c-1",
+          "title": "مقدار إعانات الوقود الأحفوري لكل وحدة من الناتج المحلي الإجمالي (الإنتاج والاستهلاك) وكنسبة من مجموع النفقات الوطنية على الوقود الأحفوري",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/12-c-1",
+          "status": "notstarted"
+        },{
+          "id": "12-1-1",
+          "title": "عدد البلدان التي لديها خطط عمل وطنية للاستهلاك والإنتاج المستدامين أو التي أدجت تلك الخطط في سياساتها الوطنية باعتبارها أولوية أو غاية",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/12-1-1",
+          "status": "complete"
+        },{
+          "id": "12-4-2",
+          "title": "نصيب الفرد من توليد النفايات الخطرة ونسبة النفايات الخطرة المعالَجة، بحسب نوع المعالجة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/12-4-2",
+          "status": "notstarted"
+        },{
+          "id": "12-b-1",
+          "title": "عدد الاستراتيجيات وأ السياسات و خطط العمل المنفذة في مجال السياحة المستدامة المتفق على أدوات رصدها وتقييمها",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/12-b-1",
+          "status": "notstarted"
+        },{
+          "id": "12-2-1",
+          "title": "الأثر المادي، ونصيب الفرد من الأثر المادي، ونصيب الناتج المحلي الإجمالي من الأثر المادي",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/12-2-1",
+          "status": "complete"
+        }]
+    }
+  },{
+    "goal": {
+      "id": "13",
+      "title": "اتخاذ إجراءات عاجلة لمكافحة تغير المناخ وآثاره",
+      "indicators": [{
+          "id": "13-3-1",
+          "title": "عدد البلدان التي أدمجت التخفيف من تغير المناخ، والتكيف معه، والحد من أثره والإنذار المبكر في مناهج التعليم الابتدائي والثانوي والعال",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/13-3-1",
+          "status": "complete"
+        },{
+          "id": "13-1-3",
+          "title": "نسبة الحكومات المحلية التي تعتمد وتنفذ استراتيجيات محلية للحد من مخاطر الكوارث تمشياً مع الاستراتيجيات الوطنية  للحد من مخاطر الكوارث",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/13-1-3",
+          "status": "complete"
+        },{
+          "id": "13-1-2",
+          "title": "عدد البلدان التي تعتمد وتنفذ استراتيجيات وطنية للحد من مخاطر الكوارث تمشيا مع إطار سنداي للحد من مخاطر الكوارث للفترة 2015-2030",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/13-1-2",
+          "status": "complete"
+        },{
+          "id": "13-b-1",
+          "title": "عدد أقل البلدان نمواً والدول الجزرية الصغيرة النامية التي تتلقى دعماً متخصصاً ومقدار الدعم المقدم، بما في ذلك التمويل والتكنولوجيا وبناء القدرات، لآليات تحسين مستوي قدرات التخطيط والإدارة الفعالين المتعلقين بتغير المناخ، بما في ذلك التركيز على النساء والشباب والمجتمعات المحلية والمهمشة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/13-b-1",
+          "status": "notstarted"
+        },{
+          "id": "13-a-1",
+          "title": "المبلغ السنوي الذي يجمع سنوياً مقيّماً بدولار الولايات المتحدة في الفترة بين عامي 2020 و 2025 بهدف الوفاء بالتزام توفير 100 بليون دولار",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/13-a-1",
+          "status": "complete"
+        },{
+          "id": "13-1-1",
+          "title": "عدد الأشخاص المتوفين والمفقودين ومن تضرروا مباشرة بسبب الكوارث من بين كل 100,000 شخص",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/13-1-1",
+          "status": "complete"
+        },{
+          "id": "13-3-2",
+          "title": "عدد البلدان التي أبلغت عن تعزيز قدرتها المؤسسية والهيكلية والفردية على تنفيذ تدابير التكيف والتخفيف ونقل التكنولوجيا والتدابير الإنمائية",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/13-3-2",
+          "status": "complete"
+        },{
+          "id": "13-2-1",
+          "title": "عدد البلدان التي أبلغت عن وضع أو تفعيل سياسة/استراتيجية/خطة متكاملة تزيد قدراتها على التكيف مع الآثار الضارة لتغير المناخ وتعزز القدرة على التأقلم مع المناخ، والتنمية القائمة على ابنعاثات غازات الدفيئة المنخفضة على نحو لا يهدد إنتاج الأغذية (بما في ذلك وضع خطط تكيُّف وطنية، وتقديم مساهمة محددة على الصعيد الوطني، وبلاغات وطنية، وتقرير عن المستجدات لفترة السنتين، أو غير ذلك)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/13-2-1",
+          "status": "complete"
+        }]
+    }
+  },{
+    "goal": {
+      "id": "14",
+      "title": "حفظ المحيطات والبحار والموارد البحرية واستخدامها على نحو مستدام لتحقيق التنمية المستدامة",
+      "indicators": [{
+          "id": "14-4-1",
+          "title": "نسبة الأرصدة السمكية الموجودة ضمن المستويات المستدامة بيولوجيا",
+          "description": "The indicator shows the percentage of fish stocks in seas around the UK that are both harvested sustainably and are at full reproductive capacity.",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/14-4-1",
+          "status": "complete"
+        },{
+          "id": "14-2-1",
+          "title": "نسبة المناطق الاقتصادية الحصرية الوطنية التي تُدار باستخدام نُهج قائمة على النظم الإيكولوجية",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/14-2-1",
+          "status": "complete"
+        },{
+          "id": "14-1-1",
+          "title": "مؤشر فرط المغذيات في المناطق الساحلية وكثافة المخلفات البلاستيكية الطافية",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/14-1-1",
+          "status": "notstarted"
+        },{
+          "id": "14-6-1",
+          "title": "التقدم الذي تحرزه البلدان في مدى تنفيذ الصكوك الدولية الرامية إلى مكافحة صيد الأسماك غير المشروع وغير المبلغ عنه وغير المنظم",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/14-6-1",
+          "status": "notstarted"
+        },{
+          "id": "14-c-1",
+          "title": "عدد البلدان التي تحرز تقدماً في التصديق على صكوك متعلقة بالمحيطات تنفـذ القـانون الـدولي، وفي قبول تلـك الصكوك وتنفيذها بموجب أطر قانونية وسياساتية ومؤسسية، على النحو الوارد في اتفاقية الأمم المتحدة لقانون البحار، من أجل حفظ المحيطات ومواردها، واستخدامها على نحو مستدام",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/14-c-1",
+          "status": "notstarted"
+        },{
+          "id": "14-b-1",
+          "title": "التقدم الذي تحرزه البلدان في مدى تطبيق إطار قانوني/تنظيمي/سياساتي/مؤسسي يتعرف بحقوق مصائد الأسماك الصغيرة في الوصول إالى الموارد البحرية ويحمي تلك الحقوق",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/14-b-1",
+          "status": "notstarted"
+        },{
+          "id": "14-5-1",
+          "title": "طاق المناطق المحمية مقابل المناطق البحرية",
+          "description": "The extent measures are a calculation of the net (non-overlapping) extent of protected areas using mean high water as the boundary between the at-sea and on-land measures.",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/14-5-1",
+          "status": "complete"
+        },{
+          "id": "14-7-1",
+          "title": "مصائد الأسماك المستدامة كنسبة من الناتج المحلي الإجمالي في الدول الجزرية الصغيرة النامية، وأقل البلدان نمواً، وجميع البلدان",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/14-7-1",
+          "status": "notstarted"
+        },{
+          "id": "14-a-1",
+          "title": "نسبة مجموع الميزانية المخصصة للبحوث في مجال التكنولوجيا البحرية",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/14-a-1",
+          "status": "notstarted"
+        },{
+          "id": "14-3-1",
+          "title": "قياس متوسط الحموضة البحرية في مجموعة متفق عليها من محطات تمثيلية لأخذ العينات",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/14-3-1",
+          "status": "notstarted"
+        }]
+    }
+  },{
+    "goal": {
+      "id": "15",
+      "title": "حماية وترميم وتشجيع الاستخدام المستدام للنظم الإيكولوجية الأرضية، وإدارة الغابات على نحو مستدام، وكافحة التصحر، ووقف تدهور الأراضي وعكس مساره ووقف فقدان التنوع البيولوجي",
+      "indicators": [{
+          "id": "15-3-1",
+          "title": "نسبة الأراضي المتدهورة إلى مجموع مساحة اليابسة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/15-3-1",
+          "status": "notstarted"
+        },{
+          "id": "15-c-1",
+          "title": "نسبة الأحياء البرية المتجر بها، التي جرى صيدها أو الاتجار بها على نحو غير مشروع",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/15-c-1",
+          "status": "complete"
+        },{
+          "id": "15-b-1",
+          "title": "المساعدة الإنمائية الرسمية والنفقات العامة الوجهة لحفظ التنوع البيولوجي والنظم الإيكولوجية واستخدامها استخداماً مستداماً",
+          "description": "The indicator Official development assistance and public expenditure on conservation and sustainable use of biodiversity and ecosystems is defined as Gross disbursements of total ODA from all donors for biodiversity.",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/15-b-1",
+          "status": "complete"
+        },{
+          "id": "15-4-1",
+          "title": "التغطية محسوبة بالمناطق المحمية من المواقع المهمة للتنوع البيولوجي الجبلي",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/15-4-1",
+          "status": "notstarted"
+        },{
+          "id": "15-4-2",
+          "title": "مؤشر الغطاء الأخضر الجبلي",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/15-4-2",
+          "status": "complete"
+        },{
+          "id": "15-2-1",
+          "title": "التقدم المحرز في إرساء الإدارة المستدامة للغابات",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/15-2-1",
+          "status": "complete"
+        },{
+          "id": "15-1-1",
+          "title": "مساحة الغابات كنسبة من مجموع مساحة اليابسة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/15-1-1",
+          "status": "complete"
+        },{
+          "id": "15-5-1",
+          "title": "مؤشر القائمة الحمراء",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/15-5-1",
+          "status": "complete"
+        },{
+          "id": "15-a-1",
+          "title": "المساعدة الإنمائية الرسمية والنفقات العامة الموجهة لحفظ التنوع البيولوجي والنظم الإيكولوجية واستخدامها استخداماً مستداماً",
+          "description": "The indicator Official development assistance and public expenditure on conservation and sustainable use of biodiversity and ecosystems is defined as Gross disbursements of total ODA from all donors for biodiversity.",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/15-a-1",
+          "status": "complete"
+        },{
+          "id": "15-1-2",
+          "title": "نسبة المواقع الهامة التي تجسد التنوع البيولوجي لليابسة والمياه العذبة والتي تشملها المناطق المحمية، بحسب نوع النظام الإيكولوجي",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/15-1-2",
+          "status": "notstarted"
+        },{
+          "id": "15-6-1",
+          "title": "عدد البلدان التي اعتمدت أطرا تشريعية وإدارية وسياساتية لكفالة تقاسم المنافع على نحو عادل ومنصف",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/15-6-1",
+          "status": "complete"
+        },{
+          "id": "15-9-1",
+          "title": "التقدم المحرز نحو تحقيق الأهداف الوطنية المنشأة وفقا للهدف 2 من أهداف آيتشي المتعلقة بالتنوع البيولوجي من الخطة الاستراتيجية للتنوع البيولوجي للفترة 2011-2020",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/15-9-1",
+          "status": "notstarted"
+        },{
+          "id": "15-8-1",
+          "title": "نسبة البلدان التي تعتمد تشريعات وطنية ذات صلة، وتخصص موارد كافية لمنع إدخال الأنواع الغريبة الغازية إلى النظم الإيكولوجية أو مراقبتها",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/15-8-1",
+          "status": "complete"
+        },{
+          "id": "15-7-1",
+          "title": "نسبة الأحياء البرية المتجر بها، التي جرى صيدها أو الاتجار بها على نحو غير مشروع",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/15-7-1",
+          "status": "complete"
+        }]
+    }
+  },{
+    "goal": {
+      "id": "16",
+      "title": "تعزيز المجتمعات السلمية والشاملة لتحقيق التنمية المستدامة، وتوفير إمكانية الوصول إالى العدالة للجميع وبناء مؤسسات فعالة وخاضعة للمساءلة وشاملة للجميع على جميع المستويات",
+      "indicators": [{
+          "id": "16-6-2",
+          "title": "نسبة السكان الراضين عن تجربتهم الأخيرة في الاستفادة من الخدمات العامة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/16-6-2",
+          "status": "notstarted"
+        },{
+          "id": "16-8-1",
+          "title": "نسبة عضوية البلدان النامية في المنظمات الدولية وحقوقها في التصويت في تلك المنظمات",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/16-8-1",
+          "status": "notstarted"
+        },{
+          "id": "16-4-1",
+          "title": "القيمة الإجمالية للتدفقات المالية غير المشروعة الداخلة والخارجة (بالقيمة الحالية لدولارات الولايات المتحدة)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/16-4-1",
+          "status": "notstarted"
+        },{
+          "id": "16-2-1",
+          "title": "نسبة الشابات والشبان الذين تتراوح أعمارهم بين  18 سنة و 29 سنة الذين تعرضوا للعنف الجنسي قبل سن الثامنة عشرة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/16-2-1",
+          "status": "notstarted"
+        },{
+          "id": "16-10-1",
+          "title": "نســـبة الأطفال الذين تتراوح أعمارهم بين سنة واحدة  و17 ســنة والذين تعرضوا لأي عقاب بدني و/أو اعتداء نفسي من جانب مقدمي الرعاية في الشهر السابق",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/16-10-1",
+          "status": "notstarted"
+        },{
+          "id": "16-1-4",
+          "title": "نسبة السكان الذين يشعرون بالأمان عند تجوالهم على الأقدام بمفردهم في أنحاء المنطقة التي يعيشون فيها",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/16-1-4",
+          "status": "complete"
+        },{
+          "id": "16-5-2",
+          "title": "نسبة الأعمال التجارية التي اتصلت مرة واحدة على الأقل بمسؤول حكومي ودفعت رشوة إلى مسؤول حكومي أو طلب منها أولئك المسؤولون الحكوميون دفع رشوة، خلال الاثني عشر شهرا السابقة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/16-5-2",
+          "status": "notstarted"
+        },{
+          "id": "16-3-2",
+          "title": "المحتجزون غير المحكوم عليهم كنسبة من مجموع السجناء",
+          "description": "Prison population remanded in custody, as a proportion of overall prison population",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/16-3-2",
+          "status": "complete"
+        },{
+          "id": "16-1-2",
+          "title": "الوفيات المتصلة بالنزاعات لكل 100,000 نسمة، بحسب العمر والجنس والسبب",
+          "description": "Conflict-related deaths per million population",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/16-1-2",
+          "status": "complete"
+        },{
+          "id": "16-b-1",
+          "title": "نسبة السكان الذين أبلغوا عن تعرضهم شخصيا لممارسات تمييزية أو تحرش خلال الاثني عشر شهرا السابقة لأسباب يحظر القانون الدولي لحقوق الإنسان التمييز على أساسها",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/16-b-1",
+          "status": "complete"
+        },{
+          "id": "16-10-2",
+          "title": "عدد ضحايا الاتجار بالبشر لكل 100,000 نسمة، بحسب الجنس والعمر وشكل الاستغلال",
+          "description": "",
+          "keywords": "Non-statistical, legislation, policy",
+          "href": "/sdg-indicators/ar/16-10-2",
+          "status": "complete"
+        },{
+          "id": "16-9-1",
+          "title": "نسبة الأطفال دون سن الخامسة الذين سُجلت ولاداتهم في قيد السجل المدني، بحسب العمر",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/16-9-1",
+          "status": "notstarted"
+        },{
+          "id": "16-2-3",
+          "title": "نسبة الشابات والشبان الذين تتراوح أعمارهم بين 18 سنة و 29 سنة الذين تعرضوا للعنف الجنسي قبل سن الثامنة عشرة",
+          "description": "Percentage of adults, aged 16-34, who experienced sexual assault before the age of 16",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/16-2-3",
+          "status": "complete"
+        },{
+          "id": "16-a-1",
+          "title": "وجود مؤسسات وطنية مستقلة لحقوق الإنسان وفقا لمبادئ باريس",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/16-a-1",
+          "status": "complete"
+        },{
+          "id": "16-7-2",
+          "title": "نسـبة السكان الذين يعتقدون أن صنع القرار عملية شاملة للجميع وملبية للاحتياجات، بحسب الجنس والعمر والإعاقة والفئة السكانية",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/16-7-2",
+          "status": "complete"
+        },{
+          "id": "16-5-1",
+          "title": "نسبة الأشخاص الذين اتصلوا مرة واحدة على الأقل بمسؤول حكومي ودفعوا رشوة لمسؤول حكومي، أو طلب منهم أولئك المسؤولون الحكوميون دفع رشوة، خلال الاثني عشر شهرا السابقة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/16-5-1",
+          "status": "notstarted"
+        },{
+          "id": "16-1-1",
+          "title": "عدد ضحايا القتل العمد لكل 100,000 نسمة، بحسب العمر ونوع الجنس",
+          "description": "Number of victims of homicide per 100,000 population, by sex and age",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/16-1-1",
+          "status": "complete"
+        },{
+          "id": "16-1-3",
+          "title": "نسبة السكان الذين تعرضوا (أ) للعنف البدني و (ب) العنف النفسي و (ج) العنف الجنسي خلال الاثني عشر شهرا السابقة",
+          "description": "",
+          "keywords": "Crime",
+          "href": "/sdg-indicators/ar/16-1-3",
+          "status": "complete"
+        },{
+          "id": "16-4-2",
+          "title": "نسبة الأسلحة المضبوطة أو المعثور عليها أو المسلّمة التي تحرَّت سلطة مختصة عن مصدرها غير المشروع/ظروفها أو تثبّت من ذلك، تمشياً مع الصكوك الدولية",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/16-4-2",
+          "status": "notstarted"
+        },{
+          "id": "16-7-1",
+          "title": "نسبة الوظائف (بحسب العمر، والجنس، والأشخاص ذوي الإعاقة، والفئات السكانية) في المؤسسات العامة (الهيئات التشـريعية الوطنية والمحلية، والخدمة العامة، والسـلطة القضائية) مقارنة بمستويات التوزيع على الصعيد الوطن",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/16-7-1",
+          "status": "complete"
+        },{
+          "id": "16-6-1",
+          "title": "النفقات الحكومية الرئيسية كنسبة من الميزانية الأصلية المعتمدة، بحسب القطاع (أو بحسب رموز الميزانية أو ما شابه)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/16-6-1",
+          "status": "notstarted"
+        },{
+          "id": "16-3-1",
+          "title": "نسبة ضحايا العنف خلال الاثني عشر شهرا السـابقة ألذين أبلغوا عما تعرضوا له من إيذاء إلى السلطات المختصة أو غيرها من آليات تسوية النزاعات المعترف بها رسميا",
+          "description": "",
+          "keywords": "Crime",
+          "href": "/sdg-indicators/ar/16-3-1",
+          "status": "complete"
+        },{
+          "id": "16-2-2",
+          "title": "عدد ضحايا الاتجار بالبشر لكل 100,000 نسمة، بحسب الجنس والعمر وشكل الاستغلال",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/16-2-2",
+          "status": "notstarted"
+        }]
+    }
+  },{
+    "goal": {
+      "id": "17",
+      "title": "تعزيز وسائل التنفيذ وتنشيط الشراكة العالمية من أجل التنمية المستدامة",
+      "indicators": [{
+          "id": "17-18-3",
+          "title": "عدد البلدان التي لديها خطة إحصـائية وطنية ممولة بالكامل وقيد التنفيذ، بحسب مصدر التمويل",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/17-18-3",
+          "status": "notstarted"
+        },{
+          "id": "17-1-1",
+          "title": "مجموع الإيرادات الحكومية الإجمالية كنسبة من الناتج المحلي الإجمالي، بحسب المصدر",
+          "description": "",
+          "keywords": "GDP",
+          "href": "/sdg-indicators/ar/17-1-1",
+          "status": "complete"
+        },{
+          "id": "17-14-1",
+          "title": "عدد البلدان التي لديها آليات لتعزيز اتساق سياسات التنمية المستدامة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/17-14-1",
+          "status": "complete"
+        },{
+          "id": "17-2-1",
+          "title": "صافي المسـاعدة الإنمائية الرسمية، ومجموعها، والمسـاعدةً، الإنمائية الرسمية المقدمة إلى أقل البلدان نمواً، كنسبة من الدخل القومي الإجمالي للجهات المانحة في لجنة المساعدة الإنمائية التابعة لمنظمة التعاون والتنمية في الميدان الاقتصادي",
+          "description": "",
+          "keywords": "ODA",
+          "href": "/sdg-indicators/ar/17-2-1",
+          "status": "complete"
+        },{
+          "id": "17-1-2",
+          "title": "نسبة الميزانية المحلية الممولة من الضرائب المحلية",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/17-1-2",
+          "status": "complete"
+        },{
+          "id": "17-7-1",
+          "title": "مجموع مبلغ التمويل المعتمـد للبلـدان النـاميـة من أجـل تعزيز تطوير تكنولوجيات ســليمة بيئياً ونقلها ونشــرها وتعميمها في البلدان النامية",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/17-7-1",
+          "status": "notstarted"
+        },{
+          "id": "17-19-1",
+          "title": "القيمة الدولارية لجميع الموارد المتاحة لتعزيز القدرات الإحصائية في البلدان النامية",
+          "description": "",
+          "keywords": "ODA",
+          "href": "/sdg-indicators/ar/17-19-1",
+          "status": "complete"
+        },{
+          "id": "17-6-1",
+          "title": "عدد اتفاقات التعاون في مجالي العلوم و/أو التكنولوجيا المبرمة بين البلدان، بحسب نوع التعاون",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/17-6-1",
+          "status": "notstarted"
+        },{
+          "id": "17-19-2",
+          "title": "نسبة البلدان التي (أ) أجرت عداداً واحداً على الأقل للسكان المساكن في السنوات العشر الماضية؛ و(ب) حققت نسبة 100 في المائة في تسجيل المواليد ونسبة 80 في المائة في تسجيل الوفيات",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/17-19-2",
+          "status": "complete"
+        },{
+          "id": "17-3-1",
+          "title": "الاسـتثمار المباشر الأجنبي والمساعدة الإنمائية الرسمية والتعاون في ما بين بلدان الجنوب كنسبة من إجمالي الميزانية المحلية",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/17-3-1",
+          "status": "notstarted"
+        },{
+          "id": "17-13-1",
+          "title": "لوحة متابعة حالة الاقتصاد الكلي",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/17-13-1",
+          "status": "notstarted"
+        },{
+          "id": "17-11-1",
+          "title": "حصة البلدان النامية وأقل البلدان نمواً من الصادرات العالمية",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/17-11-1",
+          "status": "complete"
+        },{
+          "id": "17-4-1",
+          "title": "تكاليف خدمة الدين كنسبة من صادرات السلع والخدمات",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/17-4-1",
+          "status": "notstarted"
+        },{
+          "id": "17-17-1",
+          "title": "المبلغ بدولارات الولايات المتحدة المرصـود لـ (أ) الشراكات بين القطاعين العام والخاص و (ب) شـراكات المجتمع المدني",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/17-17-1",
+          "status": "notstarted"
+        },{
+          "id": "17-6-2",
+          "title": "الاشـتراكات في الإنترنت السلكي ذي النطاق العريض لكل 100 من السكان، بحسب السرعة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/17-6-2",
+          "status": "complete"
+        },{
+          "id": "17-8-1",
+          "title": "نسبة الأفراد الذين يستخدمون الإنترنت",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/17-8-1",
+          "status": "complete"
+        },{
+          "id": "17-15-1",
+          "title": "مدى استخدام أطر النتائج وأدوات التخطيط المملوكة للبلدان من جانب مقدمي التعاون الإنمائي",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/17-15-1",
+          "status": "notstarted"
+        },{
+          "id": "17-18-2",
+          "title": "عدد البلدان التي لديها تشريعات إحصائية على الصعيد الوطني والتي تتقيد بالمبادئ الأساسية للإحصاءات الرسمية",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/17-18-2",
+          "status": "notstarted"
+        },{
+          "id": "17-3-2",
+          "title": "حجم التحويلات المالية (بدولارات الولايات المتحدة) كنسبة من مجموع الناتج المحلي الإجمال",
+          "description": "",
+          "keywords": "GDP",
+          "href": "/sdg-indicators/ar/17-3-2",
+          "status": "complete"
+        },{
+          "id": "17-5-1",
+          "title": "عدد البلدان التي تعتمد وتنفذ نظماً لتشجيع الاستثمار لصالح أقل البلدان نمواً",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/17-5-1",
+          "status": "notstarted"
+        },{
+          "id": "17-10-1",
+          "title": "المتوسط المرجح للتعريفات الجمركية في جميع أنحاء العال",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/17-10-1",
+          "status": "notstarted"
+        },{
+          "id": "17-18-1",
+          "title": "نسبة مؤشرات التنمية المستدامة الموضوعة على الصعيد الوطني، وفقاً للمبادئ الأساسية للإحصاءات الرسمية",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/17-18-1",
+          "status": "notstarted"
+        },{
+          "id": "17-9-1",
+          "title": "القيمة الدولارية للمساعدة المالية والتقنية (بوسائل تشمل التعاون بين الشمال والجنوب وفي ما بين بلدان الجنوب والتعاون الثلاثي) المرصودة للبلدان النامية",
+          "description": "Gross disbursements of total ODA and other official flows from all donors for capacity building and national planning.",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/17-9-1",
+          "status": "complete"
+        },{
+          "id": "17-12-1",
+          "title": "متوسط التعريفات الجمركية التي تواجههـا البلـدان النامية وأقل البلدان نموا والدول الجزرية الصغيرة النامية",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/17-12-1",
+          "status": "notstarted"
+        },{
+          "id": "17-16-1",
+          "title": "عدد البلدان التي أبلغت عن إحراز تقدم في ما يتعلق بأطر رصد فعالية التنمية لأصحاب المصلحة المتعددين التي تدعم تحقيق أهداف التنمية المستدامة",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/ar/17-16-1",
+          "status": "complete"
+        }]
+    }
+  }]
