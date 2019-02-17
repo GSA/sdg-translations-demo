@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 mkdir builds
-
-for D in repos; do
-    if [ -d "${D}" ]; then
-        echo "${D}"   # your processing here
+for SOURCE in repos/*; do
+    if [ -d "${SOURCE}" ]; then
+        DESTINATION=${SOURCE/repos/builds}
+        (cd ${SOURCE}; bundle install; bundle exec jekyll build; mv _site ../../${DESTINATION})
     fi
 done

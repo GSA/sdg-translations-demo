@@ -25,9 +25,9 @@ jobs:
           name: Prepare the demos
           command: pipenv run python prepare.py
       - persist_to_workspace:
-          root: /tmp
+          root: ~/repo
           paths:
-            - builds
+            - repos
   build:
     docker:
       - image: circleci/ruby:2.5.1
@@ -35,25 +35,28 @@ jobs:
     steps:
       - checkout
       - attach_workspace:
-          at: /tmp/builds
+          at: ~/repo
       - run:
           name: Build the demos
           command: bash build.sh
       - persist_to_workspace:
           root: ~/repo
           paths:
-            - _site
+            - builds
   deploy:
     docker:
       - image: circleci/python:3.6.1
+    working_directory: ~/repo
     steps:
+      - checkout
+      - attach_workspace:
+          at: ~/repo
       - add_ssh_keys:
           fingerprints:
             - "5f:cb:30:b3:a3:0c:c0:77:18:a9:38:81:2a:f2:0d:4c"
       - run:
           name: Deploy to Github
-          command: bash deploy_demos.sh
-
+          command: bash deploy.sh
 workflows:
   version: 2
   publish:

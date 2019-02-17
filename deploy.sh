@@ -9,8 +9,8 @@ git checkout gh-pages || git checkout --orphan gh-pages
 git rm -rfq .
 cd ..
 
-# The fully built site is already available at /tmp/build.
-cp -a /tmp/builds/. out/.
+# The fully built site is already available at builds.
+cp -a builds/. out/.
 
 mkdir -p out/.circleci && cp -a .circleci/. out/.circleci/.
 cd out
