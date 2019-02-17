@@ -66,10 +66,14 @@ workflows:
             branches:
               only: master
       - build:
+          requires:
+            - prepare
           filters:
             branches:
               only: master
       - deploy:
+          requires:
+            - build
           filters:
             branches:
               only: master
