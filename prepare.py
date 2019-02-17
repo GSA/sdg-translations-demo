@@ -31,7 +31,7 @@ demos = {
 
 for abbrev in demos:
     # Clone the site repository.
-    site_folder = os.path.join('/tmp/repos', abbrev)
+    site_folder = os.path.join('repos', abbrev)
     Repo.clone_from(demos[abbrev], site_folder)
     # Load the Jekyll configuration.
     config_file = os.path.join(site_folder, '_config.yml')
@@ -80,11 +80,3 @@ for abbrev in demos:
                     sys.stdout.write('language: ' + language + '\n')
                 else:
                     sys.stdout.write(line)
-
-    # Note: I don't think the following will work in non-Unix environments.
-
-    # Now build the site.
-    subprocess.call('bundle install', cwd=site_folder, shell=True)
-    subprocess.call('bundle exec jekyll build', cwd=site_folder, shell=True)
-    # And move the build into a 'builds' folder.
-    subprocess.call('mv _site /tmp/builds/' + abbrev, cwd=site_folder, shell=True)
