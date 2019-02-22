@@ -20,8 +20,8 @@ languages = [
     'ru',
     'ar',
     'zh-Hans',
-    'am',
-    'de',
+    #'am',
+    #'de',
 ]
 
 demos = {
