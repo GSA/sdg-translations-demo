@@ -267,7 +267,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-translations-demo/uk/ru/3-7-1",
-          "status": "notstarted"
+          "status": "complete"
         },{
           "id": "3-7-2",
           "title": "Показатель рождаемости среди девушек-подростков(в возрасте от 10 до 14 лет; в возрасте от 15до 19 лет) на 1000 женщин в данной возрастнойгруппе",
@@ -325,11 +325,11 @@
           "href": "/sdg-translations-demo/uk/ru/3-b-1",
           "status": "complete"
         },{
-          "id": "3-3-2",
-          "title": "Заболеваемость туберкулезом на 100 000 человек",
+          "id": "3-3-3",
+          "title": "Заболеваемость малярией на 1000 человек",
           "description": "",
-          "keywords": "",
-          "href": "/sdg-translations-demo/uk/ru/3-3-2",
+          "keywords": "Population",
+          "href": "/sdg-translations-demo/uk/ru/3-3-3",
           "status": "complete"
         },{
           "id": "3-1-1",
@@ -519,7 +519,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-translations-demo/uk/ru/5-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },{
           "id": "5-a-2",
           "title": "Доля стран, в которых правовая база (в томчисле обычное право) гарантирует женщинам равныеправа на владение и/или распоряжение землей",
@@ -875,9 +875,9 @@
           "id": "9-c-1",
           "title": "Доля населения, охваченного мобильнымисетями, в разбивке по технологиям",
           "description": "",
-          "keywords": "",
+          "keywords": "Mobile phone, communication",
           "href": "/sdg-translations-demo/uk/ru/9-c-1",
-          "status": "notstarted"
+          "status": "complete"
         },{
           "id": "9-2-2",
           "title": "Занятость в обрабатывающей промышленностив процентах от общей занятости",

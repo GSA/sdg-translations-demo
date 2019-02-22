@@ -265,7 +265,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-translations-demo/uk/es/3-7-1",
-          "status": "notstarted"
+          "status": "complete"
         },{
           "id": "3-7-2",
           "title": "Tasa de fecundidad de las adolescentes (entre 10 y 14 años y entre 15 y 19 años) por cada 1.000 mujeres de ese grupo de edad",
@@ -323,11 +323,11 @@
           "href": "/sdg-translations-demo/uk/es/3-b-1",
           "status": "complete"
         },{
-          "id": "3-3-2",
-          "title": "Incidencia de la tuberculosis por cada 100.000 habitantes",
+          "id": "3-3-3",
+          "title": "Incidencia de la malaria por cada 1.000 habitantes",
           "description": "",
-          "keywords": "",
-          "href": "/sdg-translations-demo/uk/es/3-3-2",
+          "keywords": "Population",
+          "href": "/sdg-translations-demo/uk/es/3-3-3",
           "status": "complete"
         },{
           "id": "3-1-1",
@@ -515,7 +515,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-translations-demo/uk/es/5-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },{
           "id": "5-a-2",
           "title": "Proporción de países cuyo ordenamiento jurídico (incluido el derecho consuetudinario) garantiza la igualdad de derechos de la mujer a la propiedad o el control de las tierras",
@@ -866,9 +866,9 @@
           "id": "9-c-1",
           "title": "Proporción de la población con cobertura de red móvil, desglosada por tecnología",
           "description": "",
-          "keywords": "",
+          "keywords": "Mobile phone, communication",
           "href": "/sdg-translations-demo/uk/es/9-c-1",
-          "status": "notstarted"
+          "status": "complete"
         },{
           "id": "9-2-2",
           "title": "Empleo del sector manufacturero en proporción al empleo total",

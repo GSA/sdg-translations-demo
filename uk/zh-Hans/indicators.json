@@ -265,7 +265,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-translations-demo/uk/zh-Hans/3-7-1",
-          "status": "notstarted"
+          "status": "complete"
         },{
           "id": "3-7-2",
           "title": "该年龄组每1 000名女性的青少年生育率(10-14岁;15-19岁)",
@@ -323,11 +323,11 @@
           "href": "/sdg-translations-demo/uk/zh-Hans/3-b-1",
           "status": "complete"
         },{
-          "id": "3-3-2",
-          "title": "每100 000人中的结核病发生率",
+          "id": "3-3-3",
+          "title": "每1 000人中的疟疾发生率",
           "description": "",
-          "keywords": "",
-          "href": "/sdg-translations-demo/uk/zh-Hans/3-3-2",
+          "keywords": "Population",
+          "href": "/sdg-translations-demo/uk/zh-Hans/3-3-3",
           "status": "complete"
         },{
           "id": "3-1-1",
@@ -515,7 +515,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-translations-demo/uk/zh-Hans/5-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },{
           "id": "5-a-2",
           "title": "包括习惯法在内的国家法律框架保障妇女有权平等享有土地所有权和(或)控制权的国家所占比例",
@@ -866,9 +866,9 @@
           "id": "9-c-1",
           "title": "移动网络所覆盖的人口比例,按技术种类分列",
           "description": "",
-          "keywords": "",
+          "keywords": "Mobile phone, communication",
           "href": "/sdg-translations-demo/uk/zh-Hans/9-c-1",
-          "status": "notstarted"
+          "status": "complete"
         },{
           "id": "9-2-2",
           "title": "制造业的就业占总就业的比例",

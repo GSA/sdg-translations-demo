@@ -265,7 +265,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-translations-demo/uk/fr/3-7-1",
-          "status": "notstarted"
+          "status": "complete"
         },{
           "id": "3-7-2",
           "title": "Taux de natalité chez les adolescentes (10 à 14 ans et 15 à 19 ans) pour 1 000 adolescentes du même groupe d’âge",
@@ -323,11 +323,11 @@
           "href": "/sdg-translations-demo/uk/fr/3-b-1",
           "status": "complete"
         },{
-          "id": "3-3-2",
-          "title": "Incidence de la tuberculose pour 100 000 habitants",
+          "id": "3-3-3",
+          "title": "Incidence du paludisme pour 1 000 habitants",
           "description": "",
-          "keywords": "",
-          "href": "/sdg-translations-demo/uk/fr/3-3-2",
+          "keywords": "Population",
+          "href": "/sdg-translations-demo/uk/fr/3-3-3",
           "status": "complete"
         },{
           "id": "3-1-1",
@@ -515,7 +515,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-translations-demo/uk/fr/5-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },{
           "id": "5-a-2",
           "title": "Proportion de pays dotés d’un cadre juridique (y compris le droit coutumier) garantissant aux femmes les mêmes droits que les hommes en matière d’accès à la propriété ou au contrôle des terres",
@@ -866,9 +866,9 @@
           "id": "9-c-1",
           "title": "Proportion de la population ayant accès à un réseau mobile, par type de technologie",
           "description": "",
-          "keywords": "",
+          "keywords": "Mobile phone, communication",
           "href": "/sdg-translations-demo/uk/fr/9-c-1",
-          "status": "notstarted"
+          "status": "complete"
         },{
           "id": "9-2-2",
           "title": "Emploi dans l’industrie manufacturière, en proportion de l’emploi total",
